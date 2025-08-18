@@ -1,6 +1,0 @@
-float32 mean_point2plane_m
-float32 chamfer_bidir_m
-float32 inlier_ratio
-float32 icp_residual_std
-float32 geodesic_deg
-builtin_interfaces/Time stamp

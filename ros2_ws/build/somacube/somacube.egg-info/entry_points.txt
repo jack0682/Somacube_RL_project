@@ -1,5 +1,0 @@
-[console_scripts]
-RL_with_robot2 = somacube.RL_with_robot2:main
-detection = somacube.detection:main
-robot_move = somacube.robot_move:main
-

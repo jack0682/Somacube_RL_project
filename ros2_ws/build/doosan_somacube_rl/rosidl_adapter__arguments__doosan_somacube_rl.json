@@ -1,8 +1,0 @@
-{
-  "package_name": "doosan_somacube_rl",
-  "non_idl_tuples": [
-    "/home/jack/ros2_ws/src/doosan_somacube_rl:msg/RegisterQuality.msg",
-    "/home/jack/ros2_ws/src/doosan_somacube_rl:msg/PolicyCmd.msg",
-    "/home/jack/ros2_ws/src/doosan_somacube_rl:msg/SafetyEvent.msg"
-  ]
-}

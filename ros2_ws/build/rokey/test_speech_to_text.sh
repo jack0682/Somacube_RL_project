@@ -1,1 +1,0 @@
-/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_rokey/rokey/test_speech_to_text.sh
