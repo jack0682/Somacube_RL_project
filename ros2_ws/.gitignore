@@ -1,0 +1,44 @@
+# Build directories
+build/
+install/
+log/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE files
+.vscode/settings.json
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Training outputs
+*.pth
+*.pt
+models/*.zip
+logs/tensorboard/
+checkpoints/
+
+# Temporary files
+*.tmp
+*.temp
+*~
+
+# Large binary files
+*.bag
+*.zip
+*.tar.gz
+
+# Environment files
+.env
+*.env
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/

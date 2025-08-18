@@ -1,15 +1,37 @@
-# SOMA Cube Assembly with Reinforcement Learning
+# Somacube RL Project - Advanced Robotics & AI Integration
 
-Implementation of a complete SOMA cube assembly system using reinforcement learning, based on the paper *"High-Speed Autonomous Robotic Assembly Using In-Hand Manipulation and Re-Grasping"*.
+## 🎯 Project Overview
+This repository contains a comprehensive ROS2 workspace showcasing advanced robotic systems integration with reinforcement learning, Korean speech recognition, and computer vision. The project demonstrates cutting-edge applications in autonomous robotic assembly using Doosan collaborative robots.
 
-## System Overview
+## 🔧 Key Technologies
+- **ROS2 Humble** - Robot Operating System 2
+- **PyTorch** - Deep Learning & Reinforcement Learning
+- **OpenAI Whisper** - Korean Speech Recognition
+- **Computer Vision** - YOLOv8 Object Detection
+- **Doosan DSR Robot Control** - Industrial Robot Integration
+- **Force Control** - Advanced Manipulation
 
-This implementation provides:
-- **OpenAI Gym-compatible environment** for SOMA cube assembly
-- **PyBullet physics simulation** with UR5e robot and 2-DOF gripper
-- **PPO training script** using Stable-Baselines3
-- **Re-grasping capability** following the paper's 25% re-grasp strategy
-- **Performance targeting** the paper's 95% success rate
+## 🚀 Main Components
+
+### 1. 🎤 ROKEY - Korean Speech-to-Text System
+- Real-time Korean speech recognition using OpenAI Whisper
+- Voice-controlled robot commands ("시작해" trigger detection)
+- TTS feedback system with bilingual support (Korean/English)
+- ROS2 integration for seamless robot communication
+
+### 2. 🧩 Latest Somacube RL Implementation
+Advanced reinforcement learning system for autonomous 3D puzzle assembly with **NEW ENHANCED FEATURES**:
+
+#### 🆕 Latest RL Implementations:
+- **`new_RL.py`** - Enhanced DQN with sophisticated 3D rotation handling
+- **`re_game_somacube.py`** - Production-ready robot-integrated RL execution system
+
+#### Revolutionary Features:
+- **Advanced 3D Rotation Matrix System** - 24 unique rotation combinations
+- **Enhanced DQN Architecture** with experience replay and target networks
+- **Real-time Visual Debugging** with 3D matplotlib visualization
+- **Sophisticated Reward Shaping** for faster convergence
+- **Production Robot Integration** with force control and safety systems
 
 ## Key Features
 
