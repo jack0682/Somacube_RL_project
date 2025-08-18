@@ -1,6 +1,0 @@
-Invoking command in '/home/jack/ros2_ws/build/doosan_somacube_rl': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jack/ros2_ws/src/doosan_somacube_rl -DCMAKE_INSTALL_PREFIX=/home/jack/ros2_ws/install/doosan_somacube_rl
-Invoked command in '/home/jack/ros2_ws/build/doosan_somacube_rl' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jack/ros2_ws/src/doosan_somacube_rl -DCMAKE_INSTALL_PREFIX=/home/jack/ros2_ws/install/doosan_somacube_rl
-Invoking command in '/home/jack/ros2_ws/build/doosan_somacube_rl': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jack/ros2_ws/build/doosan_somacube_rl -- -j8 -l8
-Invoked command in '/home/jack/ros2_ws/build/doosan_somacube_rl' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jack/ros2_ws/build/doosan_somacube_rl -- -j8 -l8
-Invoking command in '/home/jack/ros2_ws/build/doosan_somacube_rl': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jack/ros2_ws/build/doosan_somacube_rl
-Invoked command in '/home/jack/ros2_ws/build/doosan_somacube_rl' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jack/ros2_ws/build/doosan_somacube_rl

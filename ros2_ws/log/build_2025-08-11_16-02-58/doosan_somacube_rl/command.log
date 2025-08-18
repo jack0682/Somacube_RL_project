@@ -1,2 +1,0 @@
-Invoking command in '/home/jack/ros2_ws/build/doosan_somacube_rl': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jack/ros2_ws/build/doosan_somacube_rl -- -j8 -l8
-Invoked command in '/home/jack/ros2_ws/build/doosan_somacube_rl' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jack/ros2_ws/build/doosan_somacube_rl -- -j8 -l8

@@ -1,5 +1,0 @@
-  File "/home/jack/ros2_ws/install/somacube/lib/python3.10/site-packages/somacube/RL_with_robot2.py", line 457
-    print("=">*60)
-              ^
-SyntaxError: invalid syntax
-

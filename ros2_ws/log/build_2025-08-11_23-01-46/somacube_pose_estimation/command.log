@@ -1,2 +1,0 @@
-Invoking command in '/home/jack/ros2_ws/build/somacube_pose_estimation': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jack/ros2_ws/src/somacube_pose_estimation -DCMAKE_INSTALL_PREFIX=/home/jack/ros2_ws/install/somacube_pose_estimation
-Invoked command in '/home/jack/ros2_ws/build/somacube_pose_estimation' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jack/ros2_ws/src/somacube_pose_estimation -DCMAKE_INSTALL_PREFIX=/home/jack/ros2_ws/install/somacube_pose_estimation

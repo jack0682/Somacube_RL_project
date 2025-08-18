@@ -1,6 +1,0 @@
-Invoking command in '/home/jack/ros2_ws/build/dsr_description2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_description2 -DCMAKE_INSTALL_PREFIX=/home/jack/ros2_ws/install/dsr_description2
-Invoked command in '/home/jack/ros2_ws/build/dsr_description2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_description2 -DCMAKE_INSTALL_PREFIX=/home/jack/ros2_ws/install/dsr_description2
-Invoking command in '/home/jack/ros2_ws/build/dsr_description2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jack/ros2_ws/build/dsr_description2 -- -j8 -l8
-Invoked command in '/home/jack/ros2_ws/build/dsr_description2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jack/ros2_ws/build/dsr_description2 -- -j8 -l8
-Invoking command in '/home/jack/ros2_ws/build/dsr_description2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jack/ros2_ws/build/dsr_description2
-Invoked command in '/home/jack/ros2_ws/build/dsr_description2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jack/ros2_ws/build/dsr_description2

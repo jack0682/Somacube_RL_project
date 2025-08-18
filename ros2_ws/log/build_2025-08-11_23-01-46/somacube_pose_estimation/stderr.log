@@ -1,8 +1,0 @@
-CMake Error at /opt/ros/humble/share/ament_cmake_pytest/cmake/ament_add_pytest_test.cmake:67 (message):
-  ament_add_pytest_test() the path
-  '/home/jack/ros2_ws/src/somacube_pose_estimation/tests/test_mathematical_foundations.py'
-  does not exist
-Call Stack (most recent call first):
-  CMakeLists.txt:64 (ament_add_pytest_test)
-
-
