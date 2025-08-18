@@ -1,6 +1,0 @@
-source;share/somacube/hook/pythonpath.ps1
-source;share/somacube/hook/pythonpath.dsv
-source;share/somacube/hook/pythonpath.sh
-source;share/somacube/hook/ament_prefix_path.ps1
-source;share/somacube/hook/ament_prefix_path.dsv
-source;share/somacube/hook/ament_prefix_path.sh

@@ -1,1 +1,0 @@
-somacube_pose_estimation
