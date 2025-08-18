@@ -1,0 +1,49 @@
+running egg_info
+creating ../../../../build/pick_and_place_text/pick_and_place_text.egg-info
+writing ../../../../build/pick_and_place_text/pick_and_place_text.egg-info/PKG-INFO
+writing dependency_links to ../../../../build/pick_and_place_text/pick_and_place_text.egg-info/dependency_links.txt
+writing entry points to ../../../../build/pick_and_place_text/pick_and_place_text.egg-info/entry_points.txt
+writing requirements to ../../../../build/pick_and_place_text/pick_and_place_text.egg-info/requires.txt
+writing top-level names to ../../../../build/pick_and_place_text/pick_and_place_text.egg-info/top_level.txt
+writing manifest file '../../../../build/pick_and_place_text/pick_and_place_text.egg-info/SOURCES.txt'
+reading manifest file '../../../../build/pick_and_place_text/pick_and_place_text.egg-info/SOURCES.txt'
+writing manifest file '../../../../build/pick_and_place_text/pick_and_place_text.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/jack/ros2_ws/build/pick_and_place_text/build
+creating /home/jack/ros2_ws/build/pick_and_place_text/build/lib
+creating /home/jack/ros2_ws/build/pick_and_place_text/build/lib/pick_and_place_text
+copying pick_and_place_text/yolo.py -> /home/jack/ros2_ws/build/pick_and_place_text/build/lib/pick_and_place_text
+copying pick_and_place_text/detection.py -> /home/jack/ros2_ws/build/pick_and_place_text/build/lib/pick_and_place_text
+copying pick_and_place_text/realsense.py -> /home/jack/ros2_ws/build/pick_and_place_text/build/lib/pick_and_place_text
+copying pick_and_place_text/robot_move.py -> /home/jack/ros2_ws/build/pick_and_place_text/build/lib/pick_and_place_text
+copying pick_and_place_text/__init__.py -> /home/jack/ros2_ws/build/pick_and_place_text/build/lib/pick_and_place_text
+copying pick_and_place_text/onrobot.py -> /home/jack/ros2_ws/build/pick_and_place_text/build/lib/pick_and_place_text
+running install
+running install_lib
+creating /home/jack/ros2_ws/install/pick_and_place_text/lib/python3.10/site-packages/pick_and_place_text
+copying /home/jack/ros2_ws/build/pick_and_place_text/build/lib/pick_and_place_text/yolo.py -> /home/jack/ros2_ws/install/pick_and_place_text/lib/python3.10/site-packages/pick_and_place_text
+copying /home/jack/ros2_ws/build/pick_and_place_text/build/lib/pick_and_place_text/detection.py -> /home/jack/ros2_ws/install/pick_and_place_text/lib/python3.10/site-packages/pick_and_place_text
+copying /home/jack/ros2_ws/build/pick_and_place_text/build/lib/pick_and_place_text/realsense.py -> /home/jack/ros2_ws/install/pick_and_place_text/lib/python3.10/site-packages/pick_and_place_text
+copying /home/jack/ros2_ws/build/pick_and_place_text/build/lib/pick_and_place_text/robot_move.py -> /home/jack/ros2_ws/install/pick_and_place_text/lib/python3.10/site-packages/pick_and_place_text
+copying /home/jack/ros2_ws/build/pick_and_place_text/build/lib/pick_and_place_text/__init__.py -> /home/jack/ros2_ws/install/pick_and_place_text/lib/python3.10/site-packages/pick_and_place_text
+copying /home/jack/ros2_ws/build/pick_and_place_text/build/lib/pick_and_place_text/onrobot.py -> /home/jack/ros2_ws/install/pick_and_place_text/lib/python3.10/site-packages/pick_and_place_text
+byte-compiling /home/jack/ros2_ws/install/pick_and_place_text/lib/python3.10/site-packages/pick_and_place_text/yolo.py to yolo.cpython-310.pyc
+byte-compiling /home/jack/ros2_ws/install/pick_and_place_text/lib/python3.10/site-packages/pick_and_place_text/detection.py to detection.cpython-310.pyc
+byte-compiling /home/jack/ros2_ws/install/pick_and_place_text/lib/python3.10/site-packages/pick_and_place_text/realsense.py to realsense.cpython-310.pyc
+byte-compiling /home/jack/ros2_ws/install/pick_and_place_text/lib/python3.10/site-packages/pick_and_place_text/robot_move.py to robot_move.cpython-310.pyc
+byte-compiling /home/jack/ros2_ws/install/pick_and_place_text/lib/python3.10/site-packages/pick_and_place_text/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/jack/ros2_ws/install/pick_and_place_text/lib/python3.10/site-packages/pick_and_place_text/onrobot.py to onrobot.cpython-310.pyc
+running install_data
+copying package.xml -> /home/jack/ros2_ws/install/pick_and_place_text/share/pick_and_place_text
+creating /home/jack/ros2_ws/install/pick_and_place_text/share/pick_and_place_text/resource
+copying resource/pick_and_place_text -> /home/jack/ros2_ws/install/pick_and_place_text/share/pick_and_place_text/resource
+copying resource/yolov8n_tools_0122.pt -> /home/jack/ros2_ws/install/pick_and_place_text/share/pick_and_place_text/resource
+copying resource/T_gripper2camera.npy -> /home/jack/ros2_ws/install/pick_and_place_text/share/pick_and_place_text/resource
+copying resource/class_name_tool.json -> /home/jack/ros2_ws/install/pick_and_place_text/share/pick_and_place_text/resource
+running install_egg_info
+Copying ../../../../build/pick_and_place_text/pick_and_place_text.egg-info to /home/jack/ros2_ws/install/pick_and_place_text/lib/python3.10/site-packages/pick_and_place_text-0.0.0-py3.10.egg-info
+running install_scripts
+Installing detection script to /home/jack/ros2_ws/install/pick_and_place_text/lib/pick_and_place_text
+Installing robot_move script to /home/jack/ros2_ws/install/pick_and_place_text/lib/pick_and_place_text
+writing list of installed files to '/home/jack/ros2_ws/build/pick_and_place_text/install.log'

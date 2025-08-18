@@ -1,0 +1,23 @@
+SomaCube RL Integration Test Summary
+====================================
+
+Test Configuration:
+- Duration: 30 seconds
+- Scenario: normal
+- Timestamp: 2025. 08. 11. (월) 15:52:08 KST
+- Output Directory: /home/jack/ros2_ws/integration_test_20250811_155133
+
+Files Generated:
+total 16
+drwxrwxr-x  2 jack jack 4096  8월 11 15:52 .
+drwxrwxr-x 15 jack jack 4096  8월 11 15:51 ..
+-rw-rw-r--  1 jack jack 2056  8월 11 15:52 dod_validation_20250811_155207.json
+-rw-rw-r--  1 jack jack    0  8월 11 15:52 integration_test_summary.txt
+-rw-rw-r--  1 jack jack  325  8월 11 15:51 system_health_normal.csv
+
+System Status: 
+Health monitoring: OK
+DoD validation: OK
+Bag recording: FAILED
+
+Test Result: SUCCESS

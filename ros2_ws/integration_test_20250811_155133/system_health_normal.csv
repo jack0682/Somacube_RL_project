@@ -1,0 +1,7 @@
+timestamp,metric,value,status
+2025-08-11T15:51:47.571983,health_score,0,CRITICAL
+2025-08-11T15:51:47.571983,cpu_percent,10.1,OK
+2025-08-11T15:51:47.571983,memory_percent,87.5,OK
+2025-08-11T15:51:57.572990,health_score,0,CRITICAL
+2025-08-11T15:51:57.572990,cpu_percent,8.7,OK
+2025-08-11T15:51:57.572990,memory_percent,87.3,OK

@@ -1,0 +1,106 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-bb329e5f6ebd8955462e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "dsr_realtime_control",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "dsr_realtime_api::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dsr_realtime_api-a202b023b496fa6bbe91.json",
+					"name" : "dsr_realtime_api",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dsr_realtime_control::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dsr_realtime_control-c6e55b8dcee7c630fbc2.json",
+					"name" : "dsr_realtime_control",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dsr_realtime_control_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dsr_realtime_control_uninstall-12adb2f37c8843dc237f.json",
+					"name" : "dsr_realtime_control_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rt_init::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rt_init-3b1036b20732a29d40b0.json",
+					"name" : "rt_init",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rt_shutdown::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rt_shutdown-c49f21396395e4c16c04.json",
+					"name" : "rt_shutdown",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-30fe8ee9560c4bf949e0.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/jack/ros2_ws/build/dsr_realtime_control",
+		"source" : "/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

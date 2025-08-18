@@ -1,0 +1,26 @@
+[0.606s] Invoking command in '/home/jack/ros2_ws/src/DoosanBootcamp3rd/somacube': PYTHONPATH=/home/jack/ros2_ws/build/somacube/prefix_override:/home/jack/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/jack/ros2_ws/install/somacube/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/somacube build --build-base /home/jack/ros2_ws/build/somacube/build install --record /home/jack/ros2_ws/build/somacube/install.log --single-version-externally-managed install_data
+[0.808s] running egg_info
+[0.808s] writing ../../../build/somacube/somacube.egg-info/PKG-INFO
+[0.809s] writing dependency_links to ../../../build/somacube/somacube.egg-info/dependency_links.txt
+[0.809s] writing entry points to ../../../build/somacube/somacube.egg-info/entry_points.txt
+[0.809s] writing requirements to ../../../build/somacube/somacube.egg-info/requires.txt
+[0.809s] writing top-level names to ../../../build/somacube/somacube.egg-info/top_level.txt
+[0.810s] reading manifest file '../../../build/somacube/somacube.egg-info/SOURCES.txt'
+[0.816s] writing manifest file '../../../build/somacube/somacube.egg-info/SOURCES.txt'
+[0.816s] running build
+[0.816s] running build_py
+[0.816s] copying somacube/RL_with_robot2.py -> /home/jack/ros2_ws/build/somacube/build/lib/somacube
+[0.816s] running install
+[0.817s] running install_lib
+[0.817s] copying /home/jack/ros2_ws/build/somacube/build/lib/somacube/RL_with_robot2.py -> /home/jack/ros2_ws/install/somacube/lib/python3.10/site-packages/somacube
+[0.818s] byte-compiling /home/jack/ros2_ws/install/somacube/lib/python3.10/site-packages/somacube/RL_with_robot2.py to RL_with_robot2.cpython-310.pyc
+[0.823s] running install_data
+[0.823s] running install_egg_info
+[0.824s] removing '/home/jack/ros2_ws/install/somacube/lib/python3.10/site-packages/somacube-0.0.0-py3.10.egg-info' (and everything under it)
+[0.824s] Copying ../../../build/somacube/somacube.egg-info to /home/jack/ros2_ws/install/somacube/lib/python3.10/site-packages/somacube-0.0.0-py3.10.egg-info
+[0.825s] running install_scripts
+[0.839s] Installing RL_with_robot2 script to /home/jack/ros2_ws/install/somacube/lib/somacube
+[0.839s] Installing detection script to /home/jack/ros2_ws/install/somacube/lib/somacube
+[0.839s] Installing robot_move script to /home/jack/ros2_ws/install/somacube/lib/somacube
+[0.839s] writing list of installed files to '/home/jack/ros2_ws/build/somacube/install.log'
+[0.859s] Invoked command in '/home/jack/ros2_ws/src/DoosanBootcamp3rd/somacube' returned '0': PYTHONPATH=/home/jack/ros2_ws/build/somacube/prefix_override:/home/jack/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/jack/ros2_ws/install/somacube/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/somacube build --build-base /home/jack/ros2_ws/build/somacube/build install --record /home/jack/ros2_ws/build/somacube/install.log --single-version-externally-managed install_data

@@ -1,0 +1,3318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="somacube_pose_estimation.pep257"
+  tests="548"
+  errors="0"
+  failures="548"
+  time="0.262"
+>
+  <testcase
+    name="D205 (./launch/complete_pose_estimation.launch.py:2)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D205: 1 blank line required between summary line and description (found 0)"/>
+  </testcase>
+  <testcase
+    name="D400 (./launch/complete_pose_estimation.launch.py:2)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '일')"/>
+  </testcase>
+  <testcase
+    name="D415 (./launch/complete_pose_estimation.launch.py:2)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '일')"/>
+  </testcase>
+  <testcase
+    name="D205 (./launch/doosan_m0609_soma_cube.launch.py:2)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D205: 1 blank line required between summary line and description (found 0)"/>
+  </testcase>
+  <testcase
+    name="D400 (./launch/doosan_m0609_soma_cube.launch.py:2)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '일')"/>
+  </testcase>
+  <testcase
+    name="D415 (./launch/doosan_m0609_soma_cube.launch.py:2)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '일')"/>
+  </testcase>
+  <testcase
+    name="D205 (./launch/global_mapping.launch.py:2)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D205: 1 blank line required between summary line and description (found 0)"/>
+  </testcase>
+  <testcase
+    name="D400 (./launch/global_mapping.launch.py:2)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '일')"/>
+  </testcase>
+  <testcase
+    name="D415 (./launch/global_mapping.launch.py:2)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '일')"/>
+  </testcase>
+  <testcase
+    name="D205 (./scripts/camera_pose_manager_node.py:2)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D205: 1 blank line required between summary line and description (found 0)"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/camera_pose_manager_node.py:2)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '드')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/camera_pose_manager_node.py:2)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '드')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/camera_pose_manager_node.py:22)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '성')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/camera_pose_manager_node.py:22)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '성')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/camera_pose_manager_node.py:107)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '언')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/camera_pose_manager_node.py:107)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '언')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/camera_pose_manager_node.py:151)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '드')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/camera_pose_manager_node.py:151)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '드')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/camera_pose_manager_node.py:182)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '장')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/camera_pose_manager_node.py:182)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '장')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/camera_pose_manager_node.py:202)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '정')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/camera_pose_manager_node.py:202)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '정')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/camera_pose_manager_node.py:215)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '백')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/camera_pose_manager_node.py:215)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '백')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/camera_pose_manager_node.py:220)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '백')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/camera_pose_manager_node.py:220)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '백')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/camera_pose_manager_node.py:249)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '동')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/camera_pose_manager_node.py:249)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '동')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/camera_pose_manager_node.py:254)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '동')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/camera_pose_manager_node.py:254)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '동')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/camera_pose_manager_node.py:259)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '트')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/camera_pose_manager_node.py:259)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '트')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/camera_pose_manager_node.py:288)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '트')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/camera_pose_manager_node.py:288)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '트')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/camera_pose_manager_node.py:303)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '행')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/camera_pose_manager_node.py:303)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '행')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/camera_pose_manager_node.py:326)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '행')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/camera_pose_manager_node.py:326)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '행')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/camera_pose_manager_node.py:341)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '환')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/camera_pose_manager_node.py:341)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '환')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/camera_pose_manager_node.py:375)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '가')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/camera_pose_manager_node.py:375)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '가')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/camera_pose_manager_node.py:392)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '환')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/camera_pose_manager_node.py:392)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '환')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/camera_pose_manager_node.py:402)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '환')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/camera_pose_manager_node.py:402)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '환')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/camera_pose_manager_node.py:413)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '환')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/camera_pose_manager_node.py:413)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '환')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/camera_pose_manager_node.py:423)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '화')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/camera_pose_manager_node.py:423)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '화')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/camera_pose_manager_node.py:430)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '드')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/camera_pose_manager_node.py:430)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '드')"/>
+  </testcase>
+  <testcase
+    name="D403 (./scripts/camera_pose_manager_node.py:430)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D403: First word of the first line should be properly capitalized ('Doosanrobotics', not 'DoosanRobotics')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/camera_pose_manager_node.py:458)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '산')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/camera_pose_manager_node.py:458)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '산')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/camera_pose_manager_node.py:477)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '환')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/camera_pose_manager_node.py:477)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '환')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/camera_pose_manager_node.py:502)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '환')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/camera_pose_manager_node.py:502)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '환')"/>
+  </testcase>
+  <testcase
+    name="D205 (./scripts/capture_control_interface.py:2)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D205: 1 blank line required between summary line and description (found 0)"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/capture_control_interface.py:2)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '드')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/capture_control_interface.py:2)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '드')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/capture_control_interface.py:21)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '스')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/capture_control_interface.py:21)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '스')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/capture_control_interface.py:86)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '언')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/capture_control_interface.py:86)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '언')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/capture_control_interface.py:99)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '백')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/capture_control_interface.py:99)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '백')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/capture_control_interface.py:106)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '백')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/capture_control_interface.py:106)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '백')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/capture_control_interface.py:113)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '작')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/capture_control_interface.py:113)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '작')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/capture_control_interface.py:129)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '행')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/capture_control_interface.py:129)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '행')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/capture_control_interface.py:177)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '지')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/capture_control_interface.py:177)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '지')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/capture_control_interface.py:185)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '력')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/capture_control_interface.py:185)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '력')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/capture_control_interface.py:212)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '력')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/capture_control_interface.py:212)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '력')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/capture_control_interface.py:253)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not ')')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/capture_control_interface.py:253)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not ')')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/capture_control_interface.py:266)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '거')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/capture_control_interface.py:266)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '거')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/capture_control_interface.py:280)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '동')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/capture_control_interface.py:280)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '동')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/capture_control_interface.py:291)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '정')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/capture_control_interface.py:291)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '정')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/capture_control_interface.py:302)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '작')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/capture_control_interface.py:302)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '작')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/capture_control_interface.py:315)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '지')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/capture_control_interface.py:315)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '지')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/capture_control_interface.py:324)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '행')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/capture_control_interface.py:324)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '행')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/capture_control_interface.py:355)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '력')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/capture_control_interface.py:355)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '력')"/>
+  </testcase>
+  <testcase
+    name="D205 (./scripts/doosan_pose_sequence.py:2)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D205: 1 blank line required between summary line and description (found 0)"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/doosan_pose_sequence.py:2)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '드')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/doosan_pose_sequence.py:2)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '드')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/doosan_pose_sequence.py:11)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '스')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/doosan_pose_sequence.py:11)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '스')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/doosan_pose_sequence.py:92)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '환')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/doosan_pose_sequence.py:92)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '환')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/doosan_pose_sequence.py:96)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '증')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/doosan_pose_sequence.py:96)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '증')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/doosan_pose_sequence.py:134)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '력')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/doosan_pose_sequence.py:134)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '력')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/doosan_pose_sequence.py:161)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '성')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/doosan_pose_sequence.py:161)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '성')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/doosan_pose_sequence.py:170)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '성')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/doosan_pose_sequence.py:170)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '성')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/doosan_pose_sequence.py:213)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not ')')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/doosan_pose_sequence.py:213)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not ')')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/doosan_pose_sequence.py:263)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '력')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/doosan_pose_sequence.py:263)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '력')"/>
+  </testcase>
+  <testcase
+    name="D205 (./scripts/manhattan_aligner_node.py:2)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D205: 1 blank line required between summary line and description (found 0)"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/manhattan_aligner_node.py:2)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '드')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/manhattan_aligner_node.py:2)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '드')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/manhattan_aligner_node.py:25)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not ')')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/manhattan_aligner_node.py:25)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not ')')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/manhattan_aligner_node.py:103)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '언')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/manhattan_aligner_node.py:103)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '언')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/manhattan_aligner_node.py:151)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '백')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/manhattan_aligner_node.py:151)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '백')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/manhattan_aligner_node.py:160)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '백')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/manhattan_aligner_node.py:160)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '백')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/manhattan_aligner_node.py:169)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '백')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/manhattan_aligner_node.py:169)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '백')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/manhattan_aligner_node.py:177)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '프')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/manhattan_aligner_node.py:177)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '프')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/manhattan_aligner_node.py:235)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '기')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/manhattan_aligner_node.py:235)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '기')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/manhattan_aligner_node.py:244)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '기')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/manhattan_aligner_node.py:244)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '기')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/manhattan_aligner_node.py:253)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '행')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/manhattan_aligner_node.py:253)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '행')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/manhattan_aligner_node.py:317)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not ')')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/manhattan_aligner_node.py:317)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not ')')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/manhattan_aligner_node.py:334)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not ')')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/manhattan_aligner_node.py:334)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not ')')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/manhattan_aligner_node.py:389)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not ')')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/manhattan_aligner_node.py:389)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not ')')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/manhattan_aligner_node.py:445)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '원')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/manhattan_aligner_node.py:445)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '원')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/manhattan_aligner_node.py:505)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '합')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/manhattan_aligner_node.py:505)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '합')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/manhattan_aligner_node.py:538)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '사')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/manhattan_aligner_node.py:538)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '사')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/manhattan_aligner_node.py:558)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '증')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/manhattan_aligner_node.py:558)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '증')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/manhattan_aligner_node.py:596)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not ')')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/manhattan_aligner_node.py:596)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not ')')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/manhattan_aligner_node.py:703)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '성')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/manhattan_aligner_node.py:703)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '성')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/manhattan_aligner_node.py:791)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '행')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/manhattan_aligner_node.py:791)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '행')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/manhattan_aligner_node.py:816)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '행')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/manhattan_aligner_node.py:816)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '행')"/>
+  </testcase>
+  <testcase
+    name="D403 (./scripts/manhattan_aligner_node.py:816)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D403: First word of the first line should be properly capitalized ('Posearray', not 'PoseArray')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/manhattan_aligner_node.py:846)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '행')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/manhattan_aligner_node.py:846)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '행')"/>
+  </testcase>
+  <testcase
+    name="D205 (./scripts/multiview_fusion_node.py:2)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D205: 1 blank line required between summary line and description (found 0)"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/multiview_fusion_node.py:2)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '드')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/multiview_fusion_node.py:2)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '드')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/multiview_fusion_node.py:33)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not ')')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/multiview_fusion_node.py:33)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not ')')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/multiview_fusion_node.py:113)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '언')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/multiview_fusion_node.py:113)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '언')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/multiview_fusion_node.py:166)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '백')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/multiview_fusion_node.py:166)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '백')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/multiview_fusion_node.py:184)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '백')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/multiview_fusion_node.py:184)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '백')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/multiview_fusion_node.py:189)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '백')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/multiview_fusion_node.py:189)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '백')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/multiview_fusion_node.py:194)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '프')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/multiview_fusion_node.py:194)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '프')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/multiview_fusion_node.py:251)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '기')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/multiview_fusion_node.py:251)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '기')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/multiview_fusion_node.py:284)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '환')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/multiview_fusion_node.py:284)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '환')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/multiview_fusion_node.py:316)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '산')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/multiview_fusion_node.py:316)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '산')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/multiview_fusion_node.py:345)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '산')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/multiview_fusion_node.py:345)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '산')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/multiview_fusion_node.py:394)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '응')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/multiview_fusion_node.py:394)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '응')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/multiview_fusion_node.py:448)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not ')')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/multiview_fusion_node.py:448)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not ')')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/multiview_fusion_node.py:476)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '합')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/multiview_fusion_node.py:476)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '합')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/multiview_fusion_node.py:538)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '합')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/multiview_fusion_node.py:538)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '합')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/multiview_fusion_node.py:587)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '산')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/multiview_fusion_node.py:587)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '산')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/multiview_fusion_node.py:633)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '가')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/multiview_fusion_node.py:633)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '가')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/multiview_fusion_node.py:662)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '석')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/multiview_fusion_node.py:662)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '석')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/multiview_fusion_node.py:703)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not ')')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/multiview_fusion_node.py:703)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not ')')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/multiview_fusion_node.py:731)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '행')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/multiview_fusion_node.py:731)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '행')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/multiview_fusion_node.py:755)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '행')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/multiview_fusion_node.py:755)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '행')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/multiview_fusion_node.py:774)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '행')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/multiview_fusion_node.py:774)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '행')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/multiview_fusion_node.py:792)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '행')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/multiview_fusion_node.py:792)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '행')"/>
+  </testcase>
+  <testcase
+    name="D205 (./scripts/pca_axis_estimator_node.py:2)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D205: 1 blank line required between summary line and description (found 0)"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/pca_axis_estimator_node.py:2)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '드')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/pca_axis_estimator_node.py:2)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '드')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/pca_axis_estimator_node.py:31)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not ')')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/pca_axis_estimator_node.py:31)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not ')')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/pca_axis_estimator_node.py:91)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '언')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/pca_axis_estimator_node.py:91)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '언')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/pca_axis_estimator_node.py:130)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '백')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/pca_axis_estimator_node.py:130)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '백')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/pca_axis_estimator_node.py:139)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '프')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/pca_axis_estimator_node.py:139)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '프')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/pca_axis_estimator_node.py:205)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '정')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/pca_axis_estimator_node.py:205)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '정')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/pca_axis_estimator_node.py:247)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '산')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/pca_axis_estimator_node.py:247)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '산')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/pca_axis_estimator_node.py:279)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '수')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/pca_axis_estimator_node.py:279)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '수')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/pca_axis_estimator_node.py:312)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '산')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/pca_axis_estimator_node.py:312)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '산')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/pca_axis_estimator_node.py:334)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '정')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/pca_axis_estimator_node.py:334)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '정')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/pca_axis_estimator_node.py:343)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not ')')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/pca_axis_estimator_node.py:343)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not ')')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/pca_axis_estimator_node.py:356)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '링')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/pca_axis_estimator_node.py:356)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '링')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/pca_axis_estimator_node.py:392)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not ')')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/pca_axis_estimator_node.py:392)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not ')')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/pca_axis_estimator_node.py:442)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '산')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/pca_axis_estimator_node.py:442)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '산')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/pca_axis_estimator_node.py:470)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not ')')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/pca_axis_estimator_node.py:470)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not ')')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/pca_axis_estimator_node.py:523)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '성')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/pca_axis_estimator_node.py:523)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '성')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/pca_axis_estimator_node.py:583)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '행')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/pca_axis_estimator_node.py:583)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '행')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/pca_axis_estimator_node.py:607)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '행')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/pca_axis_estimator_node.py:607)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '행')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/pca_axis_estimator_node.py:625)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '행')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/pca_axis_estimator_node.py:625)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '행')"/>
+  </testcase>
+  <testcase
+    name="D205 (./scripts/pointcloud_processor_node.py:2)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D205: 1 blank line required between summary line and description (found 0)"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/pointcloud_processor_node.py:2)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '드')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/pointcloud_processor_node.py:2)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '드')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/pointcloud_processor_node.py:33)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not ')')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/pointcloud_processor_node.py:33)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not ')')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/pointcloud_processor_node.py:140)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '언')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/pointcloud_processor_node.py:140)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '언')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/pointcloud_processor_node.py:184)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '백')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/pointcloud_processor_node.py:184)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '백')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/pointcloud_processor_node.py:188)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '백')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/pointcloud_processor_node.py:188)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '백')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/pointcloud_processor_node.py:192)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '백')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/pointcloud_processor_node.py:192)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '백')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/pointcloud_processor_node.py:196)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '백')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/pointcloud_processor_node.py:196)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '백')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/pointcloud_processor_node.py:204)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '백')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/pointcloud_processor_node.py:204)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '백')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/pointcloud_processor_node.py:208)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '프')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/pointcloud_processor_node.py:208)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '프')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/pointcloud_processor_node.py:249)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '인')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/pointcloud_processor_node.py:249)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '인')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/pointcloud_processor_node.py:257)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '환')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/pointcloud_processor_node.py:257)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '환')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/pointcloud_processor_node.py:304)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '링')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/pointcloud_processor_node.py:304)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '링')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/pointcloud_processor_node.py:349)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '거')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/pointcloud_processor_node.py:349)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '거')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/pointcloud_processor_node.py:378)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '링')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/pointcloud_processor_node.py:378)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '링')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/pointcloud_processor_node.py:391)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '링')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/pointcloud_processor_node.py:391)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '링')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/pointcloud_processor_node.py:415)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '링')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/pointcloud_processor_node.py:415)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '링')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/pointcloud_processor_node.py:431)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '링')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/pointcloud_processor_node.py:431)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '링')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/pointcloud_processor_node.py:480)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '행')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/pointcloud_processor_node.py:480)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '행')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/pointcloud_processor_node.py:492)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '행')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/pointcloud_processor_node.py:492)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '행')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/pointcloud_processor_node.py:514)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '가')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/pointcloud_processor_node.py:514)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '가')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/pointcloud_processor_node.py:572)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '성')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/pointcloud_processor_node.py:572)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '성')"/>
+  </testcase>
+  <testcase
+    name="D205 (./scripts/synchronized_capture_node.py:2)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D205: 1 blank line required between summary line and description (found 0)"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/synchronized_capture_node.py:2)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '드')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/synchronized_capture_node.py:2)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '드')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/synchronized_capture_node.py:29)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '성')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/synchronized_capture_node.py:29)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '성')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/synchronized_capture_node.py:164)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '언')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/synchronized_capture_node.py:164)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '언')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/synchronized_capture_node.py:206)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '성')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/synchronized_capture_node.py:206)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '성')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/synchronized_capture_node.py:222)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '백')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/synchronized_capture_node.py:222)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '백')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/synchronized_capture_node.py:230)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '식')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/synchronized_capture_node.py:230)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '식')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/synchronized_capture_node.py:254)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '백')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/synchronized_capture_node.py:254)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '백')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/synchronized_capture_node.py:266)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '백')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/synchronized_capture_node.py:266)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '백')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/synchronized_capture_node.py:278)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '백')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/synchronized_capture_node.py:278)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '백')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/synchronized_capture_node.py:282)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '도')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/synchronized_capture_node.py:282)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '도')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/synchronized_capture_node.py:315)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '행')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/synchronized_capture_node.py:315)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '행')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/synchronized_capture_node.py:370)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '성')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/synchronized_capture_node.py:370)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '성')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/synchronized_capture_node.py:394)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '환')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/synchronized_capture_node.py:394)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '환')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/synchronized_capture_node.py:411)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '장')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/synchronized_capture_node.py:411)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '장')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/synchronized_capture_node.py:455)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '트')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/synchronized_capture_node.py:455)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '트')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/synchronized_capture_node.py:494)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '환')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/synchronized_capture_node.py:494)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '환')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/synchronized_capture_node.py:533)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '거')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/synchronized_capture_node.py:533)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '거')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/synchronized_capture_node.py:582)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '링')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/synchronized_capture_node.py:582)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '링')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/synchronized_capture_node.py:620)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '행')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/synchronized_capture_node.py:620)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '행')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/synchronized_capture_node.py:647)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '성')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/synchronized_capture_node.py:647)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '성')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/synchronized_capture_node.py:691)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '행')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/synchronized_capture_node.py:691)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '행')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/synchronized_capture_node.py:722)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '행')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/synchronized_capture_node.py:722)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '행')"/>
+  </testcase>
+  <testcase
+    name="D205 (./scripts/visualization_node.py:2)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D205: 1 blank line required between summary line and description (found 0)"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/visualization_node.py:2)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '드')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/visualization_node.py:2)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '드')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/visualization_node.py:19)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '화')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/visualization_node.py:19)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '화')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/visualization_node.py:86)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '언')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/visualization_node.py:86)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '언')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/visualization_node.py:114)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '백')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/visualization_node.py:114)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '백')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/visualization_node.py:123)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '백')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/visualization_node.py:123)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '백')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/visualization_node.py:131)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '백')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/visualization_node.py:131)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '백')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/visualization_node.py:139)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '트')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/visualization_node.py:139)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '트')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/visualization_node.py:165)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '행')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/visualization_node.py:165)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '행')"/>
+  </testcase>
+  <testcase
+    name="D403 (./scripts/visualization_node.py:165)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D403: First word of the first line should be properly capitalized ('Posearray', not 'PoseArray')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/visualization_node.py:195)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '행')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/visualization_node.py:195)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '행')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/visualization_node.py:248)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '행')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/visualization_node.py:248)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '행')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/visualization_node.py:298)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '행')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/visualization_node.py:298)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '행')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/visualization_node.py:345)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '기')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/visualization_node.py:345)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '기')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/visualization_node.py:352)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '산')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/visualization_node.py:352)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '산')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/visualization_node.py:366)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '환')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/visualization_node.py:366)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '환')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/visualization_node.py:377)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '환')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/visualization_node.py:377)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '환')"/>
+  </testcase>
+  <testcase
+    name="D205 (./scripts/yolo_detector_node.py:2)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D205: 1 blank line required between summary line and description (found 0)"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/yolo_detector_node.py:2)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '드')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/yolo_detector_node.py:2)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '드')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/yolo_detector_node.py:33)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '출')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/yolo_detector_node.py:33)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '출')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/yolo_detector_node.py:102)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '언')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/yolo_detector_node.py:102)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '언')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/yolo_detector_node.py:129)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '의')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/yolo_detector_node.py:129)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '의')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/yolo_detector_node.py:142)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '드')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/yolo_detector_node.py:142)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '드')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/yolo_detector_node.py:173)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '백')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/yolo_detector_node.py:173)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '백')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/yolo_detector_node.py:177)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '백')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/yolo_detector_node.py:177)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '백')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/yolo_detector_node.py:181)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '프')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/yolo_detector_node.py:181)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '프')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/yolo_detector_node.py:209)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '행')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/yolo_detector_node.py:209)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '행')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/yolo_detector_node.py:252)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '성')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/yolo_detector_node.py:252)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '성')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/yolo_detector_node.py:267)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '링')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/yolo_detector_node.py:267)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '링')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/yolo_detector_node.py:317)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '행')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/yolo_detector_node.py:317)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '행')"/>
+  </testcase>
+  <testcase
+    name="D400 (./scripts/yolo_detector_node.py:339)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '화')"/>
+  </testcase>
+  <testcase
+    name="D415 (./scripts/yolo_detector_node.py:339)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '화')"/>
+  </testcase>
+  <testcase
+    name="D400 (./somacube_pose_estimation/__init__.py:1)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '계')"/>
+  </testcase>
+  <testcase
+    name="D415 (./somacube_pose_estimation/__init__.py:1)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '계')"/>
+  </testcase>
+  <testcase
+    name="D205 (./somacube_pose_estimation/mathematical_foundations.py:1)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D205: 1 blank line required between summary line and description (found 0)"/>
+  </testcase>
+  <testcase
+    name="D400 (./somacube_pose_estimation/mathematical_foundations.py:1)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '현')"/>
+  </testcase>
+  <testcase
+    name="D415 (./somacube_pose_estimation/mathematical_foundations.py:1)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '현')"/>
+  </testcase>
+  <testcase
+    name="D400 (./somacube_pose_estimation/mathematical_foundations.py:14)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not ')')"/>
+  </testcase>
+  <testcase
+    name="D415 (./somacube_pose_estimation/mathematical_foundations.py:14)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not ')')"/>
+  </testcase>
+  <testcase
+    name="D400 (./somacube_pose_estimation/mathematical_foundations.py:33)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not ')')"/>
+  </testcase>
+  <testcase
+    name="D415 (./somacube_pose_estimation/mathematical_foundations.py:33)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not ')')"/>
+  </testcase>
+  <testcase
+    name="D400 (./somacube_pose_estimation/mathematical_foundations.py:71)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '환')"/>
+  </testcase>
+  <testcase
+    name="D415 (./somacube_pose_estimation/mathematical_foundations.py:71)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '환')"/>
+  </testcase>
+  <testcase
+    name="D400 (./somacube_pose_estimation/mathematical_foundations.py:90)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not ')')"/>
+  </testcase>
+  <testcase
+    name="D415 (./somacube_pose_estimation/mathematical_foundations.py:90)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not ')')"/>
+  </testcase>
+  <testcase
+    name="D400 (./somacube_pose_estimation/mathematical_foundations.py:113)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not ')')"/>
+  </testcase>
+  <testcase
+    name="D415 (./somacube_pose_estimation/mathematical_foundations.py:113)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not ')')"/>
+  </testcase>
+  <testcase
+    name="D400 (./somacube_pose_estimation/mathematical_foundations.py:156)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '링')"/>
+  </testcase>
+  <testcase
+    name="D415 (./somacube_pose_estimation/mathematical_foundations.py:156)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '링')"/>
+  </testcase>
+  <testcase
+    name="D400 (./somacube_pose_estimation/mathematical_foundations.py:178)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '산')"/>
+  </testcase>
+  <testcase
+    name="D415 (./somacube_pose_estimation/mathematical_foundations.py:178)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '산')"/>
+  </testcase>
+  <testcase
+    name="D400 (./somacube_pose_estimation/mathematical_foundations.py:194)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not ')')"/>
+  </testcase>
+  <testcase
+    name="D415 (./somacube_pose_estimation/mathematical_foundations.py:194)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not ')')"/>
+  </testcase>
+  <testcase
+    name="D400 (./somacube_pose_estimation/mathematical_foundations.py:213)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '표')"/>
+  </testcase>
+  <testcase
+    name="D415 (./somacube_pose_estimation/mathematical_foundations.py:213)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '표')"/>
+  </testcase>
+  <testcase
+    name="D400 (./somacube_pose_estimation/mathematical_foundations.py:226)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '정')"/>
+  </testcase>
+  <testcase
+    name="D415 (./somacube_pose_estimation/mathematical_foundations.py:226)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '정')"/>
+  </testcase>
+  <testcase
+    name="D400 (./somacube_pose_estimation/mathematical_foundations.py:232)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '정')"/>
+  </testcase>
+  <testcase
+    name="D415 (./somacube_pose_estimation/mathematical_foundations.py:232)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '정')"/>
+  </testcase>
+  <testcase
+    name="D400 (./somacube_pose_estimation/mathematical_foundations.py:262)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not ')')"/>
+  </testcase>
+  <testcase
+    name="D415 (./somacube_pose_estimation/mathematical_foundations.py:262)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not ')')"/>
+  </testcase>
+  <testcase
+    name="D400 (./somacube_pose_estimation/mathematical_foundations.py:287)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '화')"/>
+  </testcase>
+  <testcase
+    name="D415 (./somacube_pose_estimation/mathematical_foundations.py:287)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '화')"/>
+  </testcase>
+  <testcase
+    name="D400 (./somacube_pose_estimation/mathematical_foundations.py:303)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '산')"/>
+  </testcase>
+  <testcase
+    name="D415 (./somacube_pose_estimation/mathematical_foundations.py:303)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '산')"/>
+  </testcase>
+  <testcase
+    name="D400 (./somacube_pose_estimation/mathematical_foundations.py:315)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '심')"/>
+  </testcase>
+  <testcase
+    name="D415 (./somacube_pose_estimation/mathematical_foundations.py:315)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '심')"/>
+  </testcase>
+  <testcase
+    name="D400 (./somacube_pose_estimation/mathematical_foundations.py:331)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '리')"/>
+  </testcase>
+  <testcase
+    name="D415 (./somacube_pose_estimation/mathematical_foundations.py:331)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '리')"/>
+  </testcase>
+  <testcase
+    name="D400 (./somacube_pose_estimation/mathematical_foundations.py:343)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not ')')"/>
+  </testcase>
+  <testcase
+    name="D415 (./somacube_pose_estimation/mathematical_foundations.py:343)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not ')')"/>
+  </testcase>
+  <testcase
+    name="D400 (./somacube_pose_estimation/mathematical_foundations.py:369)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '균')"/>
+  </testcase>
+  <testcase
+    name="D415 (./somacube_pose_estimation/mathematical_foundations.py:369)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '균')"/>
+  </testcase>
+  <testcase
+    name="D205 (./somacube_pose_estimation/multiview_fusion.py:2)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D205: 1 blank line required between summary line and description (found 0)"/>
+  </testcase>
+  <testcase
+    name="D400 (./somacube_pose_estimation/multiview_fusion.py:2)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '듈')"/>
+  </testcase>
+  <testcase
+    name="D415 (./somacube_pose_estimation/multiview_fusion.py:2)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '듈')"/>
+  </testcase>
+  <testcase
+    name="D400 (./somacube_pose_estimation/multiview_fusion.py:13)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '스')"/>
+  </testcase>
+  <testcase
+    name="D415 (./somacube_pose_estimation/multiview_fusion.py:13)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '스')"/>
+  </testcase>
+  <testcase
+    name="D400 (./somacube_pose_estimation/multiview_fusion.py:16)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '화')"/>
+  </testcase>
+  <testcase
+    name="D415 (./somacube_pose_estimation/multiview_fusion.py:16)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '화')"/>
+  </testcase>
+  <testcase
+    name="D400 (./somacube_pose_estimation/multiview_fusion.py:20)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '합')"/>
+  </testcase>
+  <testcase
+    name="D415 (./somacube_pose_estimation/multiview_fusion.py:20)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '합')"/>
+  </testcase>
+  <testcase
+    name="D400 (./somacube_pose_estimation/multiview_fusion.py:70)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '인')"/>
+  </testcase>
+  <testcase
+    name="D415 (./somacube_pose_estimation/multiview_fusion.py:70)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '인')"/>
+  </testcase>
+  <testcase
+    name="D205 (./somacube_pose_estimation/pointcloud_processing.py:2)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D205: 1 blank line required between summary line and description (found 0)"/>
+  </testcase>
+  <testcase
+    name="D400 (./somacube_pose_estimation/pointcloud_processing.py:2)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '듈')"/>
+  </testcase>
+  <testcase
+    name="D415 (./somacube_pose_estimation/pointcloud_processing.py:2)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '듈')"/>
+  </testcase>
+  <testcase
+    name="D400 (./somacube_pose_estimation/pointcloud_processing.py:13)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '스')"/>
+  </testcase>
+  <testcase
+    name="D415 (./somacube_pose_estimation/pointcloud_processing.py:13)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '스')"/>
+  </testcase>
+  <testcase
+    name="D400 (./somacube_pose_estimation/pointcloud_processing.py:16)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '화')"/>
+  </testcase>
+  <testcase
+    name="D415 (./somacube_pose_estimation/pointcloud_processing.py:16)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '화')"/>
+  </testcase>
+  <testcase
+    name="D400 (./somacube_pose_estimation/pointcloud_processing.py:21)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '거')"/>
+  </testcase>
+  <testcase
+    name="D415 (./somacube_pose_estimation/pointcloud_processing.py:21)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '거')"/>
+  </testcase>
+  <testcase
+    name="D400 (./somacube_pose_estimation/pointcloud_processing.py:67)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '링')"/>
+  </testcase>
+  <testcase
+    name="D415 (./somacube_pose_estimation/pointcloud_processing.py:67)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '링')"/>
+  </testcase>
+  <testcase
+    name="D400 (./somacube_pose_estimation/pointcloud_processing.py:94)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '링')"/>
+  </testcase>
+  <testcase
+    name="D415 (./somacube_pose_estimation/pointcloud_processing.py:94)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '링')"/>
+  </testcase>
+  <testcase
+    name="D205 (./somacube_pose_estimation/pose_estimation.py:2)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D205: 1 blank line required between summary line and description (found 0)"/>
+  </testcase>
+  <testcase
+    name="D400 (./somacube_pose_estimation/pose_estimation.py:2)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '듈')"/>
+  </testcase>
+  <testcase
+    name="D415 (./somacube_pose_estimation/pose_estimation.py:2)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '듈')"/>
+  </testcase>
+  <testcase
+    name="D400 (./somacube_pose_estimation/pose_estimation.py:13)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '스')"/>
+  </testcase>
+  <testcase
+    name="D415 (./somacube_pose_estimation/pose_estimation.py:13)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '스')"/>
+  </testcase>
+  <testcase
+    name="D400 (./somacube_pose_estimation/pose_estimation.py:16)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '화')"/>
+  </testcase>
+  <testcase
+    name="D415 (./somacube_pose_estimation/pose_estimation.py:16)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '화')"/>
+  </testcase>
+  <testcase
+    name="D400 (./somacube_pose_estimation/pose_estimation.py:20)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '출')"/>
+  </testcase>
+  <testcase
+    name="D415 (./somacube_pose_estimation/pose_estimation.py:20)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '출')"/>
+  </testcase>
+  <testcase
+    name="D400 (./somacube_pose_estimation/pose_estimation.py:52)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '정')"/>
+  </testcase>
+  <testcase
+    name="D415 (./somacube_pose_estimation/pose_estimation.py:52)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '정')"/>
+  </testcase>
+  <testcase
+    name="D205 (./tests/test_mathematical_foundations.py:2)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D205: 1 blank line required between summary line and description (found 0)"/>
+  </testcase>
+  <testcase
+    name="D400 (./tests/test_mathematical_foundations.py:2)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '트')"/>
+  </testcase>
+  <testcase
+    name="D415 (./tests/test_mathematical_foundations.py:2)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '트')"/>
+  </testcase>
+  <testcase
+    name="D400 (./tests/test_mathematical_foundations.py:19)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '트')"/>
+  </testcase>
+  <testcase
+    name="D415 (./tests/test_mathematical_foundations.py:19)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '트')"/>
+  </testcase>
+  <testcase
+    name="D400 (./tests/test_mathematical_foundations.py:22)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '정')"/>
+  </testcase>
+  <testcase
+    name="D415 (./tests/test_mathematical_foundations.py:22)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '정')"/>
+  </testcase>
+  <testcase
+    name="D400 (./tests/test_mathematical_foundations.py:42)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '트')"/>
+  </testcase>
+  <testcase
+    name="D415 (./tests/test_mathematical_foundations.py:42)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '트')"/>
+  </testcase>
+  <testcase
+    name="D400 (./tests/test_mathematical_foundations.py:56)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '트')"/>
+  </testcase>
+  <testcase
+    name="D415 (./tests/test_mathematical_foundations.py:56)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '트')"/>
+  </testcase>
+  <testcase
+    name="D400 (./tests/test_mathematical_foundations.py:66)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '트')"/>
+  </testcase>
+  <testcase
+    name="D415 (./tests/test_mathematical_foundations.py:66)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '트')"/>
+  </testcase>
+  <testcase
+    name="D400 (./tests/test_mathematical_foundations.py:91)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '트')"/>
+  </testcase>
+  <testcase
+    name="D415 (./tests/test_mathematical_foundations.py:91)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '트')"/>
+  </testcase>
+  <testcase
+    name="D400 (./tests/test_mathematical_foundations.py:113)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '트')"/>
+  </testcase>
+  <testcase
+    name="D415 (./tests/test_mathematical_foundations.py:113)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '트')"/>
+  </testcase>
+  <testcase
+    name="D400 (./tests/test_mathematical_foundations.py:137)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '트')"/>
+  </testcase>
+  <testcase
+    name="D415 (./tests/test_mathematical_foundations.py:137)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '트')"/>
+  </testcase>
+  <testcase
+    name="D400 (./tests/test_mathematical_foundations.py:153)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '트')"/>
+  </testcase>
+  <testcase
+    name="D415 (./tests/test_mathematical_foundations.py:153)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '트')"/>
+  </testcase>
+  <testcase
+    name="D400 (./tests/test_mathematical_foundations.py:179)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '트')"/>
+  </testcase>
+  <testcase
+    name="D415 (./tests/test_mathematical_foundations.py:179)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '트')"/>
+  </testcase>
+  <testcase
+    name="D400 (./tests/test_mathematical_foundations.py:207)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '트')"/>
+  </testcase>
+  <testcase
+    name="D415 (./tests/test_mathematical_foundations.py:207)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '트')"/>
+  </testcase>
+  <testcase
+    name="D400 (./tests/test_mathematical_foundations.py:210)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '트')"/>
+  </testcase>
+  <testcase
+    name="D415 (./tests/test_mathematical_foundations.py:210)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '트')"/>
+  </testcase>
+  <testcase
+    name="D400 (./tests/test_mathematical_foundations.py:231)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '트')"/>
+  </testcase>
+  <testcase
+    name="D415 (./tests/test_mathematical_foundations.py:231)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '트')"/>
+  </testcase>
+  <testcase
+    name="D205 (./tests/test_pose_pipeline.py:2)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D205: 1 blank line required between summary line and description (found 0)"/>
+  </testcase>
+  <testcase
+    name="D400 (./tests/test_pose_pipeline.py:2)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '트')"/>
+  </testcase>
+  <testcase
+    name="D415 (./tests/test_pose_pipeline.py:2)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '트')"/>
+  </testcase>
+  <testcase
+    name="D400 (./tests/test_pose_pipeline.py:37)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '트')"/>
+  </testcase>
+  <testcase
+    name="D415 (./tests/test_pose_pipeline.py:37)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '트')"/>
+  </testcase>
+  <testcase
+    name="D400 (./tests/test_pose_pipeline.py:40)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '정')"/>
+  </testcase>
+  <testcase
+    name="D415 (./tests/test_pose_pipeline.py:40)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '정')"/>
+  </testcase>
+  <testcase
+    name="D400 (./tests/test_pose_pipeline.py:53)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '션')"/>
+  </testcase>
+  <testcase
+    name="D415 (./tests/test_pose_pipeline.py:53)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '션')"/>
+  </testcase>
+  <testcase
+    name="D400 (./tests/test_pose_pipeline.py:80)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '션')"/>
+  </testcase>
+  <testcase
+    name="D415 (./tests/test_pose_pipeline.py:80)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '션')"/>
+  </testcase>
+  <testcase
+    name="D400 (./tests/test_pose_pipeline.py:98)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '트')"/>
+  </testcase>
+  <testcase
+    name="D415 (./tests/test_pose_pipeline.py:98)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '트')"/>
+  </testcase>
+  <testcase
+    name="D400 (./tests/test_pose_pipeline.py:115)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '트')"/>
+  </testcase>
+  <testcase
+    name="D415 (./tests/test_pose_pipeline.py:115)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '트')"/>
+  </testcase>
+  <testcase
+    name="D400 (./tests/test_pose_pipeline.py:130)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '트')"/>
+  </testcase>
+  <testcase
+    name="D415 (./tests/test_pose_pipeline.py:130)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '트')"/>
+  </testcase>
+  <testcase
+    name="D400 (./tests/test_pose_pipeline.py:154)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '트')"/>
+  </testcase>
+  <testcase
+    name="D415 (./tests/test_pose_pipeline.py:154)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '트')"/>
+  </testcase>
+  <testcase
+    name="D400 (./tests/test_pose_pipeline.py:157)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '정')"/>
+  </testcase>
+  <testcase
+    name="D415 (./tests/test_pose_pipeline.py:157)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '정')"/>
+  </testcase>
+  <testcase
+    name="D400 (./tests/test_pose_pipeline.py:164)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '성')"/>
+  </testcase>
+  <testcase
+    name="D415 (./tests/test_pose_pipeline.py:164)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '성')"/>
+  </testcase>
+  <testcase
+    name="D400 (./tests/test_pose_pipeline.py:179)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '트')"/>
+  </testcase>
+  <testcase
+    name="D415 (./tests/test_pose_pipeline.py:179)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '트')"/>
+  </testcase>
+  <testcase
+    name="D400 (./tests/test_pose_pipeline.py:200)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '트')"/>
+  </testcase>
+  <testcase
+    name="D415 (./tests/test_pose_pipeline.py:200)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '트')"/>
+  </testcase>
+  <testcase
+    name="D400 (./tests/test_pose_pipeline.py:220)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '트')"/>
+  </testcase>
+  <testcase
+    name="D415 (./tests/test_pose_pipeline.py:220)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '트')"/>
+  </testcase>
+  <testcase
+    name="D400 (./tests/test_pose_pipeline.py:223)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '정')"/>
+  </testcase>
+  <testcase
+    name="D415 (./tests/test_pose_pipeline.py:223)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '정')"/>
+  </testcase>
+  <testcase
+    name="D400 (./tests/test_pose_pipeline.py:230)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '션')"/>
+  </testcase>
+  <testcase
+    name="D415 (./tests/test_pose_pipeline.py:230)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '션')"/>
+  </testcase>
+  <testcase
+    name="D400 (./tests/test_pose_pipeline.py:255)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '트')"/>
+  </testcase>
+  <testcase
+    name="D415 (./tests/test_pose_pipeline.py:255)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '트')"/>
+  </testcase>
+  <testcase
+    name="D400 (./tests/test_pose_pipeline.py:272)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '트')"/>
+  </testcase>
+  <testcase
+    name="D415 (./tests/test_pose_pipeline.py:272)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '트')"/>
+  </testcase>
+  <testcase
+    name="D400 (./tests/test_pose_pipeline.py:291)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '트')"/>
+  </testcase>
+  <testcase
+    name="D415 (./tests/test_pose_pipeline.py:291)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '트')"/>
+  </testcase>
+  <testcase
+    name="D400 (./tests/test_pose_pipeline.py:294)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '트')"/>
+  </testcase>
+  <testcase
+    name="D415 (./tests/test_pose_pipeline.py:294)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '트')"/>
+  </testcase>
+  <testcase
+    name="D400 (./tests/test_pose_pipeline.py:325)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '트')"/>
+  </testcase>
+  <testcase
+    name="D415 (./tests/test_pose_pipeline.py:325)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '트')"/>
+  </testcase>
+  <testcase
+    name="D400 (./tests/test_pose_pipeline.py:351)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '트')"/>
+  </testcase>
+  <testcase
+    name="D415 (./tests/test_pose_pipeline.py:351)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '트')"/>
+  </testcase>
+  <testcase
+    name="D400 (./tests/test_pose_pipeline.py:354)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '트')"/>
+  </testcase>
+  <testcase
+    name="D415 (./tests/test_pose_pipeline.py:354)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '트')"/>
+  </testcase>
+  <testcase
+    name="D400 (./tests/test_pose_pipeline.py:380)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D400: First line should end with a period (not '트')"/>
+  </testcase>
+  <testcase
+    name="D415 (./tests/test_pose_pipeline.py:380)"
+    classname="somacube_pose_estimation.pep257"
+  >
+      <failure message="D415: First line should end with a period, question mark, or exclamation point (not '트')"/>
+  </testcase>
+  <system-out>Checked files:
+* ./launch/complete_pose_estimation.launch.py
+* ./launch/doosan_m0609_soma_cube.launch.py
+* ./launch/global_mapping.launch.py
+* ./scripts/camera_pose_manager_node.py
+* ./scripts/capture_control_interface.py
+* ./scripts/doosan_pose_sequence.py
+* ./scripts/manhattan_aligner_node.py
+* ./scripts/multiview_fusion_node.py
+* ./scripts/pca_axis_estimator_node.py
+* ./scripts/pointcloud_processor_node.py
+* ./scripts/synchronized_capture_node.py
+* ./scripts/visualization_node.py
+* ./scripts/yolo_detector_node.py
+* ./somacube_pose_estimation/__init__.py
+* ./somacube_pose_estimation/mathematical_foundations.py
+* ./somacube_pose_estimation/multiview_fusion.py
+* ./somacube_pose_estimation/pointcloud_processing.py
+* ./somacube_pose_estimation/pose_estimation.py
+* ./tests/test_mathematical_foundations.py
+* ./tests/test_pose_pipeline.py</system-out>
+</testsuite>

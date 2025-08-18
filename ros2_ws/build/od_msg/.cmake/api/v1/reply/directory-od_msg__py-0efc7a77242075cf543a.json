@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "od_msg__py",
+		"source" : "/home/jack/ros2_ws/build/od_msg/od_msg__py"
+	}
+}

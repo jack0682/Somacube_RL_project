@@ -1,0 +1,4 @@
+source;share/doosan_somacube_rl/environment/ament_prefix_path.sh
+source;share/doosan_somacube_rl/environment/library_path.sh
+source;share/doosan_somacube_rl/environment/path.sh
+source;share/doosan_somacube_rl/environment/pythonpath.sh

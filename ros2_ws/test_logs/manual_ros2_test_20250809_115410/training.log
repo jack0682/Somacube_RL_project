@@ -1,0 +1,18 @@
+2025-08-09 11:54:10,616 - EnhancedTrainingLogger.manual_ros2_test_20250809_115410 - INFO - setup_tensorboard:199 - Tensorboard logging to: test_logs/manual_ros2_test_20250809_115410/tensorboard
+2025-08-09 11:54:10,616 - EnhancedTrainingLogger.manual_ros2_test_20250809_115410 - INFO - setup_tensorboard:200 - View with: tensorboard --logdir test_logs/manual_ros2_test_20250809_115410/tensorboard
+2025-08-09 11:54:10,644 - EnhancedTrainingLogger.manual_ros2_test_20250809_115410 - INFO - setup_ros2_integration:210 - ROS2 metrics integration enabled
+2025-08-09 11:54:10,644 - EnhancedTrainingLogger.manual_ros2_test_20250809_115410 - INFO - __init__:137 - Enhanced Training Logger initialized: test_logs/manual_ros2_test_20250809_115410
+2025-08-09 11:54:10,645 - EnhancedTrainingLogger.manual_ros2_test_20250809_115410 - INFO - __init__:138 - Tensorboard: Enabled
+2025-08-09 11:54:10,645 - EnhancedTrainingLogger.manual_ros2_test_20250809_115410 - INFO - __init__:139 - ROS2 Integration: Enabled
+2025-08-09 11:54:10,647 - EnhancedTrainingLogger.manual_ros2_test_20250809_115410 - INFO - log_console_summary:407 - Episode      0 | Success: False | Reward:   -10.00 | Steps:  20 | Pieces: 1/7 | Rolling - SR: 0.00%, Reward: -10.00, Steps: 20.0 | Time: 0s | Policy Loss: 1.0000 | Value Loss: 0.5000
+2025-08-09 11:54:12,678 - EnhancedTrainingLogger.manual_ros2_test_20250809_115410 - INFO - close:522 - ================================================================================
+2025-08-09 11:54:12,678 - EnhancedTrainingLogger.manual_ros2_test_20250809_115410 - INFO - close:523 - TRAINING SESSION COMPLETED
+2025-08-09 11:54:12,678 - EnhancedTrainingLogger.manual_ros2_test_20250809_115410 - INFO - close:524 - ================================================================================
+2025-08-09 11:54:12,678 - EnhancedTrainingLogger.manual_ros2_test_20250809_115410 - INFO - close:525 - Total Episodes: 10
+2025-08-09 11:54:12,679 - EnhancedTrainingLogger.manual_ros2_test_20250809_115410 - INFO - close:526 - Successful Episodes: 5
+2025-08-09 11:54:12,679 - EnhancedTrainingLogger.manual_ros2_test_20250809_115410 - INFO - close:527 - Success Rate: 50.00%
+2025-08-09 11:54:12,679 - EnhancedTrainingLogger.manual_ros2_test_20250809_115410 - INFO - close:528 - Training Time: 0.00 hours
+2025-08-09 11:54:12,679 - EnhancedTrainingLogger.manual_ros2_test_20250809_115410 - INFO - close:532 - Average Reward: 12.50 ± 14.36
+2025-08-09 11:54:12,679 - EnhancedTrainingLogger.manual_ros2_test_20250809_115410 - INFO - close:533 - Average Steps: 24.5 ± 2.9
+2025-08-09 11:54:12,679 - EnhancedTrainingLogger.manual_ros2_test_20250809_115410 - INFO - close:535 - Logs saved to: test_logs/manual_ros2_test_20250809_115410
+2025-08-09 11:54:12,679 - EnhancedTrainingLogger.manual_ros2_test_20250809_115410 - INFO - close:536 - ================================================================================

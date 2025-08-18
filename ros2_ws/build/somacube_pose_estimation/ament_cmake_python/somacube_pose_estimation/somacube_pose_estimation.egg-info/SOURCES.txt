@@ -1,0 +1,10 @@
+setup.py
+somacube_pose_estimation/__init__.py
+somacube_pose_estimation/mathematical_foundations.py
+somacube_pose_estimation/multiview_fusion.py
+somacube_pose_estimation/pointcloud_processing.py
+somacube_pose_estimation/pose_estimation.py
+somacube_pose_estimation.egg-info/PKG-INFO
+somacube_pose_estimation.egg-info/SOURCES.txt
+somacube_pose_estimation.egg-info/dependency_links.txt
+somacube_pose_estimation.egg-info/top_level.txt

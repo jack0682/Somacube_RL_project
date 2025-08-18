@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from od_msg/srv/SrvDepthPosition.srv
+// generated code does not contain a copyright notice
+
+
+module od_msg {
+  module srv {
+    struct SrvDepthPosition_Request {
+      string target;
+    };
+    struct SrvDepthPosition_Response {
+      sequence<double> depth_position;
+    };
+  };
+};

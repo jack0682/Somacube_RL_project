@@ -1,0 +1,4 @@
+[console_scripts]
+detection = pick_and_place_text.detection:main
+robot_move = pick_and_place_text.robot_move:main
+

@@ -1,0 +1,1054 @@
+/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:21:1: error: no matching function for call to ‘Eigen::Matrix<double, 6, 6>::Matrix(<brace-enclosed initializer list>)’
+   21 | };
+      | ^
+In file included from /usr/local/include/eigen3/Eigen/Core:458,
+                 from /usr/local/include/eigen3/Eigen/Dense:1,
+                 from /home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/include/dsr_realtime_control/realtime_api.hpp:17,
+                 from /home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:4:
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:387:14: note: candidate: ‘template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Eigen::RotationBase<OtherDerived, Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::ColsAtCompileTime>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = 6; int _Cols = 6; int _Options = 0; int _MaxRows = 6; int _MaxCols = 6]’
+  387 |     explicit Matrix(const RotationBase<OtherDerived,ColsAtCompileTime>& r);
+      |              ^~~~~~
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:387:14: note:   template argument deduction/substitution failed:
+/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:21:1: note:   candidate expects 1 argument, 6 provided
+   21 | };
+      | ^
+In file included from /usr/local/include/eigen3/Eigen/Core:458,
+                 from /usr/local/include/eigen3/Eigen/Dense:1,
+                 from /home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/include/dsr_realtime_control/realtime_api.hpp:17,
+                 from /home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:4:
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:376:25: note: candidate: ‘template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Eigen::EigenBase<OtherDerived>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = 6; int _Cols = 6; int _Options = 0; int _MaxRows = 6; int _MaxCols = 6]’
+  376 |     EIGEN_STRONG_INLINE Matrix(const EigenBase<OtherDerived> &other)
+      |                         ^~~~~~
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:376:25: note:   template argument deduction/substitution failed:
+/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:21:1: note:   candidate expects 1 argument, 6 provided
+   21 | };
+      | ^
+In file included from /usr/local/include/eigen3/Eigen/Core:458,
+                 from /usr/local/include/eigen3/Eigen/Dense:1,
+                 from /home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/include/dsr_realtime_control/realtime_api.hpp:17,
+                 from /home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:4:
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:299:25: note: candidate: ‘template<class T0, class T1> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const T0&, const T1&) [with T0 = T0; T1 = T1; _Scalar = double; int _Rows = 6; int _Cols = 6; int _Options = 0; int _MaxRows = 6; int _MaxCols = 6]’
+  299 |     EIGEN_STRONG_INLINE Matrix(const T0& x, const T1& y)
+      |                         ^~~~~~
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:299:25: note:   template argument deduction/substitution failed:
+/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:21:1: note:   candidate expects 2 arguments, 6 provided
+   21 | };
+      | ^
+In file included from /usr/local/include/eigen3/Eigen/Core:458,
+                 from /usr/local/include/eigen3/Eigen/Dense:1,
+                 from /home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/include/dsr_realtime_control/realtime_api.hpp:17,
+                 from /home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:4:
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:291:34: note: candidate: ‘template<class T> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const T&) [with T = T; _Scalar = double; int _Rows = 6; int _Cols = 6; int _Options = 0; int _MaxRows = 6; int _MaxCols = 6]’
+  291 |     EIGEN_STRONG_INLINE explicit Matrix(const T& x)
+      |                                  ^~~~~~
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:291:34: note:   template argument deduction/substitution failed:
+/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:21:1: note:   candidate expects 1 argument, 6 provided
+   21 | };
+      | ^
+In file included from /usr/local/include/eigen3/Eigen/Core:458,
+                 from /usr/local/include/eigen3/Eigen/Dense:1,
+                 from /home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/include/dsr_realtime_control/realtime_api.hpp:17,
+                 from /home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:4:
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:368:25: note: candidate: ‘Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>&) [with _Scalar = double; int _Rows = 6; int _Cols = 6; int _Options = 0; int _MaxRows = 6; int _MaxCols = 6]’
+  368 |     EIGEN_STRONG_INLINE Matrix(const Matrix& other) : Base(other)
+      |                         ^~~~~~
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:368:25: note:   candidate expects 1 argument, 6 provided
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:355:25: note: candidate: ‘Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Scalar&, const Scalar&, const Scalar&, const Scalar&) [with _Scalar = double; int _Rows = 6; int _Cols = 6; int _Options = 0; int _MaxRows = 6; int _MaxCols = 6; Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Scalar = double]’
+  355 |     EIGEN_STRONG_INLINE Matrix(const Scalar& x, const Scalar& y, const Scalar& z, const Scalar& w)
+      |                         ^~~~~~
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:355:25: note:   candidate expects 4 arguments, 6 provided
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:345:25: note: candidate: ‘Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Scalar&, const Scalar&, const Scalar&) [with _Scalar = double; int _Rows = 6; int _Cols = 6; int _Options = 0; int _MaxRows = 6; int _MaxCols = 6; Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Scalar = double]’
+  345 |     EIGEN_STRONG_INLINE Matrix(const Scalar& x, const Scalar& y, const Scalar& z)
+      |                         ^~~~~~
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:345:25: note:   candidate expects 3 arguments, 6 provided
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:273:5: note: candidate: ‘Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>&&) [with _Scalar = double; int _Rows = 6; int _Cols = 6; int _Options = 0; int _MaxRows = 6; int _MaxCols = 6]’
+  273 |     Matrix(Matrix&& other) EIGEN_NOEXCEPT_IF(std::is_nothrow_move_constructible<Scalar>::value)
+      |     ^~~~~~
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:273:5: note:   candidate expects 1 argument, 6 provided
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:267:14: note: candidate: ‘Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(Eigen::internal::constructor_without_unaligned_array_assert) [with _Scalar = double; int _Rows = 6; int _Cols = 6; int _Options = 0; int _MaxRows = 6; int _MaxCols = 6]’
+  267 |     explicit Matrix(internal::constructor_without_unaligned_array_assert)
+      |              ^~~~~~
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:267:14: note:   candidate expects 1 argument, 6 provided
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:259:25: note: candidate: ‘Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix() [with _Scalar = double; int _Rows = 6; int _Cols = 6; int _Options = 0; int _MaxRows = 6; int _MaxCols = 6]’
+  259 |     EIGEN_STRONG_INLINE Matrix() : Base()
+      |                         ^~~~~~
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:259:25: note:   candidate expects 0 arguments, 6 provided
+/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:29:1: error: no matching function for call to ‘Eigen::Matrix<double, 6, 6>::Matrix(<brace-enclosed initializer list>)’
+   29 | };
+      | ^
+In file included from /usr/local/include/eigen3/Eigen/Core:458,
+                 from /usr/local/include/eigen3/Eigen/Dense:1,
+                 from /home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/include/dsr_realtime_control/realtime_api.hpp:17,
+                 from /home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:4:
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:387:14: note: candidate: ‘template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Eigen::RotationBase<OtherDerived, Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::ColsAtCompileTime>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = 6; int _Cols = 6; int _Options = 0; int _MaxRows = 6; int _MaxCols = 6]’
+  387 |     explicit Matrix(const RotationBase<OtherDerived,ColsAtCompileTime>& r);
+      |              ^~~~~~
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:387:14: note:   template argument deduction/substitution failed:
+/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:29:1: note:   candidate expects 1 argument, 6 provided
+   29 | };
+      | ^
+In file included from /usr/local/include/eigen3/Eigen/Core:458,
+                 from /usr/local/include/eigen3/Eigen/Dense:1,
+                 from /home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/include/dsr_realtime_control/realtime_api.hpp:17,
+                 from /home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:4:
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:376:25: note: candidate: ‘template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Eigen::EigenBase<OtherDerived>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = 6; int _Cols = 6; int _Options = 0; int _MaxRows = 6; int _MaxCols = 6]’
+  376 |     EIGEN_STRONG_INLINE Matrix(const EigenBase<OtherDerived> &other)
+      |                         ^~~~~~
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:376:25: note:   template argument deduction/substitution failed:
+/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:29:1: note:   candidate expects 1 argument, 6 provided
+   29 | };
+      | ^
+In file included from /usr/local/include/eigen3/Eigen/Core:458,
+                 from /usr/local/include/eigen3/Eigen/Dense:1,
+                 from /home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/include/dsr_realtime_control/realtime_api.hpp:17,
+                 from /home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:4:
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:299:25: note: candidate: ‘template<class T0, class T1> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const T0&, const T1&) [with T0 = T0; T1 = T1; _Scalar = double; int _Rows = 6; int _Cols = 6; int _Options = 0; int _MaxRows = 6; int _MaxCols = 6]’
+  299 |     EIGEN_STRONG_INLINE Matrix(const T0& x, const T1& y)
+      |                         ^~~~~~
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:299:25: note:   template argument deduction/substitution failed:
+/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:29:1: note:   candidate expects 2 arguments, 6 provided
+   29 | };
+      | ^
+In file included from /usr/local/include/eigen3/Eigen/Core:458,
+                 from /usr/local/include/eigen3/Eigen/Dense:1,
+                 from /home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/include/dsr_realtime_control/realtime_api.hpp:17,
+                 from /home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:4:
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:291:34: note: candidate: ‘template<class T> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const T&) [with T = T; _Scalar = double; int _Rows = 6; int _Cols = 6; int _Options = 0; int _MaxRows = 6; int _MaxCols = 6]’
+  291 |     EIGEN_STRONG_INLINE explicit Matrix(const T& x)
+      |                                  ^~~~~~
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:291:34: note:   template argument deduction/substitution failed:
+/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:29:1: note:   candidate expects 1 argument, 6 provided
+   29 | };
+      | ^
+In file included from /usr/local/include/eigen3/Eigen/Core:458,
+                 from /usr/local/include/eigen3/Eigen/Dense:1,
+                 from /home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/include/dsr_realtime_control/realtime_api.hpp:17,
+                 from /home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:4:
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:368:25: note: candidate: ‘Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>&) [with _Scalar = double; int _Rows = 6; int _Cols = 6; int _Options = 0; int _MaxRows = 6; int _MaxCols = 6]’
+  368 |     EIGEN_STRONG_INLINE Matrix(const Matrix& other) : Base(other)
+      |                         ^~~~~~
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:368:25: note:   candidate expects 1 argument, 6 provided
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:355:25: note: candidate: ‘Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Scalar&, const Scalar&, const Scalar&, const Scalar&) [with _Scalar = double; int _Rows = 6; int _Cols = 6; int _Options = 0; int _MaxRows = 6; int _MaxCols = 6; Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Scalar = double]’
+  355 |     EIGEN_STRONG_INLINE Matrix(const Scalar& x, const Scalar& y, const Scalar& z, const Scalar& w)
+      |                         ^~~~~~
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:355:25: note:   candidate expects 4 arguments, 6 provided
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:345:25: note: candidate: ‘Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Scalar&, const Scalar&, const Scalar&) [with _Scalar = double; int _Rows = 6; int _Cols = 6; int _Options = 0; int _MaxRows = 6; int _MaxCols = 6; Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Scalar = double]’
+  345 |     EIGEN_STRONG_INLINE Matrix(const Scalar& x, const Scalar& y, const Scalar& z)
+      |                         ^~~~~~
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:345:25: note:   candidate expects 3 arguments, 6 provided
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:273:5: note: candidate: ‘Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>&&) [with _Scalar = double; int _Rows = 6; int _Cols = 6; int _Options = 0; int _MaxRows = 6; int _MaxCols = 6]’
+  273 |     Matrix(Matrix&& other) EIGEN_NOEXCEPT_IF(std::is_nothrow_move_constructible<Scalar>::value)
+      |     ^~~~~~
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:273:5: note:   candidate expects 1 argument, 6 provided
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:267:14: note: candidate: ‘Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(Eigen::internal::constructor_without_unaligned_array_assert) [with _Scalar = double; int _Rows = 6; int _Cols = 6; int _Options = 0; int _MaxRows = 6; int _MaxCols = 6]’
+  267 |     explicit Matrix(internal::constructor_without_unaligned_array_assert)
+      |              ^~~~~~
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:267:14: note:   candidate expects 1 argument, 6 provided
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:259:25: note: candidate: ‘Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix() [with _Scalar = double; int _Rows = 6; int _Cols = 6; int _Options = 0; int _MaxRows = 6; int _MaxCols = 6]’
+  259 |     EIGEN_STRONG_INLINE Matrix() : Base()
+      |                         ^~~~~~
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:259:25: note:   candidate expects 0 arguments, 6 provided
+/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:38:1: error: no matching function for call to ‘Eigen::Matrix<double, 6, 6>::Matrix(<brace-enclosed initializer list>)’
+   38 | };
+      | ^
+In file included from /usr/local/include/eigen3/Eigen/Core:458,
+                 from /usr/local/include/eigen3/Eigen/Dense:1,
+                 from /home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/include/dsr_realtime_control/realtime_api.hpp:17,
+                 from /home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:4:
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:387:14: note: candidate: ‘template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Eigen::RotationBase<OtherDerived, Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::ColsAtCompileTime>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = 6; int _Cols = 6; int _Options = 0; int _MaxRows = 6; int _MaxCols = 6]’
+  387 |     explicit Matrix(const RotationBase<OtherDerived,ColsAtCompileTime>& r);
+      |              ^~~~~~
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:387:14: note:   template argument deduction/substitution failed:
+/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:38:1: note:   candidate expects 1 argument, 6 provided
+   38 | };
+      | ^
+In file included from /usr/local/include/eigen3/Eigen/Core:458,
+                 from /usr/local/include/eigen3/Eigen/Dense:1,
+                 from /home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/include/dsr_realtime_control/realtime_api.hpp:17,
+                 from /home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:4:
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:376:25: note: candidate: ‘template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Eigen::EigenBase<OtherDerived>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = 6; int _Cols = 6; int _Options = 0; int _MaxRows = 6; int _MaxCols = 6]’
+  376 |     EIGEN_STRONG_INLINE Matrix(const EigenBase<OtherDerived> &other)
+      |                         ^~~~~~
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:376:25: note:   template argument deduction/substitution failed:
+/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:38:1: note:   candidate expects 1 argument, 6 provided
+   38 | };
+      | ^
+In file included from /usr/local/include/eigen3/Eigen/Core:458,
+                 from /usr/local/include/eigen3/Eigen/Dense:1,
+                 from /home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/include/dsr_realtime_control/realtime_api.hpp:17,
+                 from /home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:4:
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:299:25: note: candidate: ‘template<class T0, class T1> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const T0&, const T1&) [with T0 = T0; T1 = T1; _Scalar = double; int _Rows = 6; int _Cols = 6; int _Options = 0; int _MaxRows = 6; int _MaxCols = 6]’
+  299 |     EIGEN_STRONG_INLINE Matrix(const T0& x, const T1& y)
+      |                         ^~~~~~
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:299:25: note:   template argument deduction/substitution failed:
+/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:38:1: note:   candidate expects 2 arguments, 6 provided
+   38 | };
+      | ^
+In file included from /usr/local/include/eigen3/Eigen/Core:458,
+                 from /usr/local/include/eigen3/Eigen/Dense:1,
+                 from /home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/include/dsr_realtime_control/realtime_api.hpp:17,
+                 from /home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:4:
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:291:34: note: candidate: ‘template<class T> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const T&) [with T = T; _Scalar = double; int _Rows = 6; int _Cols = 6; int _Options = 0; int _MaxRows = 6; int _MaxCols = 6]’
+  291 |     EIGEN_STRONG_INLINE explicit Matrix(const T& x)
+      |                                  ^~~~~~
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:291:34: note:   template argument deduction/substitution failed:
+/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:38:1: note:   candidate expects 1 argument, 6 provided
+   38 | };
+      | ^
+In file included from /usr/local/include/eigen3/Eigen/Core:458,
+                 from /usr/local/include/eigen3/Eigen/Dense:1,
+                 from /home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/include/dsr_realtime_control/realtime_api.hpp:17,
+                 from /home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:4:
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:368:25: note: candidate: ‘Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>&) [with _Scalar = double; int _Rows = 6; int _Cols = 6; int _Options = 0; int _MaxRows = 6; int _MaxCols = 6]’
+  368 |     EIGEN_STRONG_INLINE Matrix(const Matrix& other) : Base(other)
+      |                         ^~~~~~
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:368:25: note:   candidate expects 1 argument, 6 provided
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:355:25: note: candidate: ‘Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Scalar&, const Scalar&, const Scalar&, const Scalar&) [with _Scalar = double; int _Rows = 6; int _Cols = 6; int _Options = 0; int _MaxRows = 6; int _MaxCols = 6; Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Scalar = double]’
+  355 |     EIGEN_STRONG_INLINE Matrix(const Scalar& x, const Scalar& y, const Scalar& z, const Scalar& w)
+      |                         ^~~~~~
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:355:25: note:   candidate expects 4 arguments, 6 provided
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:345:25: note: candidate: ‘Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Scalar&, const Scalar&, const Scalar&) [with _Scalar = double; int _Rows = 6; int _Cols = 6; int _Options = 0; int _MaxRows = 6; int _MaxCols = 6; Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Scalar = double]’
+  345 |     EIGEN_STRONG_INLINE Matrix(const Scalar& x, const Scalar& y, const Scalar& z)
+      |                         ^~~~~~
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:345:25: note:   candidate expects 3 arguments, 6 provided
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:273:5: note: candidate: ‘Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>&&) [with _Scalar = double; int _Rows = 6; int _Cols = 6; int _Options = 0; int _MaxRows = 6; int _MaxCols = 6]’
+  273 |     Matrix(Matrix&& other) EIGEN_NOEXCEPT_IF(std::is_nothrow_move_constructible<Scalar>::value)
+      |     ^~~~~~
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:273:5: note:   candidate expects 1 argument, 6 provided
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:267:14: note: candidate: ‘Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(Eigen::internal::constructor_without_unaligned_array_assert) [with _Scalar = double; int _Rows = 6; int _Cols = 6; int _Options = 0; int _MaxRows = 6; int _MaxCols = 6]’
+  267 |     explicit Matrix(internal::constructor_without_unaligned_array_assert)
+      |              ^~~~~~
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:267:14: note:   candidate expects 1 argument, 6 provided
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:259:25: note: candidate: ‘Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix() [with _Scalar = double; int _Rows = 6; int _Cols = 6; int _Options = 0; int _MaxRows = 6; int _MaxCols = 6]’
+  259 |     EIGEN_STRONG_INLINE Matrix() : Base()
+      |                         ^~~~~~
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:259:25: note:   candidate expects 0 arguments, 6 provided
+/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:46:1: error: no matching function for call to ‘Eigen::Matrix<double, 6, 6>::Matrix(<brace-enclosed initializer list>)’
+   46 | };
+      | ^
+In file included from /usr/local/include/eigen3/Eigen/Core:458,
+                 from /usr/local/include/eigen3/Eigen/Dense:1,
+                 from /home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/include/dsr_realtime_control/realtime_api.hpp:17,
+                 from /home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:4:
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:387:14: note: candidate: ‘template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Eigen::RotationBase<OtherDerived, Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::ColsAtCompileTime>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = 6; int _Cols = 6; int _Options = 0; int _MaxRows = 6; int _MaxCols = 6]’
+  387 |     explicit Matrix(const RotationBase<OtherDerived,ColsAtCompileTime>& r);
+      |              ^~~~~~
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:387:14: note:   template argument deduction/substitution failed:
+/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:46:1: note:   candidate expects 1 argument, 6 provided
+   46 | };
+      | ^
+In file included from /usr/local/include/eigen3/Eigen/Core:458,
+                 from /usr/local/include/eigen3/Eigen/Dense:1,
+                 from /home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/include/dsr_realtime_control/realtime_api.hpp:17,
+                 from /home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:4:
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:376:25: note: candidate: ‘template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Eigen::EigenBase<OtherDerived>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = 6; int _Cols = 6; int _Options = 0; int _MaxRows = 6; int _MaxCols = 6]’
+  376 |     EIGEN_STRONG_INLINE Matrix(const EigenBase<OtherDerived> &other)
+      |                         ^~~~~~
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:376:25: note:   template argument deduction/substitution failed:
+/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:46:1: note:   candidate expects 1 argument, 6 provided
+   46 | };
+      | ^
+In file included from /usr/local/include/eigen3/Eigen/Core:458,
+                 from /usr/local/include/eigen3/Eigen/Dense:1,
+                 from /home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/include/dsr_realtime_control/realtime_api.hpp:17,
+                 from /home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:4:
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:299:25: note: candidate: ‘template<class T0, class T1> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const T0&, const T1&) [with T0 = T0; T1 = T1; _Scalar = double; int _Rows = 6; int _Cols = 6; int _Options = 0; int _MaxRows = 6; int _MaxCols = 6]’
+  299 |     EIGEN_STRONG_INLINE Matrix(const T0& x, const T1& y)
+      |                         ^~~~~~
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:299:25: note:   template argument deduction/substitution failed:
+/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:46:1: note:   candidate expects 2 arguments, 6 provided
+   46 | };
+      | ^
+In file included from /usr/local/include/eigen3/Eigen/Core:458,
+                 from /usr/local/include/eigen3/Eigen/Dense:1,
+                 from /home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/include/dsr_realtime_control/realtime_api.hpp:17,
+                 from /home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:4:
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:291:34: note: candidate: ‘template<class T> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const T&) [with T = T; _Scalar = double; int _Rows = 6; int _Cols = 6; int _Options = 0; int _MaxRows = 6; int _MaxCols = 6]’
+  291 |     EIGEN_STRONG_INLINE explicit Matrix(const T& x)
+      |                                  ^~~~~~
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:291:34: note:   template argument deduction/substitution failed:
+/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:46:1: note:   candidate expects 1 argument, 6 provided
+   46 | };
+      | ^
+In file included from /usr/local/include/eigen3/Eigen/Core:458,
+                 from /usr/local/include/eigen3/Eigen/Dense:1,
+                 from /home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/include/dsr_realtime_control/realtime_api.hpp:17,
+                 from /home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:4:
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:368:25: note: candidate: ‘Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>&) [with _Scalar = double; int _Rows = 6; int _Cols = 6; int _Options = 0; int _MaxRows = 6; int _MaxCols = 6]’
+  368 |     EIGEN_STRONG_INLINE Matrix(const Matrix& other) : Base(other)
+      |                         ^~~~~~
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:368:25: note:   candidate expects 1 argument, 6 provided
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:355:25: note: candidate: ‘Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Scalar&, const Scalar&, const Scalar&, const Scalar&) [with _Scalar = double; int _Rows = 6; int _Cols = 6; int _Options = 0; int _MaxRows = 6; int _MaxCols = 6; Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Scalar = double]’
+  355 |     EIGEN_STRONG_INLINE Matrix(const Scalar& x, const Scalar& y, const Scalar& z, const Scalar& w)
+      |                         ^~~~~~
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:355:25: note:   candidate expects 4 arguments, 6 provided
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:345:25: note: candidate: ‘Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Scalar&, const Scalar&, const Scalar&) [with _Scalar = double; int _Rows = 6; int _Cols = 6; int _Options = 0; int _MaxRows = 6; int _MaxCols = 6; Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Scalar = double]’
+  345 |     EIGEN_STRONG_INLINE Matrix(const Scalar& x, const Scalar& y, const Scalar& z)
+      |                         ^~~~~~
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:345:25: note:   candidate expects 3 arguments, 6 provided
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:273:5: note: candidate: ‘Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>&&) [with _Scalar = double; int _Rows = 6; int _Cols = 6; int _Options = 0; int _MaxRows = 6; int _MaxCols = 6]’
+  273 |     Matrix(Matrix&& other) EIGEN_NOEXCEPT_IF(std::is_nothrow_move_constructible<Scalar>::value)
+      |     ^~~~~~
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:273:5: note:   candidate expects 1 argument, 6 provided
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:267:14: note: candidate: ‘Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(Eigen::internal::constructor_without_unaligned_array_assert) [with _Scalar = double; int _Rows = 6; int _Cols = 6; int _Options = 0; int _MaxRows = 6; int _MaxCols = 6]’
+  267 |     explicit Matrix(internal::constructor_without_unaligned_array_assert)
+      |              ^~~~~~
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:267:14: note:   candidate expects 1 argument, 6 provided
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:259:25: note: candidate: ‘Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix() [with _Scalar = double; int _Rows = 6; int _Cols = 6; int _Options = 0; int _MaxRows = 6; int _MaxCols = 6]’
+  259 |     EIGEN_STRONG_INLINE Matrix() : Base()
+      |                         ^~~~~~
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:259:25: note:   candidate expects 0 arguments, 6 provided
+/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:54:1: error: no matching function for call to ‘Eigen::Matrix<double, 6, 6>::Matrix(<brace-enclosed initializer list>)’
+   54 | };
+      | ^
+In file included from /usr/local/include/eigen3/Eigen/Core:458,
+                 from /usr/local/include/eigen3/Eigen/Dense:1,
+                 from /home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/include/dsr_realtime_control/realtime_api.hpp:17,
+                 from /home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:4:
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:387:14: note: candidate: ‘template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Eigen::RotationBase<OtherDerived, Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::ColsAtCompileTime>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = 6; int _Cols = 6; int _Options = 0; int _MaxRows = 6; int _MaxCols = 6]’
+  387 |     explicit Matrix(const RotationBase<OtherDerived,ColsAtCompileTime>& r);
+      |              ^~~~~~
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:387:14: note:   template argument deduction/substitution failed:
+/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:54:1: note:   candidate expects 1 argument, 6 provided
+   54 | };
+      | ^
+In file included from /usr/local/include/eigen3/Eigen/Core:458,
+                 from /usr/local/include/eigen3/Eigen/Dense:1,
+                 from /home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/include/dsr_realtime_control/realtime_api.hpp:17,
+                 from /home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:4:
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:376:25: note: candidate: ‘template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Eigen::EigenBase<OtherDerived>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = 6; int _Cols = 6; int _Options = 0; int _MaxRows = 6; int _MaxCols = 6]’
+  376 |     EIGEN_STRONG_INLINE Matrix(const EigenBase<OtherDerived> &other)
+      |                         ^~~~~~
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:376:25: note:   template argument deduction/substitution failed:
+/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:54:1: note:   candidate expects 1 argument, 6 provided
+   54 | };
+      | ^
+In file included from /usr/local/include/eigen3/Eigen/Core:458,
+                 from /usr/local/include/eigen3/Eigen/Dense:1,
+                 from /home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/include/dsr_realtime_control/realtime_api.hpp:17,
+                 from /home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:4:
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:299:25: note: candidate: ‘template<class T0, class T1> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const T0&, const T1&) [with T0 = T0; T1 = T1; _Scalar = double; int _Rows = 6; int _Cols = 6; int _Options = 0; int _MaxRows = 6; int _MaxCols = 6]’
+  299 |     EIGEN_STRONG_INLINE Matrix(const T0& x, const T1& y)
+      |                         ^~~~~~
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:299:25: note:   template argument deduction/substitution failed:
+/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:54:1: note:   candidate expects 2 arguments, 6 provided
+   54 | };
+      | ^
+In file included from /usr/local/include/eigen3/Eigen/Core:458,
+                 from /usr/local/include/eigen3/Eigen/Dense:1,
+                 from /home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/include/dsr_realtime_control/realtime_api.hpp:17,
+                 from /home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:4:
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:291:34: note: candidate: ‘template<class T> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const T&) [with T = T; _Scalar = double; int _Rows = 6; int _Cols = 6; int _Options = 0; int _MaxRows = 6; int _MaxCols = 6]’
+  291 |     EIGEN_STRONG_INLINE explicit Matrix(const T& x)
+      |                                  ^~~~~~
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:291:34: note:   template argument deduction/substitution failed:
+/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:54:1: note:   candidate expects 1 argument, 6 provided
+   54 | };
+      | ^
+In file included from /usr/local/include/eigen3/Eigen/Core:458,
+                 from /usr/local/include/eigen3/Eigen/Dense:1,
+                 from /home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/include/dsr_realtime_control/realtime_api.hpp:17,
+                 from /home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:4:
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:368:25: note: candidate: ‘Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>&) [with _Scalar = double; int _Rows = 6; int _Cols = 6; int _Options = 0; int _MaxRows = 6; int _MaxCols = 6]’
+  368 |     EIGEN_STRONG_INLINE Matrix(const Matrix& other) : Base(other)
+      |                         ^~~~~~
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:368:25: note:   candidate expects 1 argument, 6 provided
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:355:25: note: candidate: ‘Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Scalar&, const Scalar&, const Scalar&, const Scalar&) [with _Scalar = double; int _Rows = 6; int _Cols = 6; int _Options = 0; int _MaxRows = 6; int _MaxCols = 6; Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Scalar = double]’
+  355 |     EIGEN_STRONG_INLINE Matrix(const Scalar& x, const Scalar& y, const Scalar& z, const Scalar& w)
+      |                         ^~~~~~
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:355:25: note:   candidate expects 4 arguments, 6 provided
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:345:25: note: candidate: ‘Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Scalar&, const Scalar&, const Scalar&) [with _Scalar = double; int _Rows = 6; int _Cols = 6; int _Options = 0; int _MaxRows = 6; int _MaxCols = 6; Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Scalar = double]’
+  345 |     EIGEN_STRONG_INLINE Matrix(const Scalar& x, const Scalar& y, const Scalar& z)
+      |                         ^~~~~~
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:345:25: note:   candidate expects 3 arguments, 6 provided
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:273:5: note: candidate: ‘Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>&&) [with _Scalar = double; int _Rows = 6; int _Cols = 6; int _Options = 0; int _MaxRows = 6; int _MaxCols = 6]’
+  273 |     Matrix(Matrix&& other) EIGEN_NOEXCEPT_IF(std::is_nothrow_move_constructible<Scalar>::value)
+      |     ^~~~~~
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:273:5: note:   candidate expects 1 argument, 6 provided
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:267:14: note: candidate: ‘Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(Eigen::internal::constructor_without_unaligned_array_assert) [with _Scalar = double; int _Rows = 6; int _Cols = 6; int _Options = 0; int _MaxRows = 6; int _MaxCols = 6]’
+  267 |     explicit Matrix(internal::constructor_without_unaligned_array_assert)
+      |              ^~~~~~
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:267:14: note:   candidate expects 1 argument, 6 provided
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:259:25: note: candidate: ‘Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix() [with _Scalar = double; int _Rows = 6; int _Cols = 6; int _Options = 0; int _MaxRows = 6; int _MaxCols = 6]’
+  259 |     EIGEN_STRONG_INLINE Matrix() : Base()
+      |                         ^~~~~~
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:259:25: note:   candidate expects 0 arguments, 6 provided
+/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:62:1: error: no matching function for call to ‘Eigen::Matrix<double, 6, 6>::Matrix(<brace-enclosed initializer list>)’
+   62 | };
+      | ^
+In file included from /usr/local/include/eigen3/Eigen/Core:458,
+                 from /usr/local/include/eigen3/Eigen/Dense:1,
+                 from /home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/include/dsr_realtime_control/realtime_api.hpp:17,
+                 from /home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:4:
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:387:14: note: candidate: ‘template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Eigen::RotationBase<OtherDerived, Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::ColsAtCompileTime>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = 6; int _Cols = 6; int _Options = 0; int _MaxRows = 6; int _MaxCols = 6]’
+  387 |     explicit Matrix(const RotationBase<OtherDerived,ColsAtCompileTime>& r);
+      |              ^~~~~~
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:387:14: note:   template argument deduction/substitution failed:
+/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:62:1: note:   candidate expects 1 argument, 6 provided
+   62 | };
+      | ^
+In file included from /usr/local/include/eigen3/Eigen/Core:458,
+                 from /usr/local/include/eigen3/Eigen/Dense:1,
+                 from /home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/include/dsr_realtime_control/realtime_api.hpp:17,
+                 from /home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:4:
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:376:25: note: candidate: ‘template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Eigen::EigenBase<OtherDerived>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = 6; int _Cols = 6; int _Options = 0; int _MaxRows = 6; int _MaxCols = 6]’
+  376 |     EIGEN_STRONG_INLINE Matrix(const EigenBase<OtherDerived> &other)
+      |                         ^~~~~~
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:376:25: note:   template argument deduction/substitution failed:
+/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:62:1: note:   candidate expects 1 argument, 6 provided
+   62 | };
+      | ^
+In file included from /usr/local/include/eigen3/Eigen/Core:458,
+                 from /usr/local/include/eigen3/Eigen/Dense:1,
+                 from /home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/include/dsr_realtime_control/realtime_api.hpp:17,
+                 from /home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:4:
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:299:25: note: candidate: ‘template<class T0, class T1> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const T0&, const T1&) [with T0 = T0; T1 = T1; _Scalar = double; int _Rows = 6; int _Cols = 6; int _Options = 0; int _MaxRows = 6; int _MaxCols = 6]’
+  299 |     EIGEN_STRONG_INLINE Matrix(const T0& x, const T1& y)
+      |                         ^~~~~~
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:299:25: note:   template argument deduction/substitution failed:
+/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:62:1: note:   candidate expects 2 arguments, 6 provided
+   62 | };
+      | ^
+In file included from /usr/local/include/eigen3/Eigen/Core:458,
+                 from /usr/local/include/eigen3/Eigen/Dense:1,
+                 from /home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/include/dsr_realtime_control/realtime_api.hpp:17,
+                 from /home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:4:
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:291:34: note: candidate: ‘template<class T> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const T&) [with T = T; _Scalar = double; int _Rows = 6; int _Cols = 6; int _Options = 0; int _MaxRows = 6; int _MaxCols = 6]’
+  291 |     EIGEN_STRONG_INLINE explicit Matrix(const T& x)
+      |                                  ^~~~~~
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:291:34: note:   template argument deduction/substitution failed:
+/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:62:1: note:   candidate expects 1 argument, 6 provided
+   62 | };
+      | ^
+In file included from /usr/local/include/eigen3/Eigen/Core:458,
+                 from /usr/local/include/eigen3/Eigen/Dense:1,
+                 from /home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/include/dsr_realtime_control/realtime_api.hpp:17,
+                 from /home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:4:
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:368:25: note: candidate: ‘Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>&) [with _Scalar = double; int _Rows = 6; int _Cols = 6; int _Options = 0; int _MaxRows = 6; int _MaxCols = 6]’
+  368 |     EIGEN_STRONG_INLINE Matrix(const Matrix& other) : Base(other)
+      |                         ^~~~~~
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:368:25: note:   candidate expects 1 argument, 6 provided
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:355:25: note: candidate: ‘Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Scalar&, const Scalar&, const Scalar&, const Scalar&) [with _Scalar = double; int _Rows = 6; int _Cols = 6; int _Options = 0; int _MaxRows = 6; int _MaxCols = 6; Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Scalar = double]’
+  355 |     EIGEN_STRONG_INLINE Matrix(const Scalar& x, const Scalar& y, const Scalar& z, const Scalar& w)
+      |                         ^~~~~~
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:355:25: note:   candidate expects 4 arguments, 6 provided
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:345:25: note: candidate: ‘Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Scalar&, const Scalar&, const Scalar&) [with _Scalar = double; int _Rows = 6; int _Cols = 6; int _Options = 0; int _MaxRows = 6; int _MaxCols = 6; Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Scalar = double]’
+  345 |     EIGEN_STRONG_INLINE Matrix(const Scalar& x, const Scalar& y, const Scalar& z)
+      |                         ^~~~~~
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:345:25: note:   candidate expects 3 arguments, 6 provided
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:273:5: note: candidate: ‘Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>&&) [with _Scalar = double; int _Rows = 6; int _Cols = 6; int _Options = 0; int _MaxRows = 6; int _MaxCols = 6]’
+  273 |     Matrix(Matrix&& other) EIGEN_NOEXCEPT_IF(std::is_nothrow_move_constructible<Scalar>::value)
+      |     ^~~~~~
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:273:5: note:   candidate expects 1 argument, 6 provided
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:267:14: note: candidate: ‘Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(Eigen::internal::constructor_without_unaligned_array_assert) [with _Scalar = double; int _Rows = 6; int _Cols = 6; int _Options = 0; int _MaxRows = 6; int _MaxCols = 6]’
+  267 |     explicit Matrix(internal::constructor_without_unaligned_array_assert)
+      |              ^~~~~~
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:267:14: note:   candidate expects 1 argument, 6 provided
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:259:25: note: candidate: ‘Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix() [with _Scalar = double; int _Rows = 6; int _Cols = 6; int _Options = 0; int _MaxRows = 6; int _MaxCols = 6]’
+  259 |     EIGEN_STRONG_INLINE Matrix() : Base()
+      |                         ^~~~~~
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:259:25: note:   candidate expects 0 arguments, 6 provided
+/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:64:29: error: no matching function for call to ‘Eigen::Matrix<double, 6, 1>::Matrix(<brace-enclosed initializer list>)’
+   64 | Vector6f deg_q_d{0,0,0,0,0,0};
+      |                             ^
+In file included from /usr/local/include/eigen3/Eigen/Core:458,
+                 from /usr/local/include/eigen3/Eigen/Dense:1,
+                 from /home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/include/dsr_realtime_control/realtime_api.hpp:17,
+                 from /home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:4:
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:387:14: note: candidate: ‘template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Eigen::RotationBase<OtherDerived, Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::ColsAtCompileTime>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1]’
+  387 |     explicit Matrix(const RotationBase<OtherDerived,ColsAtCompileTime>& r);
+      |              ^~~~~~
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:387:14: note:   template argument deduction/substitution failed:
+/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:64:29: note:   mismatched types ‘const Eigen::RotationBase<OtherDerived, 1>’ and ‘int’
+   64 | Vector6f deg_q_d{0,0,0,0,0,0};
+      |                             ^
+In file included from /usr/local/include/eigen3/Eigen/Core:458,
+                 from /usr/local/include/eigen3/Eigen/Dense:1,
+                 from /home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/include/dsr_realtime_control/realtime_api.hpp:17,
+                 from /home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:4:
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:376:25: note: candidate: ‘template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Eigen::EigenBase<OtherDerived>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1]’
+  376 |     EIGEN_STRONG_INLINE Matrix(const EigenBase<OtherDerived> &other)
+      |                         ^~~~~~
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:376:25: note:   template argument deduction/substitution failed:
+/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:64:29: note:   mismatched types ‘const Eigen::EigenBase<Derived>’ and ‘int’
+   64 | Vector6f deg_q_d{0,0,0,0,0,0};
+      |                             ^
+In file included from /usr/local/include/eigen3/Eigen/Core:458,
+                 from /usr/local/include/eigen3/Eigen/Dense:1,
+                 from /home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/include/dsr_realtime_control/realtime_api.hpp:17,
+                 from /home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:4:
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:299:25: note: candidate: ‘template<class T0, class T1> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const T0&, const T1&) [with T0 = T0; T1 = T1; _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1]’
+  299 |     EIGEN_STRONG_INLINE Matrix(const T0& x, const T1& y)
+      |                         ^~~~~~
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:299:25: note:   template argument deduction/substitution failed:
+/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:64:29: note:   candidate expects 2 arguments, 6 provided
+   64 | Vector6f deg_q_d{0,0,0,0,0,0};
+      |                             ^
+In file included from /usr/local/include/eigen3/Eigen/Core:458,
+                 from /usr/local/include/eigen3/Eigen/Dense:1,
+                 from /home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/include/dsr_realtime_control/realtime_api.hpp:17,
+                 from /home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:4:
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:291:34: note: candidate: ‘template<class T> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const T&) [with T = T; _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1]’
+  291 |     EIGEN_STRONG_INLINE explicit Matrix(const T& x)
+      |                                  ^~~~~~
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:291:34: note:   template argument deduction/substitution failed:
+/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:64:29: note:   candidate expects 1 argument, 6 provided
+   64 | Vector6f deg_q_d{0,0,0,0,0,0};
+      |                             ^
+In file included from /usr/local/include/eigen3/Eigen/Core:458,
+                 from /usr/local/include/eigen3/Eigen/Dense:1,
+                 from /home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/include/dsr_realtime_control/realtime_api.hpp:17,
+                 from /home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:4:
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:368:25: note: candidate: ‘Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>&) [with _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1]’
+  368 |     EIGEN_STRONG_INLINE Matrix(const Matrix& other) : Base(other)
+      |                         ^~~~~~
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:368:25: note:   candidate expects 1 argument, 6 provided
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:355:25: note: candidate: ‘Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Scalar&, const Scalar&, const Scalar&, const Scalar&) [with _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1; Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Scalar = double]’
+  355 |     EIGEN_STRONG_INLINE Matrix(const Scalar& x, const Scalar& y, const Scalar& z, const Scalar& w)
+      |                         ^~~~~~
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:355:25: note:   candidate expects 4 arguments, 6 provided
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:345:25: note: candidate: ‘Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Scalar&, const Scalar&, const Scalar&) [with _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1; Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Scalar = double]’
+  345 |     EIGEN_STRONG_INLINE Matrix(const Scalar& x, const Scalar& y, const Scalar& z)
+      |                         ^~~~~~
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:345:25: note:   candidate expects 3 arguments, 6 provided
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:273:5: note: candidate: ‘Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>&&) [with _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1]’
+  273 |     Matrix(Matrix&& other) EIGEN_NOEXCEPT_IF(std::is_nothrow_move_constructible<Scalar>::value)
+      |     ^~~~~~
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:273:5: note:   candidate expects 1 argument, 6 provided
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:267:14: note: candidate: ‘Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(Eigen::internal::constructor_without_unaligned_array_assert) [with _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1]’
+  267 |     explicit Matrix(internal::constructor_without_unaligned_array_assert)
+      |              ^~~~~~
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:267:14: note:   candidate expects 1 argument, 6 provided
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:259:25: note: candidate: ‘Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix() [with _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1]’
+  259 |     EIGEN_STRONG_INLINE Matrix() : Base()
+      |                         ^~~~~~
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:259:25: note:   candidate expects 0 arguments, 6 provided
+/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:65:33: error: no matching function for call to ‘Eigen::Matrix<double, 6, 1>::Matrix(<brace-enclosed initializer list>)’
+   65 | Vector6f deg_q_dot_d{0,0,0,0,0,0};
+      |                                 ^
+In file included from /usr/local/include/eigen3/Eigen/Core:458,
+                 from /usr/local/include/eigen3/Eigen/Dense:1,
+                 from /home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/include/dsr_realtime_control/realtime_api.hpp:17,
+                 from /home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:4:
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:387:14: note: candidate: ‘template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Eigen::RotationBase<OtherDerived, Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::ColsAtCompileTime>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1]’
+  387 |     explicit Matrix(const RotationBase<OtherDerived,ColsAtCompileTime>& r);
+      |              ^~~~~~
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:387:14: note:   template argument deduction/substitution failed:
+/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:65:33: note:   mismatched types ‘const Eigen::RotationBase<OtherDerived, 1>’ and ‘int’
+   65 | Vector6f deg_q_dot_d{0,0,0,0,0,0};
+      |                                 ^
+In file included from /usr/local/include/eigen3/Eigen/Core:458,
+                 from /usr/local/include/eigen3/Eigen/Dense:1,
+                 from /home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/include/dsr_realtime_control/realtime_api.hpp:17,
+                 from /home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:4:
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:376:25: note: candidate: ‘template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Eigen::EigenBase<OtherDerived>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1]’
+  376 |     EIGEN_STRONG_INLINE Matrix(const EigenBase<OtherDerived> &other)
+      |                         ^~~~~~
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:376:25: note:   template argument deduction/substitution failed:
+/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:65:33: note:   mismatched types ‘const Eigen::EigenBase<Derived>’ and ‘int’
+   65 | Vector6f deg_q_dot_d{0,0,0,0,0,0};
+      |                                 ^
+In file included from /usr/local/include/eigen3/Eigen/Core:458,
+                 from /usr/local/include/eigen3/Eigen/Dense:1,
+                 from /home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/include/dsr_realtime_control/realtime_api.hpp:17,
+                 from /home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:4:
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:299:25: note: candidate: ‘template<class T0, class T1> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const T0&, const T1&) [with T0 = T0; T1 = T1; _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1]’
+  299 |     EIGEN_STRONG_INLINE Matrix(const T0& x, const T1& y)
+      |                         ^~~~~~
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:299:25: note:   template argument deduction/substitution failed:
+/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:65:33: note:   candidate expects 2 arguments, 6 provided
+   65 | Vector6f deg_q_dot_d{0,0,0,0,0,0};
+      |                                 ^
+In file included from /usr/local/include/eigen3/Eigen/Core:458,
+                 from /usr/local/include/eigen3/Eigen/Dense:1,
+                 from /home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/include/dsr_realtime_control/realtime_api.hpp:17,
+                 from /home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:4:
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:291:34: note: candidate: ‘template<class T> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const T&) [with T = T; _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1]’
+  291 |     EIGEN_STRONG_INLINE explicit Matrix(const T& x)
+      |                                  ^~~~~~
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:291:34: note:   template argument deduction/substitution failed:
+/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:65:33: note:   candidate expects 1 argument, 6 provided
+   65 | Vector6f deg_q_dot_d{0,0,0,0,0,0};
+      |                                 ^
+In file included from /usr/local/include/eigen3/Eigen/Core:458,
+                 from /usr/local/include/eigen3/Eigen/Dense:1,
+                 from /home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/include/dsr_realtime_control/realtime_api.hpp:17,
+                 from /home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:4:
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:368:25: note: candidate: ‘Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>&) [with _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1]’
+  368 |     EIGEN_STRONG_INLINE Matrix(const Matrix& other) : Base(other)
+      |                         ^~~~~~
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:368:25: note:   candidate expects 1 argument, 6 provided
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:355:25: note: candidate: ‘Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Scalar&, const Scalar&, const Scalar&, const Scalar&) [with _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1; Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Scalar = double]’
+  355 |     EIGEN_STRONG_INLINE Matrix(const Scalar& x, const Scalar& y, const Scalar& z, const Scalar& w)
+      |                         ^~~~~~
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:355:25: note:   candidate expects 4 arguments, 6 provided
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:345:25: note: candidate: ‘Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Scalar&, const Scalar&, const Scalar&) [with _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1; Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Scalar = double]’
+  345 |     EIGEN_STRONG_INLINE Matrix(const Scalar& x, const Scalar& y, const Scalar& z)
+      |                         ^~~~~~
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:345:25: note:   candidate expects 3 arguments, 6 provided
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:273:5: note: candidate: ‘Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>&&) [with _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1]’
+  273 |     Matrix(Matrix&& other) EIGEN_NOEXCEPT_IF(std::is_nothrow_move_constructible<Scalar>::value)
+      |     ^~~~~~
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:273:5: note:   candidate expects 1 argument, 6 provided
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:267:14: note: candidate: ‘Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(Eigen::internal::constructor_without_unaligned_array_assert) [with _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1]’
+  267 |     explicit Matrix(internal::constructor_without_unaligned_array_assert)
+      |              ^~~~~~
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:267:14: note:   candidate expects 1 argument, 6 provided
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:259:25: note: candidate: ‘Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix() [with _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1]’
+  259 |     EIGEN_STRONG_INLINE Matrix() : Base()
+      |                         ^~~~~~
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:259:25: note:   candidate expects 0 arguments, 6 provided
+/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:66:34: error: no matching function for call to ‘Eigen::Matrix<double, 6, 1>::Matrix(<brace-enclosed initializer list>)’
+   66 | Vector6f deg_q_ddot_d{0,0,0,0,0,0};
+      |                                  ^
+In file included from /usr/local/include/eigen3/Eigen/Core:458,
+                 from /usr/local/include/eigen3/Eigen/Dense:1,
+                 from /home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/include/dsr_realtime_control/realtime_api.hpp:17,
+                 from /home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:4:
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:387:14: note: candidate: ‘template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Eigen::RotationBase<OtherDerived, Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::ColsAtCompileTime>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1]’
+  387 |     explicit Matrix(const RotationBase<OtherDerived,ColsAtCompileTime>& r);
+      |              ^~~~~~
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:387:14: note:   template argument deduction/substitution failed:
+/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:66:34: note:   mismatched types ‘const Eigen::RotationBase<OtherDerived, 1>’ and ‘int’
+   66 | Vector6f deg_q_ddot_d{0,0,0,0,0,0};
+      |                                  ^
+In file included from /usr/local/include/eigen3/Eigen/Core:458,
+                 from /usr/local/include/eigen3/Eigen/Dense:1,
+                 from /home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/include/dsr_realtime_control/realtime_api.hpp:17,
+                 from /home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:4:
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:376:25: note: candidate: ‘template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Eigen::EigenBase<OtherDerived>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1]’
+  376 |     EIGEN_STRONG_INLINE Matrix(const EigenBase<OtherDerived> &other)
+      |                         ^~~~~~
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:376:25: note:   template argument deduction/substitution failed:
+/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:66:34: note:   mismatched types ‘const Eigen::EigenBase<Derived>’ and ‘int’
+   66 | Vector6f deg_q_ddot_d{0,0,0,0,0,0};
+      |                                  ^
+In file included from /usr/local/include/eigen3/Eigen/Core:458,
+                 from /usr/local/include/eigen3/Eigen/Dense:1,
+                 from /home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/include/dsr_realtime_control/realtime_api.hpp:17,
+                 from /home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:4:
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:299:25: note: candidate: ‘template<class T0, class T1> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const T0&, const T1&) [with T0 = T0; T1 = T1; _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1]’
+  299 |     EIGEN_STRONG_INLINE Matrix(const T0& x, const T1& y)
+      |                         ^~~~~~
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:299:25: note:   template argument deduction/substitution failed:
+/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:66:34: note:   candidate expects 2 arguments, 6 provided
+   66 | Vector6f deg_q_ddot_d{0,0,0,0,0,0};
+      |                                  ^
+In file included from /usr/local/include/eigen3/Eigen/Core:458,
+                 from /usr/local/include/eigen3/Eigen/Dense:1,
+                 from /home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/include/dsr_realtime_control/realtime_api.hpp:17,
+                 from /home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:4:
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:291:34: note: candidate: ‘template<class T> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const T&) [with T = T; _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1]’
+  291 |     EIGEN_STRONG_INLINE explicit Matrix(const T& x)
+      |                                  ^~~~~~
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:291:34: note:   template argument deduction/substitution failed:
+/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:66:34: note:   candidate expects 1 argument, 6 provided
+   66 | Vector6f deg_q_ddot_d{0,0,0,0,0,0};
+      |                                  ^
+In file included from /usr/local/include/eigen3/Eigen/Core:458,
+                 from /usr/local/include/eigen3/Eigen/Dense:1,
+                 from /home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/include/dsr_realtime_control/realtime_api.hpp:17,
+                 from /home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:4:
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:368:25: note: candidate: ‘Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>&) [with _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1]’
+  368 |     EIGEN_STRONG_INLINE Matrix(const Matrix& other) : Base(other)
+      |                         ^~~~~~
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:368:25: note:   candidate expects 1 argument, 6 provided
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:355:25: note: candidate: ‘Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Scalar&, const Scalar&, const Scalar&, const Scalar&) [with _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1; Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Scalar = double]’
+  355 |     EIGEN_STRONG_INLINE Matrix(const Scalar& x, const Scalar& y, const Scalar& z, const Scalar& w)
+      |                         ^~~~~~
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:355:25: note:   candidate expects 4 arguments, 6 provided
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:345:25: note: candidate: ‘Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Scalar&, const Scalar&, const Scalar&) [with _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1; Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Scalar = double]’
+  345 |     EIGEN_STRONG_INLINE Matrix(const Scalar& x, const Scalar& y, const Scalar& z)
+      |                         ^~~~~~
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:345:25: note:   candidate expects 3 arguments, 6 provided
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:273:5: note: candidate: ‘Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>&&) [with _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1]’
+  273 |     Matrix(Matrix&& other) EIGEN_NOEXCEPT_IF(std::is_nothrow_move_constructible<Scalar>::value)
+      |     ^~~~~~
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:273:5: note:   candidate expects 1 argument, 6 provided
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:267:14: note: candidate: ‘Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(Eigen::internal::constructor_without_unaligned_array_assert) [with _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1]’
+  267 |     explicit Matrix(internal::constructor_without_unaligned_array_assert)
+      |              ^~~~~~
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:267:14: note:   candidate expects 1 argument, 6 provided
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:259:25: note: candidate: ‘Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix() [with _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1]’
+  259 |     EIGEN_STRONG_INLINE Matrix() : Base()
+      |                         ^~~~~~
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:259:25: note:   candidate expects 0 arguments, 6 provided
+/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:68:25: error: no matching function for call to ‘Eigen::Matrix<double, 6, 1>::Matrix(<brace-enclosed initializer list>)’
+   68 | Vector6f q_d{0,0,0,0,0,0};
+      |                         ^
+In file included from /usr/local/include/eigen3/Eigen/Core:458,
+                 from /usr/local/include/eigen3/Eigen/Dense:1,
+                 from /home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/include/dsr_realtime_control/realtime_api.hpp:17,
+                 from /home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:4:
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:387:14: note: candidate: ‘template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Eigen::RotationBase<OtherDerived, Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::ColsAtCompileTime>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1]’
+  387 |     explicit Matrix(const RotationBase<OtherDerived,ColsAtCompileTime>& r);
+      |              ^~~~~~
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:387:14: note:   template argument deduction/substitution failed:
+/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:68:25: note:   mismatched types ‘const Eigen::RotationBase<OtherDerived, 1>’ and ‘int’
+   68 | Vector6f q_d{0,0,0,0,0,0};
+      |                         ^
+In file included from /usr/local/include/eigen3/Eigen/Core:458,
+                 from /usr/local/include/eigen3/Eigen/Dense:1,
+                 from /home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/include/dsr_realtime_control/realtime_api.hpp:17,
+                 from /home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:4:
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:376:25: note: candidate: ‘template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Eigen::EigenBase<OtherDerived>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1]’
+  376 |     EIGEN_STRONG_INLINE Matrix(const EigenBase<OtherDerived> &other)
+      |                         ^~~~~~
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:376:25: note:   template argument deduction/substitution failed:
+/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:68:25: note:   mismatched types ‘const Eigen::EigenBase<Derived>’ and ‘int’
+   68 | Vector6f q_d{0,0,0,0,0,0};
+      |                         ^
+In file included from /usr/local/include/eigen3/Eigen/Core:458,
+                 from /usr/local/include/eigen3/Eigen/Dense:1,
+                 from /home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/include/dsr_realtime_control/realtime_api.hpp:17,
+                 from /home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:4:
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:299:25: note: candidate: ‘template<class T0, class T1> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const T0&, const T1&) [with T0 = T0; T1 = T1; _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1]’
+  299 |     EIGEN_STRONG_INLINE Matrix(const T0& x, const T1& y)
+      |                         ^~~~~~
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:299:25: note:   template argument deduction/substitution failed:
+/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:68:25: note:   candidate expects 2 arguments, 6 provided
+   68 | Vector6f q_d{0,0,0,0,0,0};
+      |                         ^
+In file included from /usr/local/include/eigen3/Eigen/Core:458,
+                 from /usr/local/include/eigen3/Eigen/Dense:1,
+                 from /home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/include/dsr_realtime_control/realtime_api.hpp:17,
+                 from /home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:4:
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:291:34: note: candidate: ‘template<class T> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const T&) [with T = T; _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1]’
+  291 |     EIGEN_STRONG_INLINE explicit Matrix(const T& x)
+      |                                  ^~~~~~
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:291:34: note:   template argument deduction/substitution failed:
+/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:68:25: note:   candidate expects 1 argument, 6 provided
+   68 | Vector6f q_d{0,0,0,0,0,0};
+      |                         ^
+In file included from /usr/local/include/eigen3/Eigen/Core:458,
+                 from /usr/local/include/eigen3/Eigen/Dense:1,
+                 from /home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/include/dsr_realtime_control/realtime_api.hpp:17,
+                 from /home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:4:
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:368:25: note: candidate: ‘Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>&) [with _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1]’
+  368 |     EIGEN_STRONG_INLINE Matrix(const Matrix& other) : Base(other)
+      |                         ^~~~~~
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:368:25: note:   candidate expects 1 argument, 6 provided
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:355:25: note: candidate: ‘Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Scalar&, const Scalar&, const Scalar&, const Scalar&) [with _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1; Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Scalar = double]’
+  355 |     EIGEN_STRONG_INLINE Matrix(const Scalar& x, const Scalar& y, const Scalar& z, const Scalar& w)
+      |                         ^~~~~~
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:355:25: note:   candidate expects 4 arguments, 6 provided
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:345:25: note: candidate: ‘Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Scalar&, const Scalar&, const Scalar&) [with _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1; Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Scalar = double]’
+  345 |     EIGEN_STRONG_INLINE Matrix(const Scalar& x, const Scalar& y, const Scalar& z)
+      |                         ^~~~~~
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:345:25: note:   candidate expects 3 arguments, 6 provided
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:273:5: note: candidate: ‘Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>&&) [with _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1]’
+  273 |     Matrix(Matrix&& other) EIGEN_NOEXCEPT_IF(std::is_nothrow_move_constructible<Scalar>::value)
+      |     ^~~~~~
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:273:5: note:   candidate expects 1 argument, 6 provided
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:267:14: note: candidate: ‘Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(Eigen::internal::constructor_without_unaligned_array_assert) [with _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1]’
+  267 |     explicit Matrix(internal::constructor_without_unaligned_array_assert)
+      |              ^~~~~~
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:267:14: note:   candidate expects 1 argument, 6 provided
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:259:25: note: candidate: ‘Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix() [with _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1]’
+  259 |     EIGEN_STRONG_INLINE Matrix() : Base()
+      |                         ^~~~~~
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:259:25: note:   candidate expects 0 arguments, 6 provided
+/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:69:29: error: no matching function for call to ‘Eigen::Matrix<double, 6, 1>::Matrix(<brace-enclosed initializer list>)’
+   69 | Vector6f q_dot_d{0,0,0,0,0,0};
+      |                             ^
+In file included from /usr/local/include/eigen3/Eigen/Core:458,
+                 from /usr/local/include/eigen3/Eigen/Dense:1,
+                 from /home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/include/dsr_realtime_control/realtime_api.hpp:17,
+                 from /home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:4:
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:387:14: note: candidate: ‘template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Eigen::RotationBase<OtherDerived, Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::ColsAtCompileTime>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1]’
+  387 |     explicit Matrix(const RotationBase<OtherDerived,ColsAtCompileTime>& r);
+      |              ^~~~~~
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:387:14: note:   template argument deduction/substitution failed:
+/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:69:29: note:   mismatched types ‘const Eigen::RotationBase<OtherDerived, 1>’ and ‘int’
+   69 | Vector6f q_dot_d{0,0,0,0,0,0};
+      |                             ^
+In file included from /usr/local/include/eigen3/Eigen/Core:458,
+                 from /usr/local/include/eigen3/Eigen/Dense:1,
+                 from /home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/include/dsr_realtime_control/realtime_api.hpp:17,
+                 from /home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:4:
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:376:25: note: candidate: ‘template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Eigen::EigenBase<OtherDerived>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1]’
+  376 |     EIGEN_STRONG_INLINE Matrix(const EigenBase<OtherDerived> &other)
+      |                         ^~~~~~
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:376:25: note:   template argument deduction/substitution failed:
+/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:69:29: note:   mismatched types ‘const Eigen::EigenBase<Derived>’ and ‘int’
+   69 | Vector6f q_dot_d{0,0,0,0,0,0};
+      |                             ^
+In file included from /usr/local/include/eigen3/Eigen/Core:458,
+                 from /usr/local/include/eigen3/Eigen/Dense:1,
+                 from /home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/include/dsr_realtime_control/realtime_api.hpp:17,
+                 from /home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:4:
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:299:25: note: candidate: ‘template<class T0, class T1> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const T0&, const T1&) [with T0 = T0; T1 = T1; _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1]’
+  299 |     EIGEN_STRONG_INLINE Matrix(const T0& x, const T1& y)
+      |                         ^~~~~~
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:299:25: note:   template argument deduction/substitution failed:
+/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:69:29: note:   candidate expects 2 arguments, 6 provided
+   69 | Vector6f q_dot_d{0,0,0,0,0,0};
+      |                             ^
+In file included from /usr/local/include/eigen3/Eigen/Core:458,
+                 from /usr/local/include/eigen3/Eigen/Dense:1,
+                 from /home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/include/dsr_realtime_control/realtime_api.hpp:17,
+                 from /home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:4:
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:291:34: note: candidate: ‘template<class T> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const T&) [with T = T; _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1]’
+  291 |     EIGEN_STRONG_INLINE explicit Matrix(const T& x)
+      |                                  ^~~~~~
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:291:34: note:   template argument deduction/substitution failed:
+/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:69:29: note:   candidate expects 1 argument, 6 provided
+   69 | Vector6f q_dot_d{0,0,0,0,0,0};
+      |                             ^
+In file included from /usr/local/include/eigen3/Eigen/Core:458,
+                 from /usr/local/include/eigen3/Eigen/Dense:1,
+                 from /home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/include/dsr_realtime_control/realtime_api.hpp:17,
+                 from /home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:4:
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:368:25: note: candidate: ‘Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>&) [with _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1]’
+  368 |     EIGEN_STRONG_INLINE Matrix(const Matrix& other) : Base(other)
+      |                         ^~~~~~
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:368:25: note:   candidate expects 1 argument, 6 provided
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:355:25: note: candidate: ‘Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Scalar&, const Scalar&, const Scalar&, const Scalar&) [with _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1; Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Scalar = double]’
+  355 |     EIGEN_STRONG_INLINE Matrix(const Scalar& x, const Scalar& y, const Scalar& z, const Scalar& w)
+      |                         ^~~~~~
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:355:25: note:   candidate expects 4 arguments, 6 provided
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:345:25: note: candidate: ‘Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Scalar&, const Scalar&, const Scalar&) [with _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1; Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Scalar = double]’
+  345 |     EIGEN_STRONG_INLINE Matrix(const Scalar& x, const Scalar& y, const Scalar& z)
+      |                         ^~~~~~
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:345:25: note:   candidate expects 3 arguments, 6 provided
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:273:5: note: candidate: ‘Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>&&) [with _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1]’
+  273 |     Matrix(Matrix&& other) EIGEN_NOEXCEPT_IF(std::is_nothrow_move_constructible<Scalar>::value)
+      |     ^~~~~~
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:273:5: note:   candidate expects 1 argument, 6 provided
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:267:14: note: candidate: ‘Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(Eigen::internal::constructor_without_unaligned_array_assert) [with _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1]’
+  267 |     explicit Matrix(internal::constructor_without_unaligned_array_assert)
+      |              ^~~~~~
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:267:14: note:   candidate expects 1 argument, 6 provided
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:259:25: note: candidate: ‘Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix() [with _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1]’
+  259 |     EIGEN_STRONG_INLINE Matrix() : Base()
+      |                         ^~~~~~
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:259:25: note:   candidate expects 0 arguments, 6 provided
+/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:70:30: error: no matching function for call to ‘Eigen::Matrix<double, 6, 1>::Matrix(<brace-enclosed initializer list>)’
+   70 | Vector6f q_ddot_d{0,0,0,0,0,0};
+      |                              ^
+In file included from /usr/local/include/eigen3/Eigen/Core:458,
+                 from /usr/local/include/eigen3/Eigen/Dense:1,
+                 from /home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/include/dsr_realtime_control/realtime_api.hpp:17,
+                 from /home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:4:
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:387:14: note: candidate: ‘template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Eigen::RotationBase<OtherDerived, Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::ColsAtCompileTime>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1]’
+  387 |     explicit Matrix(const RotationBase<OtherDerived,ColsAtCompileTime>& r);
+      |              ^~~~~~
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:387:14: note:   template argument deduction/substitution failed:
+/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:70:30: note:   mismatched types ‘const Eigen::RotationBase<OtherDerived, 1>’ and ‘int’
+   70 | Vector6f q_ddot_d{0,0,0,0,0,0};
+      |                              ^
+In file included from /usr/local/include/eigen3/Eigen/Core:458,
+                 from /usr/local/include/eigen3/Eigen/Dense:1,
+                 from /home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/include/dsr_realtime_control/realtime_api.hpp:17,
+                 from /home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:4:
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:376:25: note: candidate: ‘template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Eigen::EigenBase<OtherDerived>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1]’
+  376 |     EIGEN_STRONG_INLINE Matrix(const EigenBase<OtherDerived> &other)
+      |                         ^~~~~~
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:376:25: note:   template argument deduction/substitution failed:
+/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:70:30: note:   mismatched types ‘const Eigen::EigenBase<Derived>’ and ‘int’
+   70 | Vector6f q_ddot_d{0,0,0,0,0,0};
+      |                              ^
+In file included from /usr/local/include/eigen3/Eigen/Core:458,
+                 from /usr/local/include/eigen3/Eigen/Dense:1,
+                 from /home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/include/dsr_realtime_control/realtime_api.hpp:17,
+                 from /home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:4:
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:299:25: note: candidate: ‘template<class T0, class T1> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const T0&, const T1&) [with T0 = T0; T1 = T1; _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1]’
+  299 |     EIGEN_STRONG_INLINE Matrix(const T0& x, const T1& y)
+      |                         ^~~~~~
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:299:25: note:   template argument deduction/substitution failed:
+/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:70:30: note:   candidate expects 2 arguments, 6 provided
+   70 | Vector6f q_ddot_d{0,0,0,0,0,0};
+      |                              ^
+In file included from /usr/local/include/eigen3/Eigen/Core:458,
+                 from /usr/local/include/eigen3/Eigen/Dense:1,
+                 from /home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/include/dsr_realtime_control/realtime_api.hpp:17,
+                 from /home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:4:
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:291:34: note: candidate: ‘template<class T> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const T&) [with T = T; _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1]’
+  291 |     EIGEN_STRONG_INLINE explicit Matrix(const T& x)
+      |                                  ^~~~~~
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:291:34: note:   template argument deduction/substitution failed:
+/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:70:30: note:   candidate expects 1 argument, 6 provided
+   70 | Vector6f q_ddot_d{0,0,0,0,0,0};
+      |                              ^
+In file included from /usr/local/include/eigen3/Eigen/Core:458,
+                 from /usr/local/include/eigen3/Eigen/Dense:1,
+                 from /home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/include/dsr_realtime_control/realtime_api.hpp:17,
+                 from /home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:4:
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:368:25: note: candidate: ‘Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>&) [with _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1]’
+  368 |     EIGEN_STRONG_INLINE Matrix(const Matrix& other) : Base(other)
+      |                         ^~~~~~
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:368:25: note:   candidate expects 1 argument, 6 provided
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:355:25: note: candidate: ‘Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Scalar&, const Scalar&, const Scalar&, const Scalar&) [with _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1; Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Scalar = double]’
+  355 |     EIGEN_STRONG_INLINE Matrix(const Scalar& x, const Scalar& y, const Scalar& z, const Scalar& w)
+      |                         ^~~~~~
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:355:25: note:   candidate expects 4 arguments, 6 provided
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:345:25: note: candidate: ‘Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Scalar&, const Scalar&, const Scalar&) [with _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1; Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Scalar = double]’
+  345 |     EIGEN_STRONG_INLINE Matrix(const Scalar& x, const Scalar& y, const Scalar& z)
+      |                         ^~~~~~
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:345:25: note:   candidate expects 3 arguments, 6 provided
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:273:5: note: candidate: ‘Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>&&) [with _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1]’
+  273 |     Matrix(Matrix&& other) EIGEN_NOEXCEPT_IF(std::is_nothrow_move_constructible<Scalar>::value)
+      |     ^~~~~~
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:273:5: note:   candidate expects 1 argument, 6 provided
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:267:14: note: candidate: ‘Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(Eigen::internal::constructor_without_unaligned_array_assert) [with _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1]’
+  267 |     explicit Matrix(internal::constructor_without_unaligned_array_assert)
+      |              ^~~~~~
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:267:14: note:   candidate expects 1 argument, 6 provided
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:259:25: note: candidate: ‘Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix() [with _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1]’
+  259 |     EIGEN_STRONG_INLINE Matrix() : Base()
+      |                         ^~~~~~
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:259:25: note:   candidate expects 0 arguments, 6 provided
+/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:83:31: error: no matching function for call to ‘Eigen::Matrix<double, 6, 1>::Matrix(<brace-enclosed initializer list>)’
+   83 | Vector6f trq_f_hat{0,0,0,0,0,0};
+      |                               ^
+In file included from /usr/local/include/eigen3/Eigen/Core:458,
+                 from /usr/local/include/eigen3/Eigen/Dense:1,
+                 from /home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/include/dsr_realtime_control/realtime_api.hpp:17,
+                 from /home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:4:
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:387:14: note: candidate: ‘template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Eigen::RotationBase<OtherDerived, Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::ColsAtCompileTime>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1]’
+  387 |     explicit Matrix(const RotationBase<OtherDerived,ColsAtCompileTime>& r);
+      |              ^~~~~~
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:387:14: note:   template argument deduction/substitution failed:
+/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:83:31: note:   mismatched types ‘const Eigen::RotationBase<OtherDerived, 1>’ and ‘int’
+   83 | Vector6f trq_f_hat{0,0,0,0,0,0};
+      |                               ^
+In file included from /usr/local/include/eigen3/Eigen/Core:458,
+                 from /usr/local/include/eigen3/Eigen/Dense:1,
+                 from /home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/include/dsr_realtime_control/realtime_api.hpp:17,
+                 from /home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:4:
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:376:25: note: candidate: ‘template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Eigen::EigenBase<OtherDerived>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1]’
+  376 |     EIGEN_STRONG_INLINE Matrix(const EigenBase<OtherDerived> &other)
+      |                         ^~~~~~
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:376:25: note:   template argument deduction/substitution failed:
+/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:83:31: note:   mismatched types ‘const Eigen::EigenBase<Derived>’ and ‘int’
+   83 | Vector6f trq_f_hat{0,0,0,0,0,0};
+      |                               ^
+In file included from /usr/local/include/eigen3/Eigen/Core:458,
+                 from /usr/local/include/eigen3/Eigen/Dense:1,
+                 from /home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/include/dsr_realtime_control/realtime_api.hpp:17,
+                 from /home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:4:
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:299:25: note: candidate: ‘template<class T0, class T1> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const T0&, const T1&) [with T0 = T0; T1 = T1; _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1]’
+  299 |     EIGEN_STRONG_INLINE Matrix(const T0& x, const T1& y)
+      |                         ^~~~~~
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:299:25: note:   template argument deduction/substitution failed:
+/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:83:31: note:   candidate expects 2 arguments, 6 provided
+   83 | Vector6f trq_f_hat{0,0,0,0,0,0};
+      |                               ^
+In file included from /usr/local/include/eigen3/Eigen/Core:458,
+                 from /usr/local/include/eigen3/Eigen/Dense:1,
+                 from /home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/include/dsr_realtime_control/realtime_api.hpp:17,
+                 from /home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:4:
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:291:34: note: candidate: ‘template<class T> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const T&) [with T = T; _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1]’
+  291 |     EIGEN_STRONG_INLINE explicit Matrix(const T& x)
+      |                                  ^~~~~~
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:291:34: note:   template argument deduction/substitution failed:
+/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:83:31: note:   candidate expects 1 argument, 6 provided
+   83 | Vector6f trq_f_hat{0,0,0,0,0,0};
+      |                               ^
+In file included from /usr/local/include/eigen3/Eigen/Core:458,
+                 from /usr/local/include/eigen3/Eigen/Dense:1,
+                 from /home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/include/dsr_realtime_control/realtime_api.hpp:17,
+                 from /home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:4:
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:368:25: note: candidate: ‘Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>&) [with _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1]’
+  368 |     EIGEN_STRONG_INLINE Matrix(const Matrix& other) : Base(other)
+      |                         ^~~~~~
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:368:25: note:   candidate expects 1 argument, 6 provided
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:355:25: note: candidate: ‘Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Scalar&, const Scalar&, const Scalar&, const Scalar&) [with _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1; Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Scalar = double]’
+  355 |     EIGEN_STRONG_INLINE Matrix(const Scalar& x, const Scalar& y, const Scalar& z, const Scalar& w)
+      |                         ^~~~~~
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:355:25: note:   candidate expects 4 arguments, 6 provided
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:345:25: note: candidate: ‘Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Scalar&, const Scalar&, const Scalar&) [with _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1; Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Scalar = double]’
+  345 |     EIGEN_STRONG_INLINE Matrix(const Scalar& x, const Scalar& y, const Scalar& z)
+      |                         ^~~~~~
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:345:25: note:   candidate expects 3 arguments, 6 provided
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:273:5: note: candidate: ‘Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>&&) [with _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1]’
+  273 |     Matrix(Matrix&& other) EIGEN_NOEXCEPT_IF(std::is_nothrow_move_constructible<Scalar>::value)
+      |     ^~~~~~
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:273:5: note:   candidate expects 1 argument, 6 provided
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:267:14: note: candidate: ‘Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(Eigen::internal::constructor_without_unaligned_array_assert) [with _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1]’
+  267 |     explicit Matrix(internal::constructor_without_unaligned_array_assert)
+      |              ^~~~~~
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:267:14: note:   candidate expects 1 argument, 6 provided
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:259:25: note: candidate: ‘Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix() [with _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1]’
+  259 |     EIGEN_STRONG_INLINE Matrix() : Base()
+      |                         ^~~~~~
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:259:25: note:   candidate expects 0 arguments, 6 provided
+/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:92:32: error: no matching function for call to ‘Eigen::Matrix<double, 6, 1>::Matrix(<brace-enclosed initializer list>)’
+   92 | Vector6f q_dot_prev{0,0,0,0,0,0};
+      |                                ^
+In file included from /usr/local/include/eigen3/Eigen/Core:458,
+                 from /usr/local/include/eigen3/Eigen/Dense:1,
+                 from /home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/include/dsr_realtime_control/realtime_api.hpp:17,
+                 from /home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:4:
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:387:14: note: candidate: ‘template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Eigen::RotationBase<OtherDerived, Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::ColsAtCompileTime>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1]’
+  387 |     explicit Matrix(const RotationBase<OtherDerived,ColsAtCompileTime>& r);
+      |              ^~~~~~
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:387:14: note:   template argument deduction/substitution failed:
+/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:92:32: note:   mismatched types ‘const Eigen::RotationBase<OtherDerived, 1>’ and ‘int’
+   92 | Vector6f q_dot_prev{0,0,0,0,0,0};
+      |                                ^
+In file included from /usr/local/include/eigen3/Eigen/Core:458,
+                 from /usr/local/include/eigen3/Eigen/Dense:1,
+                 from /home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/include/dsr_realtime_control/realtime_api.hpp:17,
+                 from /home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:4:
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:376:25: note: candidate: ‘template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Eigen::EigenBase<OtherDerived>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1]’
+  376 |     EIGEN_STRONG_INLINE Matrix(const EigenBase<OtherDerived> &other)
+      |                         ^~~~~~
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:376:25: note:   template argument deduction/substitution failed:
+/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:92:32: note:   mismatched types ‘const Eigen::EigenBase<Derived>’ and ‘int’
+   92 | Vector6f q_dot_prev{0,0,0,0,0,0};
+      |                                ^
+In file included from /usr/local/include/eigen3/Eigen/Core:458,
+                 from /usr/local/include/eigen3/Eigen/Dense:1,
+                 from /home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/include/dsr_realtime_control/realtime_api.hpp:17,
+                 from /home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:4:
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:299:25: note: candidate: ‘template<class T0, class T1> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const T0&, const T1&) [with T0 = T0; T1 = T1; _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1]’
+  299 |     EIGEN_STRONG_INLINE Matrix(const T0& x, const T1& y)
+      |                         ^~~~~~
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:299:25: note:   template argument deduction/substitution failed:
+/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:92:32: note:   candidate expects 2 arguments, 6 provided
+   92 | Vector6f q_dot_prev{0,0,0,0,0,0};
+      |                                ^
+In file included from /usr/local/include/eigen3/Eigen/Core:458,
+                 from /usr/local/include/eigen3/Eigen/Dense:1,
+                 from /home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/include/dsr_realtime_control/realtime_api.hpp:17,
+                 from /home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:4:
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:291:34: note: candidate: ‘template<class T> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const T&) [with T = T; _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1]’
+  291 |     EIGEN_STRONG_INLINE explicit Matrix(const T& x)
+      |                                  ^~~~~~
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:291:34: note:   template argument deduction/substitution failed:
+/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:92:32: note:   candidate expects 1 argument, 6 provided
+   92 | Vector6f q_dot_prev{0,0,0,0,0,0};
+      |                                ^
+In file included from /usr/local/include/eigen3/Eigen/Core:458,
+                 from /usr/local/include/eigen3/Eigen/Dense:1,
+                 from /home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/include/dsr_realtime_control/realtime_api.hpp:17,
+                 from /home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control/src/realtime_api.cpp:4:
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:368:25: note: candidate: ‘Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>&) [with _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1]’
+  368 |     EIGEN_STRONG_INLINE Matrix(const Matrix& other) : Base(other)
+      |                         ^~~~~~
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:368:25: note:   candidate expects 1 argument, 6 provided
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:355:25: note: candidate: ‘Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Scalar&, const Scalar&, const Scalar&, const Scalar&) [with _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1; Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Scalar = double]’
+  355 |     EIGEN_STRONG_INLINE Matrix(const Scalar& x, const Scalar& y, const Scalar& z, const Scalar& w)
+      |                         ^~~~~~
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:355:25: note:   candidate expects 4 arguments, 6 provided
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:345:25: note: candidate: ‘Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Scalar&, const Scalar&, const Scalar&) [with _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1; Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Scalar = double]’
+  345 |     EIGEN_STRONG_INLINE Matrix(const Scalar& x, const Scalar& y, const Scalar& z)
+      |                         ^~~~~~
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:345:25: note:   candidate expects 3 arguments, 6 provided
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:273:5: note: candidate: ‘Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>&&) [with _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1]’
+  273 |     Matrix(Matrix&& other) EIGEN_NOEXCEPT_IF(std::is_nothrow_move_constructible<Scalar>::value)
+      |     ^~~~~~
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:273:5: note:   candidate expects 1 argument, 6 provided
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:267:14: note: candidate: ‘Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(Eigen::internal::constructor_without_unaligned_array_assert) [with _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1]’
+  267 |     explicit Matrix(internal::constructor_without_unaligned_array_assert)
+      |              ^~~~~~
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:267:14: note:   candidate expects 1 argument, 6 provided
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:259:25: note: candidate: ‘Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix() [with _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1]’
+  259 |     EIGEN_STRONG_INLINE Matrix() : Base()
+      |                         ^~~~~~
+/usr/local/include/eigen3/Eigen/src/Core/Matrix.h:259:25: note:   candidate expects 0 arguments, 6 provided
+gmake[2]: *** [CMakeFiles/dsr_realtime_api.dir/build.make:76: CMakeFiles/dsr_realtime_api.dir/src/realtime_api.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/dsr_realtime_api.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

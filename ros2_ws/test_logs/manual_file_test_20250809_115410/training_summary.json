@@ -1,0 +1,28 @@
+{
+  "experiment_info": {
+    "name": "manual_file_test_20250809_115410",
+    "total_episodes": 5,
+    "successful_episodes": 3,
+    "success_rate": 0.6,
+    "total_training_time_seconds": 0.0008716583251953125,
+    "total_training_time_hours": 2.4212731255425347e-07
+  },
+  "performance_metrics": {
+    "average_reward": 16.0,
+    "std_reward": 11.313708498984761,
+    "min_reward": 0.0,
+    "max_reward": 32.0,
+    "average_steps": 19.0,
+    "std_steps": 2.8284271247461903,
+    "average_completion_rate": 0.5714285714285714
+  },
+  "recent_performance": {
+    "recent_success_rate": 0.6,
+    "recent_average_reward": 16.0,
+    "recent_average_steps": 19.0
+  },
+  "training_efficiency": {
+    "episodes_per_hour": 20650293.216630198,
+    "successful_episodes_per_hour": 12390175.92997812
+  }
+}

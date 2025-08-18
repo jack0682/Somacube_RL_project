@@ -1,0 +1,4 @@
+[console_scripts]
+m0609_evaluate_rl = dsr_tests.m0609_block_assembly_rl.evaluate:main
+m0609_train_rl = dsr_tests.m0609_block_assembly_rl.train:main
+

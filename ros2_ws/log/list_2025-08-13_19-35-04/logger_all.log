@@ -1,0 +1,1219 @@
+[0.244s] colcon DEBUG Command line arguments: ['/home/jack/.local/bin/colcon', 'list', '-p', '--base-paths', '/home/jack/ros2_ws']
+[0.245s] colcon DEBUG Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/jack/ros2_ws'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7833de7d77f0>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x7833de7d6a10>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x7833de7d6a10>>)
+[0.596s] colcon.colcon_core.package_discovery Level 1 discover_packages(colcon_meta) check parameters
+[0.597s] colcon.colcon_core.package_discovery Level 1 discover_packages(recursive) check parameters
+[0.597s] colcon.colcon_core.package_discovery Level 1 discover_packages(ignore) check parameters
+[0.597s] colcon.colcon_core.package_discovery Level 1 discover_packages(path) check parameters
+[0.597s] colcon.colcon_core.package_discovery Level 1 discover_packages(recursive) discover
+[0.597s] colcon.colcon_core.package_discovery INFO Crawling recursively for packages in '/home/jack/ros2_ws'
+[0.597s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws) by extensions ['ignore', 'ignore_ament_install']
+[0.597s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws) by extension 'ignore'
+[0.597s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws) by extension 'ignore_ament_install'
+[0.597s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws) by extensions ['colcon_pkg']
+[0.597s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws) by extension 'colcon_pkg'
+[0.597s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws) by extensions ['colcon_meta']
+[0.597s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws) by extension 'colcon_meta'
+[0.598s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws) by extensions ['ros']
+[0.598s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws) by extension 'ros'
+[0.616s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws) by extensions ['cmake', 'python']
+[0.617s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws) by extension 'cmake'
+[0.617s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws) by extension 'python'
+[0.617s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws) by extensions ['python_setup_py']
+[0.617s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws) by extension 'python_setup_py'
+[0.617s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.618s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/__pycache__) by extension 'ignore'
+[0.618s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/__pycache__) by extension 'ignore_ament_install'
+[0.618s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/__pycache__) by extensions ['colcon_pkg']
+[0.618s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/__pycache__) by extension 'colcon_pkg'
+[0.618s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/__pycache__) by extensions ['colcon_meta']
+[0.618s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/__pycache__) by extension 'colcon_meta'
+[0.618s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/__pycache__) by extensions ['ros']
+[0.618s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/__pycache__) by extension 'ros'
+[0.618s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/__pycache__) by extensions ['cmake', 'python']
+[0.618s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/__pycache__) by extension 'cmake'
+[0.618s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/__pycache__) by extension 'python'
+[0.618s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/__pycache__) by extensions ['python_setup_py']
+[0.618s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/__pycache__) by extension 'python_setup_py'
+[0.618s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/build) by extensions ['ignore', 'ignore_ament_install']
+[0.619s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/build) by extension 'ignore'
+[0.619s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/build) ignored
+[0.619s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/install) by extensions ['ignore', 'ignore_ament_install']
+[0.619s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/install) by extension 'ignore'
+[0.619s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/install) ignored
+[0.620s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/integration_test_20250811_155133) by extensions ['ignore', 'ignore_ament_install']
+[0.620s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/integration_test_20250811_155133) by extension 'ignore'
+[0.620s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/integration_test_20250811_155133) by extension 'ignore_ament_install'
+[0.620s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/integration_test_20250811_155133) by extensions ['colcon_pkg']
+[0.620s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/integration_test_20250811_155133) by extension 'colcon_pkg'
+[0.620s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/integration_test_20250811_155133) by extensions ['colcon_meta']
+[0.620s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/integration_test_20250811_155133) by extension 'colcon_meta'
+[0.620s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/integration_test_20250811_155133) by extensions ['ros']
+[0.620s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/integration_test_20250811_155133) by extension 'ros'
+[0.620s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/integration_test_20250811_155133) by extensions ['cmake', 'python']
+[0.621s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/integration_test_20250811_155133) by extension 'cmake'
+[0.621s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/integration_test_20250811_155133) by extension 'python'
+[0.621s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/integration_test_20250811_155133) by extensions ['python_setup_py']
+[0.621s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/integration_test_20250811_155133) by extension 'python_setup_py'
+[0.621s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/log) by extensions ['ignore', 'ignore_ament_install']
+[0.621s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/log) by extension 'ignore'
+[0.621s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/log) ignored
+[0.622s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs) by extensions ['ignore', 'ignore_ament_install']
+[0.622s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs) by extension 'ignore'
+[0.622s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs) by extension 'ignore_ament_install'
+[0.622s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs) by extensions ['colcon_pkg']
+[0.622s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs) by extension 'colcon_pkg'
+[0.622s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs) by extensions ['colcon_meta']
+[0.622s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs) by extension 'colcon_meta'
+[0.622s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs) by extensions ['ros']
+[0.622s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs) by extension 'ros'
+[0.622s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs) by extensions ['cmake', 'python']
+[0.622s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs) by extension 'cmake'
+[0.622s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs) by extension 'python'
+[0.622s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs) by extensions ['python_setup_py']
+[0.622s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs) by extension 'python_setup_py'
+[0.623s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/full_training_1754642916) by extensions ['ignore', 'ignore_ament_install']
+[0.623s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/full_training_1754642916) by extension 'ignore'
+[0.623s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/full_training_1754642916) by extension 'ignore_ament_install'
+[0.623s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/full_training_1754642916) by extensions ['colcon_pkg']
+[0.623s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/full_training_1754642916) by extension 'colcon_pkg'
+[0.623s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/full_training_1754642916) by extensions ['colcon_meta']
+[0.623s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/full_training_1754642916) by extension 'colcon_meta'
+[0.623s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/full_training_1754642916) by extensions ['ros']
+[0.623s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/full_training_1754642916) by extension 'ros'
+[0.623s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/full_training_1754642916) by extensions ['cmake', 'python']
+[0.623s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/full_training_1754642916) by extension 'cmake'
+[0.623s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/full_training_1754642916) by extension 'python'
+[0.623s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/full_training_1754642916) by extensions ['python_setup_py']
+[0.623s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/full_training_1754642916) by extension 'python_setup_py'
+[0.624s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/full_training_1754642916/eval_logs) by extensions ['ignore', 'ignore_ament_install']
+[0.624s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/full_training_1754642916/eval_logs) by extension 'ignore'
+[0.624s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/full_training_1754642916/eval_logs) by extension 'ignore_ament_install'
+[0.624s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/full_training_1754642916/eval_logs) by extensions ['colcon_pkg']
+[0.624s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/full_training_1754642916/eval_logs) by extension 'colcon_pkg'
+[0.624s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/full_training_1754642916/eval_logs) by extensions ['colcon_meta']
+[0.624s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/full_training_1754642916/eval_logs) by extension 'colcon_meta'
+[0.624s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/full_training_1754642916/eval_logs) by extensions ['ros']
+[0.624s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/full_training_1754642916/eval_logs) by extension 'ros'
+[0.624s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/full_training_1754642916/eval_logs) by extensions ['cmake', 'python']
+[0.625s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/full_training_1754642916/eval_logs) by extension 'cmake'
+[0.625s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/full_training_1754642916/eval_logs) by extension 'python'
+[0.625s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/full_training_1754642916/eval_logs) by extensions ['python_setup_py']
+[0.625s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/full_training_1754642916/eval_logs) by extension 'python_setup_py'
+[0.625s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/m0609_training_20250809_152628) by extensions ['ignore', 'ignore_ament_install']
+[0.626s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/m0609_training_20250809_152628) by extension 'ignore'
+[0.626s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/m0609_training_20250809_152628) by extension 'ignore_ament_install'
+[0.626s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/m0609_training_20250809_152628) by extensions ['colcon_pkg']
+[0.626s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/m0609_training_20250809_152628) by extension 'colcon_pkg'
+[0.626s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/m0609_training_20250809_152628) by extensions ['colcon_meta']
+[0.626s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/m0609_training_20250809_152628) by extension 'colcon_meta'
+[0.626s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/m0609_training_20250809_152628) by extensions ['ros']
+[0.626s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/m0609_training_20250809_152628) by extension 'ros'
+[0.626s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/m0609_training_20250809_152628) by extensions ['cmake', 'python']
+[0.626s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/m0609_training_20250809_152628) by extension 'cmake'
+[0.626s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/m0609_training_20250809_152628) by extension 'python'
+[0.626s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/m0609_training_20250809_152628) by extensions ['python_setup_py']
+[0.626s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/m0609_training_20250809_152628) by extension 'python_setup_py'
+[0.627s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/production_1754644720) by extensions ['ignore', 'ignore_ament_install']
+[0.627s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/production_1754644720) by extension 'ignore'
+[0.627s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/production_1754644720) by extension 'ignore_ament_install'
+[0.627s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/production_1754644720) by extensions ['colcon_pkg']
+[0.627s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/production_1754644720) by extension 'colcon_pkg'
+[0.627s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/production_1754644720) by extensions ['colcon_meta']
+[0.627s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/production_1754644720) by extension 'colcon_meta'
+[0.627s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/production_1754644720) by extensions ['ros']
+[0.627s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/production_1754644720) by extension 'ros'
+[0.628s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/production_1754644720) by extensions ['cmake', 'python']
+[0.628s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/production_1754644720) by extension 'cmake'
+[0.628s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/production_1754644720) by extension 'python'
+[0.628s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/production_1754644720) by extensions ['python_setup_py']
+[0.628s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/production_1754644720) by extension 'python_setup_py'
+[0.628s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/production_simple_1754644791) by extensions ['ignore', 'ignore_ament_install']
+[0.628s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/production_simple_1754644791) by extension 'ignore'
+[0.628s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/production_simple_1754644791) by extension 'ignore_ament_install'
+[0.628s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/production_simple_1754644791) by extensions ['colcon_pkg']
+[0.628s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/production_simple_1754644791) by extension 'colcon_pkg'
+[0.628s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/production_simple_1754644791) by extensions ['colcon_meta']
+[0.629s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/production_simple_1754644791) by extension 'colcon_meta'
+[0.629s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/production_simple_1754644791) by extensions ['ros']
+[0.629s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/production_simple_1754644791) by extension 'ros'
+[0.629s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/production_simple_1754644791) by extensions ['cmake', 'python']
+[0.629s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/production_simple_1754644791) by extension 'cmake'
+[0.629s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/production_simple_1754644791) by extension 'python'
+[0.629s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/production_simple_1754644791) by extensions ['python_setup_py']
+[0.629s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/production_simple_1754644791) by extension 'python_setup_py'
+[0.629s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/production_simple_1754644791/eval_logs) by extensions ['ignore', 'ignore_ament_install']
+[0.630s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/production_simple_1754644791/eval_logs) by extension 'ignore'
+[0.630s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/production_simple_1754644791/eval_logs) by extension 'ignore_ament_install'
+[0.630s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/production_simple_1754644791/eval_logs) by extensions ['colcon_pkg']
+[0.630s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/production_simple_1754644791/eval_logs) by extension 'colcon_pkg'
+[0.630s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/production_simple_1754644791/eval_logs) by extensions ['colcon_meta']
+[0.630s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/production_simple_1754644791/eval_logs) by extension 'colcon_meta'
+[0.630s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/production_simple_1754644791/eval_logs) by extensions ['ros']
+[0.630s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/production_simple_1754644791/eval_logs) by extension 'ros'
+[0.630s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/production_simple_1754644791/eval_logs) by extensions ['cmake', 'python']
+[0.630s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/production_simple_1754644791/eval_logs) by extension 'cmake'
+[0.630s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/production_simple_1754644791/eval_logs) by extension 'python'
+[0.630s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/production_simple_1754644791/eval_logs) by extensions ['python_setup_py']
+[0.630s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/production_simple_1754644791/eval_logs) by extension 'python_setup_py'
+[0.631s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/production_test_1754644781) by extensions ['ignore', 'ignore_ament_install']
+[0.631s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/production_test_1754644781) by extension 'ignore'
+[0.631s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/production_test_1754644781) by extension 'ignore_ament_install'
+[0.631s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/production_test_1754644781) by extensions ['colcon_pkg']
+[0.631s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/production_test_1754644781) by extension 'colcon_pkg'
+[0.631s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/production_test_1754644781) by extensions ['colcon_meta']
+[0.631s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/production_test_1754644781) by extension 'colcon_meta'
+[0.631s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/production_test_1754644781) by extensions ['ros']
+[0.631s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/production_test_1754644781) by extension 'ros'
+[0.631s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/production_test_1754644781) by extensions ['cmake', 'python']
+[0.631s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/production_test_1754644781) by extension 'cmake'
+[0.632s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/production_test_1754644781) by extension 'python'
+[0.632s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/production_test_1754644781) by extensions ['python_setup_py']
+[0.632s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/production_test_1754644781) by extension 'python_setup_py'
+[0.632s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/production_test_1754644781/eval_logs) by extensions ['ignore', 'ignore_ament_install']
+[0.632s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/production_test_1754644781/eval_logs) by extension 'ignore'
+[0.632s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/production_test_1754644781/eval_logs) by extension 'ignore_ament_install'
+[0.632s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/production_test_1754644781/eval_logs) by extensions ['colcon_pkg']
+[0.632s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/production_test_1754644781/eval_logs) by extension 'colcon_pkg'
+[0.632s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/production_test_1754644781/eval_logs) by extensions ['colcon_meta']
+[0.632s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/production_test_1754644781/eval_logs) by extension 'colcon_meta'
+[0.632s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/production_test_1754644781/eval_logs) by extensions ['ros']
+[0.632s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/production_test_1754644781/eval_logs) by extension 'ros'
+[0.633s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/production_test_1754644781/eval_logs) by extensions ['cmake', 'python']
+[0.633s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/production_test_1754644781/eval_logs) by extension 'cmake'
+[0.633s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/production_test_1754644781/eval_logs) by extension 'python'
+[0.633s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/production_test_1754644781/eval_logs) by extensions ['python_setup_py']
+[0.633s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/production_test_1754644781/eval_logs) by extension 'python_setup_py'
+[0.633s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_233651) by extensions ['ignore', 'ignore_ament_install']
+[0.633s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_233651) by extension 'ignore'
+[0.634s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_233651) by extension 'ignore_ament_install'
+[0.634s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_233651) by extensions ['colcon_pkg']
+[0.634s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_233651) by extension 'colcon_pkg'
+[0.634s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_233651) by extensions ['colcon_meta']
+[0.634s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_233651) by extension 'colcon_meta'
+[0.634s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_233651) by extensions ['ros']
+[0.634s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_233651) by extension 'ros'
+[0.634s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_233651) by extensions ['cmake', 'python']
+[0.634s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_233651) by extension 'cmake'
+[0.634s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_233651) by extension 'python'
+[0.634s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_233651) by extensions ['python_setup_py']
+[0.634s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_233651) by extension 'python_setup_py'
+[0.636s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_233651/tensorboard) by extensions ['ignore', 'ignore_ament_install']
+[0.636s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_233651/tensorboard) by extension 'ignore'
+[0.636s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_233651/tensorboard) by extension 'ignore_ament_install'
+[0.637s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_233651/tensorboard) by extensions ['colcon_pkg']
+[0.637s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_233651/tensorboard) by extension 'colcon_pkg'
+[0.637s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_233651/tensorboard) by extensions ['colcon_meta']
+[0.637s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_233651/tensorboard) by extension 'colcon_meta'
+[0.637s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_233651/tensorboard) by extensions ['ros']
+[0.637s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_233651/tensorboard) by extension 'ros'
+[0.637s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_233651/tensorboard) by extensions ['cmake', 'python']
+[0.637s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_233651/tensorboard) by extension 'cmake'
+[0.637s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_233651/tensorboard) by extension 'python'
+[0.637s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_233651/tensorboard) by extensions ['python_setup_py']
+[0.637s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_233651/tensorboard) by extension 'python_setup_py'
+[0.639s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_233744) by extensions ['ignore', 'ignore_ament_install']
+[0.639s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_233744) by extension 'ignore'
+[0.639s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_233744) by extension 'ignore_ament_install'
+[0.639s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_233744) by extensions ['colcon_pkg']
+[0.639s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_233744) by extension 'colcon_pkg'
+[0.639s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_233744) by extensions ['colcon_meta']
+[0.639s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_233744) by extension 'colcon_meta'
+[0.639s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_233744) by extensions ['ros']
+[0.639s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_233744) by extension 'ros'
+[0.639s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_233744) by extensions ['cmake', 'python']
+[0.640s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_233744) by extension 'cmake'
+[0.640s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_233744) by extension 'python'
+[0.640s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_233744) by extensions ['python_setup_py']
+[0.640s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_233744) by extension 'python_setup_py'
+[0.641s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_233744/tensorboard) by extensions ['ignore', 'ignore_ament_install']
+[0.641s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_233744/tensorboard) by extension 'ignore'
+[0.641s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_233744/tensorboard) by extension 'ignore_ament_install'
+[0.641s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_233744/tensorboard) by extensions ['colcon_pkg']
+[0.641s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_233744/tensorboard) by extension 'colcon_pkg'
+[0.641s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_233744/tensorboard) by extensions ['colcon_meta']
+[0.641s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_233744/tensorboard) by extension 'colcon_meta'
+[0.641s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_233744/tensorboard) by extensions ['ros']
+[0.641s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_233744/tensorboard) by extension 'ros'
+[0.641s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_233744/tensorboard) by extensions ['cmake', 'python']
+[0.642s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_233744/tensorboard) by extension 'cmake'
+[0.642s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_233744/tensorboard) by extension 'python'
+[0.642s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_233744/tensorboard) by extensions ['python_setup_py']
+[0.642s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_233744/tensorboard) by extension 'python_setup_py'
+[0.642s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_233807) by extensions ['ignore', 'ignore_ament_install']
+[0.642s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_233807) by extension 'ignore'
+[0.642s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_233807) by extension 'ignore_ament_install'
+[0.643s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_233807) by extensions ['colcon_pkg']
+[0.643s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_233807) by extension 'colcon_pkg'
+[0.643s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_233807) by extensions ['colcon_meta']
+[0.643s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_233807) by extension 'colcon_meta'
+[0.643s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_233807) by extensions ['ros']
+[0.643s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_233807) by extension 'ros'
+[0.643s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_233807) by extensions ['cmake', 'python']
+[0.643s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_233807) by extension 'cmake'
+[0.643s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_233807) by extension 'python'
+[0.643s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_233807) by extensions ['python_setup_py']
+[0.643s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_233807) by extension 'python_setup_py'
+[0.644s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_233807/tensorboard) by extensions ['ignore', 'ignore_ament_install']
+[0.644s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_233807/tensorboard) by extension 'ignore'
+[0.644s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_233807/tensorboard) by extension 'ignore_ament_install'
+[0.645s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_233807/tensorboard) by extensions ['colcon_pkg']
+[0.645s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_233807/tensorboard) by extension 'colcon_pkg'
+[0.645s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_233807/tensorboard) by extensions ['colcon_meta']
+[0.645s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_233807/tensorboard) by extension 'colcon_meta'
+[0.645s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_233807/tensorboard) by extensions ['ros']
+[0.645s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_233807/tensorboard) by extension 'ros'
+[0.645s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_233807/tensorboard) by extensions ['cmake', 'python']
+[0.645s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_233807/tensorboard) by extension 'cmake'
+[0.645s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_233807/tensorboard) by extension 'python'
+[0.645s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_233807/tensorboard) by extensions ['python_setup_py']
+[0.645s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_233807/tensorboard) by extension 'python_setup_py'
+[0.646s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_233828) by extensions ['ignore', 'ignore_ament_install']
+[0.646s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_233828) by extension 'ignore'
+[0.646s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_233828) by extension 'ignore_ament_install'
+[0.646s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_233828) by extensions ['colcon_pkg']
+[0.646s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_233828) by extension 'colcon_pkg'
+[0.646s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_233828) by extensions ['colcon_meta']
+[0.646s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_233828) by extension 'colcon_meta'
+[0.646s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_233828) by extensions ['ros']
+[0.646s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_233828) by extension 'ros'
+[0.647s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_233828) by extensions ['cmake', 'python']
+[0.647s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_233828) by extension 'cmake'
+[0.647s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_233828) by extension 'python'
+[0.647s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_233828) by extensions ['python_setup_py']
+[0.647s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_233828) by extension 'python_setup_py'
+[0.648s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_233828/tensorboard) by extensions ['ignore', 'ignore_ament_install']
+[0.648s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_233828/tensorboard) by extension 'ignore'
+[0.648s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_233828/tensorboard) by extension 'ignore_ament_install'
+[0.648s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_233828/tensorboard) by extensions ['colcon_pkg']
+[0.648s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_233828/tensorboard) by extension 'colcon_pkg'
+[0.648s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_233828/tensorboard) by extensions ['colcon_meta']
+[0.648s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_233828/tensorboard) by extension 'colcon_meta'
+[0.648s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_233828/tensorboard) by extensions ['ros']
+[0.648s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_233828/tensorboard) by extension 'ros'
+[0.648s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_233828/tensorboard) by extensions ['cmake', 'python']
+[0.648s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_233828/tensorboard) by extension 'cmake'
+[0.648s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_233828/tensorboard) by extension 'python'
+[0.649s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_233828/tensorboard) by extensions ['python_setup_py']
+[0.649s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_233828/tensorboard) by extension 'python_setup_py'
+[0.649s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_233843) by extensions ['ignore', 'ignore_ament_install']
+[0.649s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_233843) by extension 'ignore'
+[0.649s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_233843) by extension 'ignore_ament_install'
+[0.649s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_233843) by extensions ['colcon_pkg']
+[0.649s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_233843) by extension 'colcon_pkg'
+[0.649s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_233843) by extensions ['colcon_meta']
+[0.650s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_233843) by extension 'colcon_meta'
+[0.650s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_233843) by extensions ['ros']
+[0.650s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_233843) by extension 'ros'
+[0.650s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_233843) by extensions ['cmake', 'python']
+[0.650s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_233843) by extension 'cmake'
+[0.650s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_233843) by extension 'python'
+[0.650s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_233843) by extensions ['python_setup_py']
+[0.650s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_233843) by extension 'python_setup_py'
+[0.651s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_233843/tensorboard) by extensions ['ignore', 'ignore_ament_install']
+[0.651s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_233843/tensorboard) by extension 'ignore'
+[0.651s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_233843/tensorboard) by extension 'ignore_ament_install'
+[0.651s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_233843/tensorboard) by extensions ['colcon_pkg']
+[0.651s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_233843/tensorboard) by extension 'colcon_pkg'
+[0.651s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_233843/tensorboard) by extensions ['colcon_meta']
+[0.651s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_233843/tensorboard) by extension 'colcon_meta'
+[0.651s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_233843/tensorboard) by extensions ['ros']
+[0.651s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_233843/tensorboard) by extension 'ros'
+[0.651s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_233843/tensorboard) by extensions ['cmake', 'python']
+[0.651s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_233843/tensorboard) by extension 'cmake'
+[0.651s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_233843/tensorboard) by extension 'python'
+[0.651s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_233843/tensorboard) by extensions ['python_setup_py']
+[0.651s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_233843/tensorboard) by extension 'python_setup_py'
+[0.653s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_234153) by extensions ['ignore', 'ignore_ament_install']
+[0.653s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_234153) by extension 'ignore'
+[0.653s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_234153) by extension 'ignore_ament_install'
+[0.653s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_234153) by extensions ['colcon_pkg']
+[0.653s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_234153) by extension 'colcon_pkg'
+[0.653s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_234153) by extensions ['colcon_meta']
+[0.653s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_234153) by extension 'colcon_meta'
+[0.653s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_234153) by extensions ['ros']
+[0.653s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_234153) by extension 'ros'
+[0.653s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_234153) by extensions ['cmake', 'python']
+[0.653s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_234153) by extension 'cmake'
+[0.654s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_234153) by extension 'python'
+[0.654s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_234153) by extensions ['python_setup_py']
+[0.654s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_234153) by extension 'python_setup_py'
+[0.656s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_234153/tensorboard) by extensions ['ignore', 'ignore_ament_install']
+[0.656s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_234153/tensorboard) by extension 'ignore'
+[0.656s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_234153/tensorboard) by extension 'ignore_ament_install'
+[0.656s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_234153/tensorboard) by extensions ['colcon_pkg']
+[0.656s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_234153/tensorboard) by extension 'colcon_pkg'
+[0.656s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_234153/tensorboard) by extensions ['colcon_meta']
+[0.656s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_234153/tensorboard) by extension 'colcon_meta'
+[0.656s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_234153/tensorboard) by extensions ['ros']
+[0.656s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_234153/tensorboard) by extension 'ros'
+[0.657s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_234153/tensorboard) by extensions ['cmake', 'python']
+[0.657s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_234153/tensorboard) by extension 'cmake'
+[0.657s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_234153/tensorboard) by extension 'python'
+[0.657s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_234153/tensorboard) by extensions ['python_setup_py']
+[0.657s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250808_234153/tensorboard) by extension 'python_setup_py'
+[0.657s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250809_001742) by extensions ['ignore', 'ignore_ament_install']
+[0.658s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250809_001742) by extension 'ignore'
+[0.658s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250809_001742) by extension 'ignore_ament_install'
+[0.658s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250809_001742) by extensions ['colcon_pkg']
+[0.658s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250809_001742) by extension 'colcon_pkg'
+[0.658s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250809_001742) by extensions ['colcon_meta']
+[0.658s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250809_001742) by extension 'colcon_meta'
+[0.658s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250809_001742) by extensions ['ros']
+[0.658s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250809_001742) by extension 'ros'
+[0.658s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250809_001742) by extensions ['cmake', 'python']
+[0.658s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250809_001742) by extension 'cmake'
+[0.658s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250809_001742) by extension 'python'
+[0.658s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250809_001742) by extensions ['python_setup_py']
+[0.659s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250809_001742) by extension 'python_setup_py'
+[0.659s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250809_001742/tensorboard) by extensions ['ignore', 'ignore_ament_install']
+[0.659s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250809_001742/tensorboard) by extension 'ignore'
+[0.659s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250809_001742/tensorboard) by extension 'ignore_ament_install'
+[0.660s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250809_001742/tensorboard) by extensions ['colcon_pkg']
+[0.660s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250809_001742/tensorboard) by extension 'colcon_pkg'
+[0.660s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250809_001742/tensorboard) by extensions ['colcon_meta']
+[0.660s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250809_001742/tensorboard) by extension 'colcon_meta'
+[0.660s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250809_001742/tensorboard) by extensions ['ros']
+[0.660s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250809_001742/tensorboard) by extension 'ros'
+[0.660s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250809_001742/tensorboard) by extensions ['cmake', 'python']
+[0.660s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250809_001742/tensorboard) by extension 'cmake'
+[0.660s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250809_001742/tensorboard) by extension 'python'
+[0.660s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250809_001742/tensorboard) by extensions ['python_setup_py']
+[0.660s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250809_001742/tensorboard) by extension 'python_setup_py'
+[0.661s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250809_003052) by extensions ['ignore', 'ignore_ament_install']
+[0.661s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250809_003052) by extension 'ignore'
+[0.661s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250809_003052) by extension 'ignore_ament_install'
+[0.661s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250809_003052) by extensions ['colcon_pkg']
+[0.661s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250809_003052) by extension 'colcon_pkg'
+[0.661s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250809_003052) by extensions ['colcon_meta']
+[0.661s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250809_003052) by extension 'colcon_meta'
+[0.661s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250809_003052) by extensions ['ros']
+[0.661s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250809_003052) by extension 'ros'
+[0.661s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250809_003052) by extensions ['cmake', 'python']
+[0.661s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250809_003052) by extension 'cmake'
+[0.661s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250809_003052) by extension 'python'
+[0.662s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250809_003052) by extensions ['python_setup_py']
+[0.662s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250809_003052) by extension 'python_setup_py'
+[0.663s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250809_003052/tensorboard) by extensions ['ignore', 'ignore_ament_install']
+[0.663s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250809_003052/tensorboard) by extension 'ignore'
+[0.663s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250809_003052/tensorboard) by extension 'ignore_ament_install'
+[0.663s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250809_003052/tensorboard) by extensions ['colcon_pkg']
+[0.663s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250809_003052/tensorboard) by extension 'colcon_pkg'
+[0.663s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250809_003052/tensorboard) by extensions ['colcon_meta']
+[0.663s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250809_003052/tensorboard) by extension 'colcon_meta'
+[0.663s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250809_003052/tensorboard) by extensions ['ros']
+[0.663s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250809_003052/tensorboard) by extension 'ros'
+[0.663s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250809_003052/tensorboard) by extensions ['cmake', 'python']
+[0.664s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250809_003052/tensorboard) by extension 'cmake'
+[0.664s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250809_003052/tensorboard) by extension 'python'
+[0.664s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250809_003052/tensorboard) by extensions ['python_setup_py']
+[0.664s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_cube_training_20250809_003052/tensorboard) by extension 'python_setup_py'
+[0.664s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_v1_1754642331) by extensions ['ignore', 'ignore_ament_install']
+[0.664s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_v1_1754642331) by extension 'ignore'
+[0.664s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_v1_1754642331) by extension 'ignore_ament_install'
+[0.664s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_v1_1754642331) by extensions ['colcon_pkg']
+[0.665s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_v1_1754642331) by extension 'colcon_pkg'
+[0.665s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_v1_1754642331) by extensions ['colcon_meta']
+[0.665s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_v1_1754642331) by extension 'colcon_meta'
+[0.665s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_v1_1754642331) by extensions ['ros']
+[0.665s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_v1_1754642331) by extension 'ros'
+[0.665s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_v1_1754642331) by extensions ['cmake', 'python']
+[0.665s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_v1_1754642331) by extension 'cmake'
+[0.665s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_v1_1754642331) by extension 'python'
+[0.665s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_v1_1754642331) by extensions ['python_setup_py']
+[0.665s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/soma_v1_1754642331) by extension 'python_setup_py'
+[0.665s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/test_training_1754642529) by extensions ['ignore', 'ignore_ament_install']
+[0.666s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/test_training_1754642529) by extension 'ignore'
+[0.666s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/test_training_1754642529) by extension 'ignore_ament_install'
+[0.667s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/test_training_1754642529) by extensions ['colcon_pkg']
+[0.667s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/test_training_1754642529) by extension 'colcon_pkg'
+[0.667s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/test_training_1754642529) by extensions ['colcon_meta']
+[0.667s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/test_training_1754642529) by extension 'colcon_meta'
+[0.667s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/test_training_1754642529) by extensions ['ros']
+[0.667s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/test_training_1754642529) by extension 'ros'
+[0.667s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/test_training_1754642529) by extensions ['cmake', 'python']
+[0.667s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/test_training_1754642529) by extension 'cmake'
+[0.667s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/test_training_1754642529) by extension 'python'
+[0.667s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/test_training_1754642529) by extensions ['python_setup_py']
+[0.667s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/test_training_1754642529) by extension 'python_setup_py'
+[0.668s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/test_training_small_1754642539) by extensions ['ignore', 'ignore_ament_install']
+[0.668s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/test_training_small_1754642539) by extension 'ignore'
+[0.668s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/test_training_small_1754642539) by extension 'ignore_ament_install'
+[0.669s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/test_training_small_1754642539) by extensions ['colcon_pkg']
+[0.669s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/test_training_small_1754642539) by extension 'colcon_pkg'
+[0.669s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/test_training_small_1754642539) by extensions ['colcon_meta']
+[0.669s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/test_training_small_1754642539) by extension 'colcon_meta'
+[0.669s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/test_training_small_1754642539) by extensions ['ros']
+[0.669s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/test_training_small_1754642539) by extension 'ros'
+[0.669s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/test_training_small_1754642539) by extensions ['cmake', 'python']
+[0.669s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/test_training_small_1754642539) by extension 'cmake'
+[0.669s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/test_training_small_1754642539) by extension 'python'
+[0.669s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/test_training_small_1754642539) by extensions ['python_setup_py']
+[0.669s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/test_training_small_1754642539) by extension 'python_setup_py'
+[0.671s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/test_training_small_1754642539/eval_logs) by extensions ['ignore', 'ignore_ament_install']
+[0.671s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/test_training_small_1754642539/eval_logs) by extension 'ignore'
+[0.671s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/test_training_small_1754642539/eval_logs) by extension 'ignore_ament_install'
+[0.671s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/test_training_small_1754642539/eval_logs) by extensions ['colcon_pkg']
+[0.671s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/test_training_small_1754642539/eval_logs) by extension 'colcon_pkg'
+[0.671s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/test_training_small_1754642539/eval_logs) by extensions ['colcon_meta']
+[0.671s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/test_training_small_1754642539/eval_logs) by extension 'colcon_meta'
+[0.671s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/test_training_small_1754642539/eval_logs) by extensions ['ros']
+[0.671s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/test_training_small_1754642539/eval_logs) by extension 'ros'
+[0.672s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/test_training_small_1754642539/eval_logs) by extensions ['cmake', 'python']
+[0.672s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/test_training_small_1754642539/eval_logs) by extension 'cmake'
+[0.672s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/test_training_small_1754642539/eval_logs) by extension 'python'
+[0.672s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/test_training_small_1754642539/eval_logs) by extensions ['python_setup_py']
+[0.672s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/test_training_small_1754642539/eval_logs) by extension 'python_setup_py'
+[0.673s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/training_integration_test_20250809_115412) by extensions ['ignore', 'ignore_ament_install']
+[0.673s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/training_integration_test_20250809_115412) by extension 'ignore'
+[0.673s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/training_integration_test_20250809_115412) by extension 'ignore_ament_install'
+[0.673s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/training_integration_test_20250809_115412) by extensions ['colcon_pkg']
+[0.673s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/training_integration_test_20250809_115412) by extension 'colcon_pkg'
+[0.673s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/training_integration_test_20250809_115412) by extensions ['colcon_meta']
+[0.673s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/training_integration_test_20250809_115412) by extension 'colcon_meta'
+[0.673s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/training_integration_test_20250809_115412) by extensions ['ros']
+[0.673s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/training_integration_test_20250809_115412) by extension 'ros'
+[0.673s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/training_integration_test_20250809_115412) by extensions ['cmake', 'python']
+[0.673s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/training_integration_test_20250809_115412) by extension 'cmake'
+[0.674s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/training_integration_test_20250809_115412) by extension 'python'
+[0.674s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/training_integration_test_20250809_115412) by extensions ['python_setup_py']
+[0.674s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/training_integration_test_20250809_115412) by extension 'python_setup_py'
+[0.675s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/training_integration_test_20250809_115412/tensorboard) by extensions ['ignore', 'ignore_ament_install']
+[0.675s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/training_integration_test_20250809_115412/tensorboard) by extension 'ignore'
+[0.675s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/training_integration_test_20250809_115412/tensorboard) by extension 'ignore_ament_install'
+[0.675s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/training_integration_test_20250809_115412/tensorboard) by extensions ['colcon_pkg']
+[0.675s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/training_integration_test_20250809_115412/tensorboard) by extension 'colcon_pkg'
+[0.675s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/training_integration_test_20250809_115412/tensorboard) by extensions ['colcon_meta']
+[0.675s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/training_integration_test_20250809_115412/tensorboard) by extension 'colcon_meta'
+[0.675s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/training_integration_test_20250809_115412/tensorboard) by extensions ['ros']
+[0.675s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/training_integration_test_20250809_115412/tensorboard) by extension 'ros'
+[0.676s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/training_integration_test_20250809_115412/tensorboard) by extensions ['cmake', 'python']
+[0.676s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/training_integration_test_20250809_115412/tensorboard) by extension 'cmake'
+[0.676s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/training_integration_test_20250809_115412/tensorboard) by extension 'python'
+[0.676s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/training_integration_test_20250809_115412/tensorboard) by extensions ['python_setup_py']
+[0.676s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/logs/training_integration_test_20250809_115412/tensorboard) by extension 'python_setup_py'
+[0.677s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models) by extensions ['ignore', 'ignore_ament_install']
+[0.677s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models) by extension 'ignore'
+[0.677s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models) by extension 'ignore_ament_install'
+[0.677s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models) by extensions ['colcon_pkg']
+[0.677s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models) by extension 'colcon_pkg'
+[0.677s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models) by extensions ['colcon_meta']
+[0.677s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models) by extension 'colcon_meta'
+[0.678s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models) by extensions ['ros']
+[0.678s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models) by extension 'ros'
+[0.678s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models) by extensions ['cmake', 'python']
+[0.678s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models) by extension 'cmake'
+[0.678s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models) by extension 'python'
+[0.678s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models) by extensions ['python_setup_py']
+[0.678s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models) by extension 'python_setup_py'
+[0.679s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/best) by extensions ['ignore', 'ignore_ament_install']
+[0.679s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/best) by extension 'ignore'
+[0.680s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/best) by extension 'ignore_ament_install'
+[0.680s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/best) by extensions ['colcon_pkg']
+[0.680s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/best) by extension 'colcon_pkg'
+[0.680s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/best) by extensions ['colcon_meta']
+[0.680s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/best) by extension 'colcon_meta'
+[0.681s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/best) by extensions ['ros']
+[0.681s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/best) by extension 'ros'
+[0.681s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/best) by extensions ['cmake', 'python']
+[0.681s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/best) by extension 'cmake'
+[0.681s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/best) by extension 'python'
+[0.681s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/best) by extensions ['python_setup_py']
+[0.681s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/best) by extension 'python_setup_py'
+[0.681s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/full_training) by extensions ['ignore', 'ignore_ament_install']
+[0.682s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/full_training) by extension 'ignore'
+[0.682s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/full_training) by extension 'ignore_ament_install'
+[0.682s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/full_training) by extensions ['colcon_pkg']
+[0.682s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/full_training) by extension 'colcon_pkg'
+[0.682s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/full_training) by extensions ['colcon_meta']
+[0.682s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/full_training) by extension 'colcon_meta'
+[0.682s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/full_training) by extensions ['ros']
+[0.682s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/full_training) by extension 'ros'
+[0.682s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/full_training) by extensions ['cmake', 'python']
+[0.682s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/full_training) by extension 'cmake'
+[0.682s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/full_training) by extension 'python'
+[0.682s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/full_training) by extensions ['python_setup_py']
+[0.682s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/full_training) by extension 'python_setup_py'
+[0.683s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/full_training/best_model) by extensions ['ignore', 'ignore_ament_install']
+[0.683s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/full_training/best_model) by extension 'ignore'
+[0.683s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/full_training/best_model) by extension 'ignore_ament_install'
+[0.683s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/full_training/best_model) by extensions ['colcon_pkg']
+[0.683s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/full_training/best_model) by extension 'colcon_pkg'
+[0.683s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/full_training/best_model) by extensions ['colcon_meta']
+[0.683s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/full_training/best_model) by extension 'colcon_meta'
+[0.683s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/full_training/best_model) by extensions ['ros']
+[0.683s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/full_training/best_model) by extension 'ros'
+[0.683s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/full_training/best_model) by extensions ['cmake', 'python']
+[0.683s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/full_training/best_model) by extension 'cmake'
+[0.683s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/full_training/best_model) by extension 'python'
+[0.683s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/full_training/best_model) by extensions ['python_setup_py']
+[0.683s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/full_training/best_model) by extension 'python_setup_py'
+[0.684s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/full_training/checkpoints) by extensions ['ignore', 'ignore_ament_install']
+[0.684s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/full_training/checkpoints) by extension 'ignore'
+[0.684s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/full_training/checkpoints) by extension 'ignore_ament_install'
+[0.684s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/full_training/checkpoints) by extensions ['colcon_pkg']
+[0.684s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/full_training/checkpoints) by extension 'colcon_pkg'
+[0.684s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/full_training/checkpoints) by extensions ['colcon_meta']
+[0.684s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/full_training/checkpoints) by extension 'colcon_meta'
+[0.684s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/full_training/checkpoints) by extensions ['ros']
+[0.684s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/full_training/checkpoints) by extension 'ros'
+[0.684s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/full_training/checkpoints) by extensions ['cmake', 'python']
+[0.685s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/full_training/checkpoints) by extension 'cmake'
+[0.685s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/full_training/checkpoints) by extension 'python'
+[0.685s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/full_training/checkpoints) by extensions ['python_setup_py']
+[0.685s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/full_training/checkpoints) by extension 'python_setup_py'
+[0.685s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/m0609_ppo_20250809_152628) by extensions ['ignore', 'ignore_ament_install']
+[0.685s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/m0609_ppo_20250809_152628) by extension 'ignore'
+[0.686s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/m0609_ppo_20250809_152628) by extension 'ignore_ament_install'
+[0.686s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/m0609_ppo_20250809_152628) by extensions ['colcon_pkg']
+[0.686s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/m0609_ppo_20250809_152628) by extension 'colcon_pkg'
+[0.686s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/m0609_ppo_20250809_152628) by extensions ['colcon_meta']
+[0.686s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/m0609_ppo_20250809_152628) by extension 'colcon_meta'
+[0.686s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/m0609_ppo_20250809_152628) by extensions ['ros']
+[0.686s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/m0609_ppo_20250809_152628) by extension 'ros'
+[0.686s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/m0609_ppo_20250809_152628) by extensions ['cmake', 'python']
+[0.686s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/m0609_ppo_20250809_152628) by extension 'cmake'
+[0.686s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/m0609_ppo_20250809_152628) by extension 'python'
+[0.686s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/m0609_ppo_20250809_152628) by extensions ['python_setup_py']
+[0.686s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/m0609_ppo_20250809_152628) by extension 'python_setup_py'
+[0.686s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/new_training) by extensions ['ignore', 'ignore_ament_install']
+[0.687s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/new_training) by extension 'ignore'
+[0.687s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/new_training) by extension 'ignore_ament_install'
+[0.687s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/new_training) by extensions ['colcon_pkg']
+[0.687s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/new_training) by extension 'colcon_pkg'
+[0.687s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/new_training) by extensions ['colcon_meta']
+[0.687s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/new_training) by extension 'colcon_meta'
+[0.687s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/new_training) by extensions ['ros']
+[0.687s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/new_training) by extension 'ros'
+[0.687s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/new_training) by extensions ['cmake', 'python']
+[0.687s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/new_training) by extension 'cmake'
+[0.687s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/new_training) by extension 'python'
+[0.687s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/new_training) by extensions ['python_setup_py']
+[0.687s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/new_training) by extension 'python_setup_py'
+[0.689s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/new_training/tensorboard_logs) by extensions ['ignore', 'ignore_ament_install']
+[0.689s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/new_training/tensorboard_logs) by extension 'ignore'
+[0.689s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/new_training/tensorboard_logs) by extension 'ignore_ament_install'
+[0.689s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/new_training/tensorboard_logs) by extensions ['colcon_pkg']
+[0.689s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/new_training/tensorboard_logs) by extension 'colcon_pkg'
+[0.689s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/new_training/tensorboard_logs) by extensions ['colcon_meta']
+[0.689s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/new_training/tensorboard_logs) by extension 'colcon_meta'
+[0.690s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/new_training/tensorboard_logs) by extensions ['ros']
+[0.690s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/new_training/tensorboard_logs) by extension 'ros'
+[0.690s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/new_training/tensorboard_logs) by extensions ['cmake', 'python']
+[0.690s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/new_training/tensorboard_logs) by extension 'cmake'
+[0.690s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/new_training/tensorboard_logs) by extension 'python'
+[0.690s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/new_training/tensorboard_logs) by extensions ['python_setup_py']
+[0.690s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/new_training/tensorboard_logs) by extension 'python_setup_py'
+[0.690s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/new_training/tensorboard_logs/PPO_1) by extensions ['ignore', 'ignore_ament_install']
+[0.690s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/new_training/tensorboard_logs/PPO_1) by extension 'ignore'
+[0.691s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/new_training/tensorboard_logs/PPO_1) by extension 'ignore_ament_install'
+[0.691s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/new_training/tensorboard_logs/PPO_1) by extensions ['colcon_pkg']
+[0.691s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/new_training/tensorboard_logs/PPO_1) by extension 'colcon_pkg'
+[0.691s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/new_training/tensorboard_logs/PPO_1) by extensions ['colcon_meta']
+[0.691s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/new_training/tensorboard_logs/PPO_1) by extension 'colcon_meta'
+[0.691s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/new_training/tensorboard_logs/PPO_1) by extensions ['ros']
+[0.691s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/new_training/tensorboard_logs/PPO_1) by extension 'ros'
+[0.691s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/new_training/tensorboard_logs/PPO_1) by extensions ['cmake', 'python']
+[0.691s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/new_training/tensorboard_logs/PPO_1) by extension 'cmake'
+[0.691s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/new_training/tensorboard_logs/PPO_1) by extension 'python'
+[0.691s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/new_training/tensorboard_logs/PPO_1) by extensions ['python_setup_py']
+[0.691s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/new_training/tensorboard_logs/PPO_1) by extension 'python_setup_py'
+[0.692s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/new_training/tensorboard_logs/PPO_2) by extensions ['ignore', 'ignore_ament_install']
+[0.692s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/new_training/tensorboard_logs/PPO_2) by extension 'ignore'
+[0.692s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/new_training/tensorboard_logs/PPO_2) by extension 'ignore_ament_install'
+[0.692s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/new_training/tensorboard_logs/PPO_2) by extensions ['colcon_pkg']
+[0.692s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/new_training/tensorboard_logs/PPO_2) by extension 'colcon_pkg'
+[0.692s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/new_training/tensorboard_logs/PPO_2) by extensions ['colcon_meta']
+[0.692s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/new_training/tensorboard_logs/PPO_2) by extension 'colcon_meta'
+[0.692s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/new_training/tensorboard_logs/PPO_2) by extensions ['ros']
+[0.692s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/new_training/tensorboard_logs/PPO_2) by extension 'ros'
+[0.693s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/new_training/tensorboard_logs/PPO_2) by extensions ['cmake', 'python']
+[0.693s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/new_training/tensorboard_logs/PPO_2) by extension 'cmake'
+[0.693s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/new_training/tensorboard_logs/PPO_2) by extension 'python'
+[0.693s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/new_training/tensorboard_logs/PPO_2) by extensions ['python_setup_py']
+[0.693s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/new_training/tensorboard_logs/PPO_2) by extension 'python_setup_py'
+[0.693s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/new_training/tensorboard_logs/PPO_3) by extensions ['ignore', 'ignore_ament_install']
+[0.693s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/new_training/tensorboard_logs/PPO_3) by extension 'ignore'
+[0.693s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/new_training/tensorboard_logs/PPO_3) by extension 'ignore_ament_install'
+[0.693s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/new_training/tensorboard_logs/PPO_3) by extensions ['colcon_pkg']
+[0.694s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/new_training/tensorboard_logs/PPO_3) by extension 'colcon_pkg'
+[0.694s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/new_training/tensorboard_logs/PPO_3) by extensions ['colcon_meta']
+[0.694s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/new_training/tensorboard_logs/PPO_3) by extension 'colcon_meta'
+[0.694s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/new_training/tensorboard_logs/PPO_3) by extensions ['ros']
+[0.694s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/new_training/tensorboard_logs/PPO_3) by extension 'ros'
+[0.694s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/new_training/tensorboard_logs/PPO_3) by extensions ['cmake', 'python']
+[0.694s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/new_training/tensorboard_logs/PPO_3) by extension 'cmake'
+[0.694s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/new_training/tensorboard_logs/PPO_3) by extension 'python'
+[0.694s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/new_training/tensorboard_logs/PPO_3) by extensions ['python_setup_py']
+[0.694s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/new_training/tensorboard_logs/PPO_3) by extension 'python_setup_py'
+[0.694s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/production) by extensions ['ignore', 'ignore_ament_install']
+[0.694s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/production) by extension 'ignore'
+[0.694s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/production) by extension 'ignore_ament_install'
+[0.694s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/production) by extensions ['colcon_pkg']
+[0.695s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/production) by extension 'colcon_pkg'
+[0.695s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/production) by extensions ['colcon_meta']
+[0.695s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/production) by extension 'colcon_meta'
+[0.695s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/production) by extensions ['ros']
+[0.695s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/production) by extension 'ros'
+[0.695s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/production) by extensions ['cmake', 'python']
+[0.695s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/production) by extension 'cmake'
+[0.695s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/production) by extension 'python'
+[0.695s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/production) by extensions ['python_setup_py']
+[0.695s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/production) by extension 'python_setup_py'
+[0.696s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/production_simple) by extensions ['ignore', 'ignore_ament_install']
+[0.696s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/production_simple) by extension 'ignore'
+[0.696s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/production_simple) by extension 'ignore_ament_install'
+[0.696s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/production_simple) by extensions ['colcon_pkg']
+[0.696s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/production_simple) by extension 'colcon_pkg'
+[0.696s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/production_simple) by extensions ['colcon_meta']
+[0.696s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/production_simple) by extension 'colcon_meta'
+[0.696s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/production_simple) by extensions ['ros']
+[0.696s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/production_simple) by extension 'ros'
+[0.696s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/production_simple) by extensions ['cmake', 'python']
+[0.697s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/production_simple) by extension 'cmake'
+[0.697s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/production_simple) by extension 'python'
+[0.697s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/production_simple) by extensions ['python_setup_py']
+[0.697s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/production_simple) by extension 'python_setup_py'
+[0.697s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/production_simple/best_model) by extensions ['ignore', 'ignore_ament_install']
+[0.697s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/production_simple/best_model) by extension 'ignore'
+[0.697s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/production_simple/best_model) by extension 'ignore_ament_install'
+[0.697s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/production_simple/best_model) by extensions ['colcon_pkg']
+[0.697s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/production_simple/best_model) by extension 'colcon_pkg'
+[0.697s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/production_simple/best_model) by extensions ['colcon_meta']
+[0.698s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/production_simple/best_model) by extension 'colcon_meta'
+[0.698s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/production_simple/best_model) by extensions ['ros']
+[0.698s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/production_simple/best_model) by extension 'ros'
+[0.698s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/production_simple/best_model) by extensions ['cmake', 'python']
+[0.698s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/production_simple/best_model) by extension 'cmake'
+[0.698s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/production_simple/best_model) by extension 'python'
+[0.698s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/production_simple/best_model) by extensions ['python_setup_py']
+[0.698s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/production_simple/best_model) by extension 'python_setup_py'
+[0.698s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/production_simple/checkpoints) by extensions ['ignore', 'ignore_ament_install']
+[0.698s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/production_simple/checkpoints) by extension 'ignore'
+[0.699s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/production_simple/checkpoints) by extension 'ignore_ament_install'
+[0.699s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/production_simple/checkpoints) by extensions ['colcon_pkg']
+[0.699s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/production_simple/checkpoints) by extension 'colcon_pkg'
+[0.699s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/production_simple/checkpoints) by extensions ['colcon_meta']
+[0.699s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/production_simple/checkpoints) by extension 'colcon_meta'
+[0.699s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/production_simple/checkpoints) by extensions ['ros']
+[0.699s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/production_simple/checkpoints) by extension 'ros'
+[0.699s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/production_simple/checkpoints) by extensions ['cmake', 'python']
+[0.699s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/production_simple/checkpoints) by extension 'cmake'
+[0.699s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/production_simple/checkpoints) by extension 'python'
+[0.699s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/production_simple/checkpoints) by extensions ['python_setup_py']
+[0.699s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/production_simple/checkpoints) by extension 'python_setup_py'
+[0.700s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/production_test) by extensions ['ignore', 'ignore_ament_install']
+[0.700s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/production_test) by extension 'ignore'
+[0.700s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/production_test) by extension 'ignore_ament_install'
+[0.700s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/production_test) by extensions ['colcon_pkg']
+[0.700s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/production_test) by extension 'colcon_pkg'
+[0.700s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/production_test) by extensions ['colcon_meta']
+[0.701s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/production_test) by extension 'colcon_meta'
+[0.701s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/production_test) by extensions ['ros']
+[0.701s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/production_test) by extension 'ros'
+[0.701s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/production_test) by extensions ['cmake', 'python']
+[0.701s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/production_test) by extension 'cmake'
+[0.701s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/production_test) by extension 'python'
+[0.701s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/production_test) by extensions ['python_setup_py']
+[0.701s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/production_test) by extension 'python_setup_py'
+[0.702s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/production_test/best_model) by extensions ['ignore', 'ignore_ament_install']
+[0.702s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/production_test/best_model) by extension 'ignore'
+[0.703s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/production_test/best_model) by extension 'ignore_ament_install'
+[0.703s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/production_test/best_model) by extensions ['colcon_pkg']
+[0.703s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/production_test/best_model) by extension 'colcon_pkg'
+[0.703s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/production_test/best_model) by extensions ['colcon_meta']
+[0.703s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/production_test/best_model) by extension 'colcon_meta'
+[0.703s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/production_test/best_model) by extensions ['ros']
+[0.703s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/production_test/best_model) by extension 'ros'
+[0.703s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/production_test/best_model) by extensions ['cmake', 'python']
+[0.703s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/production_test/best_model) by extension 'cmake'
+[0.703s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/production_test/best_model) by extension 'python'
+[0.703s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/production_test/best_model) by extensions ['python_setup_py']
+[0.703s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/production_test/best_model) by extension 'python_setup_py'
+[0.705s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/production_test/checkpoints) by extensions ['ignore', 'ignore_ament_install']
+[0.705s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/production_test/checkpoints) by extension 'ignore'
+[0.705s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/production_test/checkpoints) by extension 'ignore_ament_install'
+[0.705s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/production_test/checkpoints) by extensions ['colcon_pkg']
+[0.705s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/production_test/checkpoints) by extension 'colcon_pkg'
+[0.705s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/production_test/checkpoints) by extensions ['colcon_meta']
+[0.705s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/production_test/checkpoints) by extension 'colcon_meta'
+[0.705s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/production_test/checkpoints) by extensions ['ros']
+[0.705s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/production_test/checkpoints) by extension 'ros'
+[0.705s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/production_test/checkpoints) by extensions ['cmake', 'python']
+[0.706s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/production_test/checkpoints) by extension 'cmake'
+[0.706s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/production_test/checkpoints) by extension 'python'
+[0.706s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/production_test/checkpoints) by extensions ['python_setup_py']
+[0.706s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/production_test/checkpoints) by extension 'python_setup_py'
+[0.706s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/soma_v1) by extensions ['ignore', 'ignore_ament_install']
+[0.706s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/soma_v1) by extension 'ignore'
+[0.706s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/soma_v1) by extension 'ignore_ament_install'
+[0.706s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/soma_v1) by extensions ['colcon_pkg']
+[0.707s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/soma_v1) by extension 'colcon_pkg'
+[0.707s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/soma_v1) by extensions ['colcon_meta']
+[0.707s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/soma_v1) by extension 'colcon_meta'
+[0.707s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/soma_v1) by extensions ['ros']
+[0.707s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/soma_v1) by extension 'ros'
+[0.707s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/soma_v1) by extensions ['cmake', 'python']
+[0.707s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/soma_v1) by extension 'cmake'
+[0.707s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/soma_v1) by extension 'python'
+[0.707s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/soma_v1) by extensions ['python_setup_py']
+[0.707s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/soma_v1) by extension 'python_setup_py'
+[0.708s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/test_training) by extensions ['ignore', 'ignore_ament_install']
+[0.708s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/test_training) by extension 'ignore'
+[0.709s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/test_training) by extension 'ignore_ament_install'
+[0.709s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/test_training) by extensions ['colcon_pkg']
+[0.709s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/test_training) by extension 'colcon_pkg'
+[0.709s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/test_training) by extensions ['colcon_meta']
+[0.709s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/test_training) by extension 'colcon_meta'
+[0.709s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/test_training) by extensions ['ros']
+[0.709s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/test_training) by extension 'ros'
+[0.709s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/test_training) by extensions ['cmake', 'python']
+[0.709s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/test_training) by extension 'cmake'
+[0.709s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/test_training) by extension 'python'
+[0.709s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/test_training) by extensions ['python_setup_py']
+[0.709s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/test_training) by extension 'python_setup_py'
+[0.710s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/test_training_small) by extensions ['ignore', 'ignore_ament_install']
+[0.710s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/test_training_small) by extension 'ignore'
+[0.710s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/test_training_small) by extension 'ignore_ament_install'
+[0.710s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/test_training_small) by extensions ['colcon_pkg']
+[0.710s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/test_training_small) by extension 'colcon_pkg'
+[0.710s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/test_training_small) by extensions ['colcon_meta']
+[0.710s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/test_training_small) by extension 'colcon_meta'
+[0.711s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/test_training_small) by extensions ['ros']
+[0.711s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/test_training_small) by extension 'ros'
+[0.711s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/test_training_small) by extensions ['cmake', 'python']
+[0.711s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/test_training_small) by extension 'cmake'
+[0.711s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/test_training_small) by extension 'python'
+[0.711s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/test_training_small) by extensions ['python_setup_py']
+[0.711s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/test_training_small) by extension 'python_setup_py'
+[0.712s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/test_training_small/best_model) by extensions ['ignore', 'ignore_ament_install']
+[0.712s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/test_training_small/best_model) by extension 'ignore'
+[0.712s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/test_training_small/best_model) by extension 'ignore_ament_install'
+[0.712s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/test_training_small/best_model) by extensions ['colcon_pkg']
+[0.712s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/test_training_small/best_model) by extension 'colcon_pkg'
+[0.712s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/test_training_small/best_model) by extensions ['colcon_meta']
+[0.712s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/test_training_small/best_model) by extension 'colcon_meta'
+[0.712s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/test_training_small/best_model) by extensions ['ros']
+[0.713s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/test_training_small/best_model) by extension 'ros'
+[0.713s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/test_training_small/best_model) by extensions ['cmake', 'python']
+[0.713s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/test_training_small/best_model) by extension 'cmake'
+[0.713s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/test_training_small/best_model) by extension 'python'
+[0.713s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/test_training_small/best_model) by extensions ['python_setup_py']
+[0.713s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/test_training_small/best_model) by extension 'python_setup_py'
+[0.713s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/test_training_small/checkpoints) by extensions ['ignore', 'ignore_ament_install']
+[0.713s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/test_training_small/checkpoints) by extension 'ignore'
+[0.714s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/test_training_small/checkpoints) by extension 'ignore_ament_install'
+[0.714s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/test_training_small/checkpoints) by extensions ['colcon_pkg']
+[0.714s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/test_training_small/checkpoints) by extension 'colcon_pkg'
+[0.714s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/test_training_small/checkpoints) by extensions ['colcon_meta']
+[0.714s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/test_training_small/checkpoints) by extension 'colcon_meta'
+[0.714s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/test_training_small/checkpoints) by extensions ['ros']
+[0.714s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/test_training_small/checkpoints) by extension 'ros'
+[0.714s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/test_training_small/checkpoints) by extensions ['cmake', 'python']
+[0.714s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/test_training_small/checkpoints) by extension 'cmake'
+[0.714s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/test_training_small/checkpoints) by extension 'python'
+[0.714s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/test_training_small/checkpoints) by extensions ['python_setup_py']
+[0.714s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/models/test_training_small/checkpoints) by extension 'python_setup_py'
+[0.716s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/paper) by extensions ['ignore', 'ignore_ament_install']
+[0.716s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/paper) by extension 'ignore'
+[0.716s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/paper) by extension 'ignore_ament_install'
+[0.716s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/paper) by extensions ['colcon_pkg']
+[0.716s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/paper) by extension 'colcon_pkg'
+[0.716s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/paper) by extensions ['colcon_meta']
+[0.716s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/paper) by extension 'colcon_meta'
+[0.716s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/paper) by extensions ['ros']
+[0.716s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/paper) by extension 'ros'
+[0.716s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/paper) by extensions ['cmake', 'python']
+[0.716s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/paper) by extension 'cmake'
+[0.717s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/paper) by extension 'python'
+[0.717s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/paper) by extensions ['python_setup_py']
+[0.717s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/paper) by extension 'python_setup_py'
+[0.717s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[0.717s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src) by extension 'ignore'
+[0.717s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src) by extension 'ignore_ament_install'
+[0.717s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src) by extensions ['colcon_pkg']
+[0.717s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src) by extension 'colcon_pkg'
+[0.717s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src) by extensions ['colcon_meta']
+[0.717s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src) by extension 'colcon_meta'
+[0.717s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src) by extensions ['ros']
+[0.717s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src) by extension 'ros'
+[0.718s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src) by extensions ['cmake', 'python']
+[0.718s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src) by extension 'cmake'
+[0.718s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src) by extension 'python'
+[0.718s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src) by extensions ['python_setup_py']
+[0.718s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src) by extension 'python_setup_py'
+[0.718s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd) by extensions ['ignore', 'ignore_ament_install']
+[0.718s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd) by extension 'ignore'
+[0.718s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd) by extension 'ignore_ament_install'
+[0.718s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd) by extensions ['colcon_pkg']
+[0.718s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd) by extension 'colcon_pkg'
+[0.718s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd) by extensions ['colcon_meta']
+[0.718s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd) by extension 'colcon_meta'
+[0.718s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd) by extensions ['ros']
+[0.718s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd) by extension 'ros'
+[0.719s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd) by extensions ['cmake', 'python']
+[0.719s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd) by extension 'cmake'
+[0.719s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd) by extension 'python'
+[0.719s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd) by extensions ['python_setup_py']
+[0.719s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd) by extension 'python_setup_py'
+[0.719s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/calibration) by extensions ['ignore', 'ignore_ament_install']
+[0.719s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/calibration) by extension 'ignore'
+[0.719s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/calibration) ignored
+[0.720s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_bringup2) by extensions ['ignore', 'ignore_ament_install']
+[0.720s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_bringup2) by extension 'ignore'
+[0.720s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_bringup2) by extension 'ignore_ament_install'
+[0.720s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_bringup2) by extensions ['colcon_pkg']
+[0.720s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_bringup2) by extension 'colcon_pkg'
+[0.720s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_bringup2) by extensions ['colcon_meta']
+[0.720s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_bringup2) by extension 'colcon_meta'
+[0.720s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_bringup2) by extensions ['ros']
+[0.720s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_bringup2) by extension 'ros'
+[0.725s] colcon.colcon_core.package_identification DEBUG Package '/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_bringup2' with type 'ros.ament_python' and name 'dsr_bringup2'
+[0.725s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_common2) by extensions ['ignore', 'ignore_ament_install']
+[0.725s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_common2) by extension 'ignore'
+[0.725s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_common2) by extension 'ignore_ament_install'
+[0.725s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_common2) by extensions ['colcon_pkg']
+[0.725s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_common2) by extension 'colcon_pkg'
+[0.725s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_common2) by extensions ['colcon_meta']
+[0.725s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_common2) by extension 'colcon_meta'
+[0.725s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_common2) by extensions ['ros']
+[0.726s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_common2) by extension 'ros'
+[0.727s] colcon.colcon_core.package_identification DEBUG Package '/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_common2' with type 'ros.ament_cmake' and name 'dsr_common2'
+[0.727s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_controller2) by extensions ['ignore', 'ignore_ament_install']
+[0.727s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_controller2) by extension 'ignore'
+[0.727s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_controller2) by extension 'ignore_ament_install'
+[0.727s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_controller2) by extensions ['colcon_pkg']
+[0.727s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_controller2) by extension 'colcon_pkg'
+[0.727s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_controller2) by extensions ['colcon_meta']
+[0.728s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_controller2) by extension 'colcon_meta'
+[0.728s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_controller2) by extensions ['ros']
+[0.728s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_controller2) by extension 'ros'
+[0.731s] colcon.colcon_core.package_identification DEBUG Package '/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_controller2' with type 'ros.ament_cmake' and name 'dsr_controller2'
+[0.731s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_description2) by extensions ['ignore', 'ignore_ament_install']
+[0.731s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_description2) by extension 'ignore'
+[0.732s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_description2) by extension 'ignore_ament_install'
+[0.732s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_description2) by extensions ['colcon_pkg']
+[0.732s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_description2) by extension 'colcon_pkg'
+[0.732s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_description2) by extensions ['colcon_meta']
+[0.732s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_description2) by extension 'colcon_meta'
+[0.732s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_description2) by extensions ['ros']
+[0.732s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_description2) by extension 'ros'
+[0.733s] colcon.colcon_core.package_identification DEBUG Package '/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_description2' with type 'ros.ament_cmake' and name 'dsr_description2'
+[0.734s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2) by extensions ['ignore', 'ignore_ament_install']
+[0.734s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2) by extension 'ignore'
+[0.734s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2) by extension 'ignore_ament_install'
+[0.734s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2) by extensions ['colcon_pkg']
+[0.734s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2) by extension 'colcon_pkg'
+[0.734s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2) by extensions ['colcon_meta']
+[0.734s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2) by extension 'colcon_meta'
+[0.734s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2) by extensions ['ros']
+[0.734s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2) by extension 'ros'
+[0.734s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2) by extensions ['cmake', 'python']
+[0.734s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2) by extension 'cmake'
+[0.734s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2) by extension 'python'
+[0.734s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2) by extensions ['python_setup_py']
+[0.735s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2) by extension 'python_setup_py'
+[0.735s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_example) by extensions ['ignore', 'ignore_ament_install']
+[0.735s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_example) by extension 'ignore'
+[0.735s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_example) by extension 'ignore_ament_install'
+[0.735s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_example) by extensions ['colcon_pkg']
+[0.735s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_example) by extension 'colcon_pkg'
+[0.735s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_example) by extensions ['colcon_meta']
+[0.735s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_example) by extension 'colcon_meta'
+[0.735s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_example) by extensions ['ros']
+[0.735s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_example) by extension 'ros'
+[0.737s] colcon.colcon_core.package_identification DEBUG Package '/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_example' with type 'ros.ament_python' and name 'dsr_example'
+[0.737s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control) by extensions ['ignore', 'ignore_ament_install']
+[0.737s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control) by extension 'ignore'
+[0.737s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control) by extension 'ignore_ament_install'
+[0.737s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control) by extensions ['colcon_pkg']
+[0.738s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control) by extension 'colcon_pkg'
+[0.738s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control) by extensions ['colcon_meta']
+[0.738s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control) by extension 'colcon_meta'
+[0.738s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control) by extensions ['ros']
+[0.738s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control) by extension 'ros'
+[0.739s] colcon.colcon_core.package_identification DEBUG Package '/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_realtime_control' with type 'ros.ament_cmake' and name 'dsr_realtime_control'
+[0.739s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_visualservoing) by extensions ['ignore', 'ignore_ament_install']
+[0.739s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_visualservoing) by extension 'ignore'
+[0.739s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_visualservoing) by extension 'ignore_ament_install'
+[0.739s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_visualservoing) by extensions ['colcon_pkg']
+[0.739s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_visualservoing) by extension 'colcon_pkg'
+[0.739s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_visualservoing) by extensions ['colcon_meta']
+[0.739s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_visualservoing) by extension 'colcon_meta'
+[0.739s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_visualservoing) by extensions ['ros']
+[0.739s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_visualservoing) by extension 'ros'
+[0.740s] colcon.colcon_core.package_identification DEBUG Package '/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_example2/dsr_visualservoing' with type 'ros.ament_python' and name 'dsr_visualservoing'
+[0.740s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_gazebo2) by extensions ['ignore', 'ignore_ament_install']
+[0.741s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_gazebo2) by extension 'ignore'
+[0.741s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_gazebo2) by extension 'ignore_ament_install'
+[0.741s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_gazebo2) by extensions ['colcon_pkg']
+[0.741s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_gazebo2) by extension 'colcon_pkg'
+[0.741s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_gazebo2) by extensions ['colcon_meta']
+[0.741s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_gazebo2) by extension 'colcon_meta'
+[0.741s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_gazebo2) by extensions ['ros']
+[0.741s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_gazebo2) by extension 'ros'
+[0.743s] colcon.colcon_core.package_identification DEBUG Package '/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_gazebo2' with type 'ros.ament_cmake' and name 'dsr_gazebo2'
+[0.743s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_hardware2) by extensions ['ignore', 'ignore_ament_install']
+[0.743s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_hardware2) by extension 'ignore'
+[0.743s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_hardware2) by extension 'ignore_ament_install'
+[0.743s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_hardware2) by extensions ['colcon_pkg']
+[0.743s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_hardware2) by extension 'colcon_pkg'
+[0.744s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_hardware2) by extensions ['colcon_meta']
+[0.744s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_hardware2) by extension 'colcon_meta'
+[0.744s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_hardware2) by extensions ['ros']
+[0.744s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_hardware2) by extension 'ros'
+[0.747s] colcon.colcon_core.package_identification DEBUG Package '/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_hardware2' with type 'ros.ament_cmake' and name 'dsr_hardware2'
+[0.747s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_moveit2) by extensions ['ignore', 'ignore_ament_install']
+[0.748s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_moveit2) by extension 'ignore'
+[0.748s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_moveit2) by extension 'ignore_ament_install'
+[0.748s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_moveit2) by extensions ['colcon_pkg']
+[0.748s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_moveit2) by extension 'colcon_pkg'
+[0.748s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_moveit2) by extensions ['colcon_meta']
+[0.748s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_moveit2) by extension 'colcon_meta'
+[0.748s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_moveit2) by extensions ['ros']
+[0.748s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_moveit2) by extension 'ros'
+[0.748s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_moveit2) by extensions ['cmake', 'python']
+[0.748s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_moveit2) by extension 'cmake'
+[0.748s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_moveit2) by extension 'python'
+[0.748s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_moveit2) by extensions ['python_setup_py']
+[0.748s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_moveit2) by extension 'python_setup_py'
+[0.749s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_moveit2/dsr_moveit_config_a0509) by extensions ['ignore', 'ignore_ament_install']
+[0.749s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_moveit2/dsr_moveit_config_a0509) by extension 'ignore'
+[0.749s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_moveit2/dsr_moveit_config_a0509) by extension 'ignore_ament_install'
+[0.749s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_moveit2/dsr_moveit_config_a0509) by extensions ['colcon_pkg']
+[0.749s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_moveit2/dsr_moveit_config_a0509) by extension 'colcon_pkg'
+[0.749s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_moveit2/dsr_moveit_config_a0509) by extensions ['colcon_meta']
+[0.749s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_moveit2/dsr_moveit_config_a0509) by extension 'colcon_meta'
+[0.749s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_moveit2/dsr_moveit_config_a0509) by extensions ['ros']
+[0.749s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_moveit2/dsr_moveit_config_a0509) by extension 'ros'
+[0.750s] colcon.colcon_core.package_identification DEBUG Package '/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_moveit2/dsr_moveit_config_a0509' with type 'ros.ament_cmake' and name 'dsr_moveit_config_a0509'
+[0.750s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_moveit2/dsr_moveit_config_a0912) by extensions ['ignore', 'ignore_ament_install']
+[0.750s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_moveit2/dsr_moveit_config_a0912) by extension 'ignore'
+[0.750s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_moveit2/dsr_moveit_config_a0912) by extension 'ignore_ament_install'
+[0.750s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_moveit2/dsr_moveit_config_a0912) by extensions ['colcon_pkg']
+[0.750s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_moveit2/dsr_moveit_config_a0912) by extension 'colcon_pkg'
+[0.751s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_moveit2/dsr_moveit_config_a0912) by extensions ['colcon_meta']
+[0.751s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_moveit2/dsr_moveit_config_a0912) by extension 'colcon_meta'
+[0.751s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_moveit2/dsr_moveit_config_a0912) by extensions ['ros']
+[0.751s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_moveit2/dsr_moveit_config_a0912) by extension 'ros'
+[0.752s] colcon.colcon_core.package_identification DEBUG Package '/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_moveit2/dsr_moveit_config_a0912' with type 'ros.ament_cmake' and name 'dsr_moveit_config_a0912'
+[0.752s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_moveit2/dsr_moveit_config_e0509) by extensions ['ignore', 'ignore_ament_install']
+[0.752s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_moveit2/dsr_moveit_config_e0509) by extension 'ignore'
+[0.752s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_moveit2/dsr_moveit_config_e0509) by extension 'ignore_ament_install'
+[0.752s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_moveit2/dsr_moveit_config_e0509) by extensions ['colcon_pkg']
+[0.752s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_moveit2/dsr_moveit_config_e0509) by extension 'colcon_pkg'
+[0.752s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_moveit2/dsr_moveit_config_e0509) by extensions ['colcon_meta']
+[0.752s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_moveit2/dsr_moveit_config_e0509) by extension 'colcon_meta'
+[0.752s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_moveit2/dsr_moveit_config_e0509) by extensions ['ros']
+[0.752s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_moveit2/dsr_moveit_config_e0509) by extension 'ros'
+[0.754s] colcon.colcon_core.package_identification DEBUG Package '/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_moveit2/dsr_moveit_config_e0509' with type 'ros.ament_cmake' and name 'dsr_moveit_config_e0509'
+[0.754s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_moveit2/dsr_moveit_config_h2017) by extensions ['ignore', 'ignore_ament_install']
+[0.754s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_moveit2/dsr_moveit_config_h2017) by extension 'ignore'
+[0.754s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_moveit2/dsr_moveit_config_h2017) by extension 'ignore_ament_install'
+[0.754s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_moveit2/dsr_moveit_config_h2017) by extensions ['colcon_pkg']
+[0.754s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_moveit2/dsr_moveit_config_h2017) by extension 'colcon_pkg'
+[0.754s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_moveit2/dsr_moveit_config_h2017) by extensions ['colcon_meta']
+[0.755s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_moveit2/dsr_moveit_config_h2017) by extension 'colcon_meta'
+[0.755s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_moveit2/dsr_moveit_config_h2017) by extensions ['ros']
+[0.755s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_moveit2/dsr_moveit_config_h2017) by extension 'ros'
+[0.756s] colcon.colcon_core.package_identification DEBUG Package '/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_moveit2/dsr_moveit_config_h2017' with type 'ros.ament_cmake' and name 'dsr_moveit_config_h2017'
+[0.756s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_moveit2/dsr_moveit_config_h2515) by extensions ['ignore', 'ignore_ament_install']
+[0.756s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_moveit2/dsr_moveit_config_h2515) by extension 'ignore'
+[0.756s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_moveit2/dsr_moveit_config_h2515) by extension 'ignore_ament_install'
+[0.756s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_moveit2/dsr_moveit_config_h2515) by extensions ['colcon_pkg']
+[0.756s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_moveit2/dsr_moveit_config_h2515) by extension 'colcon_pkg'
+[0.756s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_moveit2/dsr_moveit_config_h2515) by extensions ['colcon_meta']
+[0.757s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_moveit2/dsr_moveit_config_h2515) by extension 'colcon_meta'
+[0.757s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_moveit2/dsr_moveit_config_h2515) by extensions ['ros']
+[0.757s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_moveit2/dsr_moveit_config_h2515) by extension 'ros'
+[0.758s] colcon.colcon_core.package_identification DEBUG Package '/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_moveit2/dsr_moveit_config_h2515' with type 'ros.ament_cmake' and name 'dsr_moveit_config_h2515'
+[0.758s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_moveit2/dsr_moveit_config_m0609) by extensions ['ignore', 'ignore_ament_install']
+[0.758s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_moveit2/dsr_moveit_config_m0609) by extension 'ignore'
+[0.758s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_moveit2/dsr_moveit_config_m0609) by extension 'ignore_ament_install'
+[0.758s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_moveit2/dsr_moveit_config_m0609) by extensions ['colcon_pkg']
+[0.758s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_moveit2/dsr_moveit_config_m0609) by extension 'colcon_pkg'
+[0.759s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_moveit2/dsr_moveit_config_m0609) by extensions ['colcon_meta']
+[0.759s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_moveit2/dsr_moveit_config_m0609) by extension 'colcon_meta'
+[0.759s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_moveit2/dsr_moveit_config_m0609) by extensions ['ros']
+[0.759s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_moveit2/dsr_moveit_config_m0609) by extension 'ros'
+[0.759s] colcon.colcon_core.package_identification DEBUG Package '/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_moveit2/dsr_moveit_config_m0609' with type 'ros.ament_cmake' and name 'dsr_moveit_config_m0609'
+[0.760s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_moveit2/dsr_moveit_config_m0617) by extensions ['ignore', 'ignore_ament_install']
+[0.760s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_moveit2/dsr_moveit_config_m0617) by extension 'ignore'
+[0.760s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_moveit2/dsr_moveit_config_m0617) by extension 'ignore_ament_install'
+[0.760s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_moveit2/dsr_moveit_config_m0617) by extensions ['colcon_pkg']
+[0.760s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_moveit2/dsr_moveit_config_m0617) by extension 'colcon_pkg'
+[0.760s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_moveit2/dsr_moveit_config_m0617) by extensions ['colcon_meta']
+[0.760s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_moveit2/dsr_moveit_config_m0617) by extension 'colcon_meta'
+[0.760s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_moveit2/dsr_moveit_config_m0617) by extensions ['ros']
+[0.760s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_moveit2/dsr_moveit_config_m0617) by extension 'ros'
+[0.761s] colcon.colcon_core.package_identification DEBUG Package '/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_moveit2/dsr_moveit_config_m0617' with type 'ros.ament_cmake' and name 'dsr_moveit_config_m0617'
+[0.761s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_moveit2/dsr_moveit_config_m1013) by extensions ['ignore', 'ignore_ament_install']
+[0.762s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_moveit2/dsr_moveit_config_m1013) by extension 'ignore'
+[0.762s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_moveit2/dsr_moveit_config_m1013) by extension 'ignore_ament_install'
+[0.762s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_moveit2/dsr_moveit_config_m1013) by extensions ['colcon_pkg']
+[0.762s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_moveit2/dsr_moveit_config_m1013) by extension 'colcon_pkg'
+[0.762s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_moveit2/dsr_moveit_config_m1013) by extensions ['colcon_meta']
+[0.762s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_moveit2/dsr_moveit_config_m1013) by extension 'colcon_meta'
+[0.762s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_moveit2/dsr_moveit_config_m1013) by extensions ['ros']
+[0.762s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_moveit2/dsr_moveit_config_m1013) by extension 'ros'
+[0.763s] colcon.colcon_core.package_identification DEBUG Package '/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_moveit2/dsr_moveit_config_m1013' with type 'ros.ament_cmake' and name 'dsr_moveit_config_m1013'
+[0.763s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_moveit2/dsr_moveit_config_m1509) by extensions ['ignore', 'ignore_ament_install']
+[0.763s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_moveit2/dsr_moveit_config_m1509) by extension 'ignore'
+[0.763s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_moveit2/dsr_moveit_config_m1509) by extension 'ignore_ament_install'
+[0.763s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_moveit2/dsr_moveit_config_m1509) by extensions ['colcon_pkg']
+[0.763s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_moveit2/dsr_moveit_config_m1509) by extension 'colcon_pkg'
+[0.763s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_moveit2/dsr_moveit_config_m1509) by extensions ['colcon_meta']
+[0.763s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_moveit2/dsr_moveit_config_m1509) by extension 'colcon_meta'
+[0.763s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_moveit2/dsr_moveit_config_m1509) by extensions ['ros']
+[0.764s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_moveit2/dsr_moveit_config_m1509) by extension 'ros'
+[0.765s] colcon.colcon_core.package_identification DEBUG Package '/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_moveit2/dsr_moveit_config_m1509' with type 'ros.ament_cmake' and name 'dsr_moveit_config_m1509'
+[0.765s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_moveit2/dsr_moveit_config_p3020) by extensions ['ignore', 'ignore_ament_install']
+[0.765s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_moveit2/dsr_moveit_config_p3020) by extension 'ignore'
+[0.765s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_moveit2/dsr_moveit_config_p3020) by extension 'ignore_ament_install'
+[0.765s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_moveit2/dsr_moveit_config_p3020) by extensions ['colcon_pkg']
+[0.765s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_moveit2/dsr_moveit_config_p3020) by extension 'colcon_pkg'
+[0.765s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_moveit2/dsr_moveit_config_p3020) by extensions ['colcon_meta']
+[0.765s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_moveit2/dsr_moveit_config_p3020) by extension 'colcon_meta'
+[0.765s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_moveit2/dsr_moveit_config_p3020) by extensions ['ros']
+[0.765s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_moveit2/dsr_moveit_config_p3020) by extension 'ros'
+[0.766s] colcon.colcon_core.package_identification DEBUG Package '/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_moveit2/dsr_moveit_config_p3020' with type 'ros.ament_cmake' and name 'dsr_moveit_config_p3020'
+[0.766s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_msgs2) by extensions ['ignore', 'ignore_ament_install']
+[0.766s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_msgs2) by extension 'ignore'
+[0.766s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_msgs2) by extension 'ignore_ament_install'
+[0.766s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_msgs2) by extensions ['colcon_pkg']
+[0.766s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_msgs2) by extension 'colcon_pkg'
+[0.766s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_msgs2) by extensions ['colcon_meta']
+[0.766s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_msgs2) by extension 'colcon_meta'
+[0.766s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_msgs2) by extensions ['ros']
+[0.766s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_msgs2) by extension 'ros'
+[0.768s] colcon.colcon_core.package_identification DEBUG Package '/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_msgs2' with type 'ros.ament_cmake' and name 'dsr_msgs2'
+[0.768s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_rokey) by extensions ['ignore', 'ignore_ament_install']
+[0.768s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_rokey) by extension 'ignore'
+[0.768s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_rokey) by extension 'ignore_ament_install'
+[0.768s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_rokey) by extensions ['colcon_pkg']
+[0.768s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_rokey) by extension 'colcon_pkg'
+[0.768s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_rokey) by extensions ['colcon_meta']
+[0.768s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_rokey) by extension 'colcon_meta'
+[0.768s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_rokey) by extensions ['ros']
+[0.769s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_rokey) by extension 'ros'
+[0.769s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_rokey) by extensions ['cmake', 'python']
+[0.769s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_rokey) by extension 'cmake'
+[0.769s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_rokey) by extension 'python'
+[0.769s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_rokey) by extensions ['python_setup_py']
+[0.769s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_rokey) by extension 'python_setup_py'
+[0.769s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_rokey/od_msg) by extensions ['ignore', 'ignore_ament_install']
+[0.769s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_rokey/od_msg) by extension 'ignore'
+[0.769s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_rokey/od_msg) by extension 'ignore_ament_install'
+[0.769s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_rokey/od_msg) by extensions ['colcon_pkg']
+[0.769s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_rokey/od_msg) by extension 'colcon_pkg'
+[0.769s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_rokey/od_msg) by extensions ['colcon_meta']
+[0.769s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_rokey/od_msg) by extension 'colcon_meta'
+[0.770s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_rokey/od_msg) by extensions ['ros']
+[0.770s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_rokey/od_msg) by extension 'ros'
+[0.770s] colcon.colcon_core.package_identification DEBUG Package '/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_rokey/od_msg' with type 'ros.catkin' and name 'od_msg'
+[0.771s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_rokey/pick_and_place_text) by extensions ['ignore', 'ignore_ament_install']
+[0.771s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_rokey/pick_and_place_text) by extension 'ignore'
+[0.771s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_rokey/pick_and_place_text) by extension 'ignore_ament_install'
+[0.771s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_rokey/pick_and_place_text) by extensions ['colcon_pkg']
+[0.771s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_rokey/pick_and_place_text) by extension 'colcon_pkg'
+[0.771s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_rokey/pick_and_place_text) by extensions ['colcon_meta']
+[0.771s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_rokey/pick_and_place_text) by extension 'colcon_meta'
+[0.771s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_rokey/pick_and_place_text) by extensions ['ros']
+[0.771s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_rokey/pick_and_place_text) by extension 'ros'
+[0.772s] colcon.colcon_core.package_identification DEBUG Package '/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_rokey/pick_and_place_text' with type 'ros.ament_python' and name 'pick_and_place_text'
+[0.773s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_rokey/pick_and_place_voice) by extensions ['ignore', 'ignore_ament_install']
+[0.773s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_rokey/pick_and_place_voice) by extension 'ignore'
+[0.773s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_rokey/pick_and_place_voice) by extension 'ignore_ament_install'
+[0.773s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_rokey/pick_and_place_voice) by extensions ['colcon_pkg']
+[0.773s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_rokey/pick_and_place_voice) by extension 'colcon_pkg'
+[0.773s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_rokey/pick_and_place_voice) by extensions ['colcon_meta']
+[0.773s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_rokey/pick_and_place_voice) by extension 'colcon_meta'
+[0.773s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_rokey/pick_and_place_voice) by extensions ['ros']
+[0.773s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_rokey/pick_and_place_voice) by extension 'ros'
+[0.775s] colcon.colcon_core.package_identification DEBUG Package '/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_rokey/pick_and_place_voice' with type 'ros.ament_python' and name 'pick_and_place_voice'
+[0.775s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_rokey/rokey) by extensions ['ignore', 'ignore_ament_install']
+[0.775s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_rokey/rokey) by extension 'ignore'
+[0.775s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_rokey/rokey) by extension 'ignore_ament_install'
+[0.775s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_rokey/rokey) by extensions ['colcon_pkg']
+[0.775s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_rokey/rokey) by extension 'colcon_pkg'
+[0.775s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_rokey/rokey) by extensions ['colcon_meta']
+[0.775s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_rokey/rokey) by extension 'colcon_meta'
+[0.775s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_rokey/rokey) by extensions ['ros']
+[0.776s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_rokey/rokey) by extension 'ros'
+[0.777s] colcon.colcon_core.package_identification DEBUG Package '/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_rokey/rokey' with type 'ros.ament_python' and name 'rokey'
+[0.777s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_tests) by extensions ['ignore', 'ignore_ament_install']
+[0.777s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_tests) by extension 'ignore'
+[0.777s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_tests) by extension 'ignore_ament_install'
+[0.778s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_tests) by extensions ['colcon_pkg']
+[0.778s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_tests) by extension 'colcon_pkg'
+[0.778s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_tests) by extensions ['colcon_meta']
+[0.778s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_tests) by extension 'colcon_meta'
+[0.778s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_tests) by extensions ['ros']
+[0.778s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_tests) by extension 'ros'
+[0.779s] colcon.colcon_core.package_identification DEBUG Package '/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_tests' with type 'ros.ament_python' and name 'dsr_tests'
+[0.779s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/somacube) by extensions ['ignore', 'ignore_ament_install']
+[0.779s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/somacube) by extension 'ignore'
+[0.780s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/somacube) by extension 'ignore_ament_install'
+[0.780s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/somacube) by extensions ['colcon_pkg']
+[0.780s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/somacube) by extension 'colcon_pkg'
+[0.780s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/somacube) by extensions ['colcon_meta']
+[0.780s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/somacube) by extension 'colcon_meta'
+[0.780s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/somacube) by extensions ['ros']
+[0.780s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/src/DoosanBootcamp3rd/somacube) by extension 'ros'
+[0.781s] colcon.colcon_core.package_identification DEBUG Package '/home/jack/ros2_ws/src/DoosanBootcamp3rd/somacube' with type 'ros.ament_python' and name 'somacube'
+[0.781s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/test_logs) by extensions ['ignore', 'ignore_ament_install']
+[0.782s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/test_logs) by extension 'ignore'
+[0.782s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/test_logs) by extension 'ignore_ament_install'
+[0.782s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/test_logs) by extensions ['colcon_pkg']
+[0.782s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/test_logs) by extension 'colcon_pkg'
+[0.782s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/test_logs) by extensions ['colcon_meta']
+[0.782s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/test_logs) by extension 'colcon_meta'
+[0.782s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/test_logs) by extensions ['ros']
+[0.782s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/test_logs) by extension 'ros'
+[0.782s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/test_logs) by extensions ['cmake', 'python']
+[0.782s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/test_logs) by extension 'cmake'
+[0.782s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/test_logs) by extension 'python'
+[0.782s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/test_logs) by extensions ['python_setup_py']
+[0.782s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/test_logs) by extension 'python_setup_py'
+[0.784s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/test_logs/manual_file_test_20250809_115410) by extensions ['ignore', 'ignore_ament_install']
+[0.784s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/test_logs/manual_file_test_20250809_115410) by extension 'ignore'
+[0.784s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/test_logs/manual_file_test_20250809_115410) by extension 'ignore_ament_install'
+[0.784s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/test_logs/manual_file_test_20250809_115410) by extensions ['colcon_pkg']
+[0.784s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/test_logs/manual_file_test_20250809_115410) by extension 'colcon_pkg'
+[0.784s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/test_logs/manual_file_test_20250809_115410) by extensions ['colcon_meta']
+[0.784s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/test_logs/manual_file_test_20250809_115410) by extension 'colcon_meta'
+[0.784s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/test_logs/manual_file_test_20250809_115410) by extensions ['ros']
+[0.784s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/test_logs/manual_file_test_20250809_115410) by extension 'ros'
+[0.784s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/test_logs/manual_file_test_20250809_115410) by extensions ['cmake', 'python']
+[0.784s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/test_logs/manual_file_test_20250809_115410) by extension 'cmake'
+[0.784s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/test_logs/manual_file_test_20250809_115410) by extension 'python'
+[0.785s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/test_logs/manual_file_test_20250809_115410) by extensions ['python_setup_py']
+[0.785s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/test_logs/manual_file_test_20250809_115410) by extension 'python_setup_py'
+[0.787s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/test_logs/manual_ros2_test_20250809_115410) by extensions ['ignore', 'ignore_ament_install']
+[0.787s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/test_logs/manual_ros2_test_20250809_115410) by extension 'ignore'
+[0.787s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/test_logs/manual_ros2_test_20250809_115410) by extension 'ignore_ament_install'
+[0.787s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/test_logs/manual_ros2_test_20250809_115410) by extensions ['colcon_pkg']
+[0.787s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/test_logs/manual_ros2_test_20250809_115410) by extension 'colcon_pkg'
+[0.788s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/test_logs/manual_ros2_test_20250809_115410) by extensions ['colcon_meta']
+[0.788s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/test_logs/manual_ros2_test_20250809_115410) by extension 'colcon_meta'
+[0.788s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/test_logs/manual_ros2_test_20250809_115410) by extensions ['ros']
+[0.788s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/test_logs/manual_ros2_test_20250809_115410) by extension 'ros'
+[0.788s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/test_logs/manual_ros2_test_20250809_115410) by extensions ['cmake', 'python']
+[0.788s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/test_logs/manual_ros2_test_20250809_115410) by extension 'cmake'
+[0.788s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/test_logs/manual_ros2_test_20250809_115410) by extension 'python'
+[0.788s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/test_logs/manual_ros2_test_20250809_115410) by extensions ['python_setup_py']
+[0.788s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/test_logs/manual_ros2_test_20250809_115410) by extension 'python_setup_py'
+[0.789s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/test_logs/manual_ros2_test_20250809_115410/tensorboard) by extensions ['ignore', 'ignore_ament_install']
+[0.789s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/test_logs/manual_ros2_test_20250809_115410/tensorboard) by extension 'ignore'
+[0.789s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/test_logs/manual_ros2_test_20250809_115410/tensorboard) by extension 'ignore_ament_install'
+[0.789s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/test_logs/manual_ros2_test_20250809_115410/tensorboard) by extensions ['colcon_pkg']
+[0.789s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/test_logs/manual_ros2_test_20250809_115410/tensorboard) by extension 'colcon_pkg'
+[0.789s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/test_logs/manual_ros2_test_20250809_115410/tensorboard) by extensions ['colcon_meta']
+[0.789s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/test_logs/manual_ros2_test_20250809_115410/tensorboard) by extension 'colcon_meta'
+[0.789s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/test_logs/manual_ros2_test_20250809_115410/tensorboard) by extensions ['ros']
+[0.789s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/test_logs/manual_ros2_test_20250809_115410/tensorboard) by extension 'ros'
+[0.789s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/test_logs/manual_ros2_test_20250809_115410/tensorboard) by extensions ['cmake', 'python']
+[0.789s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/test_logs/manual_ros2_test_20250809_115410/tensorboard) by extension 'cmake'
+[0.790s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/test_logs/manual_ros2_test_20250809_115410/tensorboard) by extension 'python'
+[0.790s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/test_logs/manual_ros2_test_20250809_115410/tensorboard) by extensions ['python_setup_py']
+[0.790s] colcon.colcon_core.package_identification Level 1 _identify(/home/jack/ros2_ws/test_logs/manual_ros2_test_20250809_115410/tensorboard) by extension 'python_setup_py'
+[0.790s] colcon.colcon_core.package_discovery Level 1 discover_packages(recursive) using defaults

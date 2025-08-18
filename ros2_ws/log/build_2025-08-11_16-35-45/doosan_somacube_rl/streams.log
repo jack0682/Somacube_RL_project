@@ -1,0 +1,211 @@
+[0.021s] Invoking command in '/home/jack/ros2_ws/build/doosan_somacube_rl': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jack/ros2_ws/build/doosan_somacube_rl -- -j8 -l8
+[0.167s] [  2%] Built target doosan_somacube_rl__cpp
+[0.193s] [  2%] Built target ament_cmake_python_copy_doosan_somacube_rl
+[0.195s] [ 12%] Built target doosan_somacube_rl__rosidl_generator_c
+[0.242s] [ 23%] Built target doosan_somacube_rl__rosidl_typesupport_fastrtps_cpp
+[0.249s] [ 34%] Built target doosan_somacube_rl__rosidl_typesupport_cpp
+[0.252s] [ 44%] Built target doosan_somacube_rl__rosidl_typesupport_introspection_cpp
+[0.256s] [ 55%] Built target doosan_somacube_rl__rosidl_typesupport_c
+[0.256s] [ 65%] Built target doosan_somacube_rl__rosidl_typesupport_introspection_c
+[0.259s] [ 76%] Built target doosan_somacube_rl__rosidl_typesupport_fastrtps_c
+[0.284s] [ 76%] Built target doosan_somacube_rl
+[0.307s] [ 78%] Built target doosan_somacube_rl__py
+[0.340s] [ 87%] Built target doosan_somacube_rl__rosidl_generator_py
+[0.381s] [ 91%] Built target doosan_somacube_rl__rosidl_typesupport_fastrtps_c__pyext
+[0.391s] [ 95%] Built target doosan_somacube_rl__rosidl_typesupport_c__pyext
+[0.403s] [100%] Built target doosan_somacube_rl__rosidl_typesupport_introspection_c__pyext
+[0.788s] running egg_info
+[0.794s] writing doosan_somacube_rl.egg-info/PKG-INFO
+[0.794s] writing dependency_links to doosan_somacube_rl.egg-info/dependency_links.txt
+[0.794s] writing top-level names to doosan_somacube_rl.egg-info/top_level.txt
+[0.803s] reading manifest file 'doosan_somacube_rl.egg-info/SOURCES.txt'
+[0.806s] writing manifest file 'doosan_somacube_rl.egg-info/SOURCES.txt'
+[0.856s] [100%] Built target ament_cmake_python_build_doosan_somacube_rl_egg
+[0.878s] Invoked command in '/home/jack/ros2_ws/build/doosan_somacube_rl' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jack/ros2_ws/build/doosan_somacube_rl -- -j8 -l8
+[0.914s] Invoking command in '/home/jack/ros2_ws/build/doosan_somacube_rl': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jack/ros2_ws/build/doosan_somacube_rl
+[0.926s] -- Install configuration: ""
+[0.928s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/share/ament_index/resource_index/rosidl_interfaces/doosan_somacube_rl
+[0.928s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/include/doosan_somacube_rl/doosan_somacube_rl
+[0.928s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/include/doosan_somacube_rl/doosan_somacube_rl/msg
+[0.928s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/include/doosan_somacube_rl/doosan_somacube_rl/msg/detail
+[0.928s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/include/doosan_somacube_rl/doosan_somacube_rl/msg/detail/register_quality__functions.h
+[0.928s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/include/doosan_somacube_rl/doosan_somacube_rl/msg/detail/register_quality__functions.c
+[0.928s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/include/doosan_somacube_rl/doosan_somacube_rl/msg/detail/safety_event__functions.c
+[0.928s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/include/doosan_somacube_rl/doosan_somacube_rl/msg/detail/policy_cmd__struct.h
+[0.928s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/include/doosan_somacube_rl/doosan_somacube_rl/msg/detail/safety_event__type_support.h
+[0.928s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/include/doosan_somacube_rl/doosan_somacube_rl/msg/detail/safety_event__functions.h
+[0.928s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/include/doosan_somacube_rl/doosan_somacube_rl/msg/detail/register_quality__type_support.h
+[0.929s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/include/doosan_somacube_rl/doosan_somacube_rl/msg/detail/policy_cmd__functions.h
+[0.929s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/include/doosan_somacube_rl/doosan_somacube_rl/msg/detail/policy_cmd__type_support.h
+[0.929s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/include/doosan_somacube_rl/doosan_somacube_rl/msg/detail/safety_event__struct.h
+[0.929s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/include/doosan_somacube_rl/doosan_somacube_rl/msg/detail/policy_cmd__functions.c
+[0.929s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/include/doosan_somacube_rl/doosan_somacube_rl/msg/detail/register_quality__struct.h
+[0.929s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/include/doosan_somacube_rl/doosan_somacube_rl/msg/register_quality.h
+[0.929s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/include/doosan_somacube_rl/doosan_somacube_rl/msg/policy_cmd.h
+[0.929s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/include/doosan_somacube_rl/doosan_somacube_rl/msg/safety_event.h
+[0.929s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/include/doosan_somacube_rl/doosan_somacube_rl/msg/rosidl_generator_c__visibility_control.h
+[0.932s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/share/doosan_somacube_rl/environment/library_path.sh
+[0.933s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/share/doosan_somacube_rl/environment/library_path.dsv
+[0.933s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/lib/libdoosan_somacube_rl__rosidl_generator_c.so
+[0.933s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/include/doosan_somacube_rl/doosan_somacube_rl
+[0.933s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/include/doosan_somacube_rl/doosan_somacube_rl/msg
+[0.933s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/include/doosan_somacube_rl/doosan_somacube_rl/msg/detail
+[0.933s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/include/doosan_somacube_rl/doosan_somacube_rl/msg/detail/safety_event__rosidl_typesupport_fastrtps_c.h
+[0.933s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/include/doosan_somacube_rl/doosan_somacube_rl/msg/detail/register_quality__rosidl_typesupport_fastrtps_c.h
+[0.933s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/include/doosan_somacube_rl/doosan_somacube_rl/msg/detail/policy_cmd__rosidl_typesupport_fastrtps_c.h
+[0.933s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/include/doosan_somacube_rl/doosan_somacube_rl/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.933s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/lib/libdoosan_somacube_rl__rosidl_typesupport_fastrtps_c.so
+[0.934s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/include/doosan_somacube_rl/doosan_somacube_rl
+[0.934s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/include/doosan_somacube_rl/doosan_somacube_rl/msg
+[0.934s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/include/doosan_somacube_rl/doosan_somacube_rl/msg/detail
+[0.934s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/include/doosan_somacube_rl/doosan_somacube_rl/msg/detail/register_quality__builder.hpp
+[0.934s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/include/doosan_somacube_rl/doosan_somacube_rl/msg/detail/policy_cmd__builder.hpp
+[0.934s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/include/doosan_somacube_rl/doosan_somacube_rl/msg/detail/policy_cmd__type_support.hpp
+[0.934s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/include/doosan_somacube_rl/doosan_somacube_rl/msg/detail/safety_event__traits.hpp
+[0.934s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/include/doosan_somacube_rl/doosan_somacube_rl/msg/detail/safety_event__struct.hpp
+[0.934s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/include/doosan_somacube_rl/doosan_somacube_rl/msg/detail/safety_event__type_support.hpp
+[0.934s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/include/doosan_somacube_rl/doosan_somacube_rl/msg/detail/register_quality__type_support.hpp
+[0.934s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/include/doosan_somacube_rl/doosan_somacube_rl/msg/detail/safety_event__builder.hpp
+[0.934s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/include/doosan_somacube_rl/doosan_somacube_rl/msg/detail/register_quality__struct.hpp
+[0.934s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/include/doosan_somacube_rl/doosan_somacube_rl/msg/detail/register_quality__traits.hpp
+[0.934s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/include/doosan_somacube_rl/doosan_somacube_rl/msg/detail/policy_cmd__struct.hpp
+[0.935s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/include/doosan_somacube_rl/doosan_somacube_rl/msg/detail/policy_cmd__traits.hpp
+[0.935s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/include/doosan_somacube_rl/doosan_somacube_rl/msg/register_quality.hpp
+[0.935s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/include/doosan_somacube_rl/doosan_somacube_rl/msg/policy_cmd.hpp
+[0.935s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/include/doosan_somacube_rl/doosan_somacube_rl/msg/rosidl_generator_cpp__visibility_control.hpp
+[0.935s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/include/doosan_somacube_rl/doosan_somacube_rl/msg/safety_event.hpp
+[0.935s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/include/doosan_somacube_rl/doosan_somacube_rl
+[0.935s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/include/doosan_somacube_rl/doosan_somacube_rl/msg
+[0.935s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/include/doosan_somacube_rl/doosan_somacube_rl/msg/detail
+[0.935s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/include/doosan_somacube_rl/doosan_somacube_rl/msg/detail/dds_fastrtps
+[0.935s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/include/doosan_somacube_rl/doosan_somacube_rl/msg/detail/register_quality__rosidl_typesupport_fastrtps_cpp.hpp
+[0.935s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/include/doosan_somacube_rl/doosan_somacube_rl/msg/detail/policy_cmd__rosidl_typesupport_fastrtps_cpp.hpp
+[0.935s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/include/doosan_somacube_rl/doosan_somacube_rl/msg/detail/safety_event__rosidl_typesupport_fastrtps_cpp.hpp
+[0.935s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/include/doosan_somacube_rl/doosan_somacube_rl/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.936s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/lib/libdoosan_somacube_rl__rosidl_typesupport_fastrtps_cpp.so
+[0.936s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/include/doosan_somacube_rl/doosan_somacube_rl
+[0.936s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/include/doosan_somacube_rl/doosan_somacube_rl/msg
+[0.936s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/include/doosan_somacube_rl/doosan_somacube_rl/msg/detail
+[0.936s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/include/doosan_somacube_rl/doosan_somacube_rl/msg/detail/safety_event__rosidl_typesupport_introspection_c.h
+[0.936s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/include/doosan_somacube_rl/doosan_somacube_rl/msg/detail/register_quality__type_support.c
+[0.936s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/include/doosan_somacube_rl/doosan_somacube_rl/msg/detail/policy_cmd__rosidl_typesupport_introspection_c.h
+[0.937s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/include/doosan_somacube_rl/doosan_somacube_rl/msg/detail/safety_event__type_support.c
+[0.937s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/include/doosan_somacube_rl/doosan_somacube_rl/msg/detail/policy_cmd__type_support.c
+[0.937s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/include/doosan_somacube_rl/doosan_somacube_rl/msg/detail/register_quality__rosidl_typesupport_introspection_c.h
+[0.937s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/include/doosan_somacube_rl/doosan_somacube_rl/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.937s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/lib/libdoosan_somacube_rl__rosidl_typesupport_introspection_c.so
+[0.937s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/lib/libdoosan_somacube_rl__rosidl_typesupport_c.so
+[0.937s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/include/doosan_somacube_rl/doosan_somacube_rl
+[0.937s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/include/doosan_somacube_rl/doosan_somacube_rl/msg
+[0.937s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/include/doosan_somacube_rl/doosan_somacube_rl/msg/detail
+[0.937s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/include/doosan_somacube_rl/doosan_somacube_rl/msg/detail/policy_cmd__type_support.cpp
+[0.937s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/include/doosan_somacube_rl/doosan_somacube_rl/msg/detail/safety_event__type_support.cpp
+[0.938s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/include/doosan_somacube_rl/doosan_somacube_rl/msg/detail/safety_event__rosidl_typesupport_introspection_cpp.hpp
+[0.938s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/include/doosan_somacube_rl/doosan_somacube_rl/msg/detail/register_quality__rosidl_typesupport_introspection_cpp.hpp
+[0.938s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/include/doosan_somacube_rl/doosan_somacube_rl/msg/detail/policy_cmd__rosidl_typesupport_introspection_cpp.hpp
+[0.938s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/include/doosan_somacube_rl/doosan_somacube_rl/msg/detail/register_quality__type_support.cpp
+[0.942s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/lib/libdoosan_somacube_rl__rosidl_typesupport_introspection_cpp.so
+[0.943s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/lib/libdoosan_somacube_rl__rosidl_typesupport_cpp.so
+[0.943s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/share/doosan_somacube_rl/environment/pythonpath.sh
+[0.943s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/share/doosan_somacube_rl/environment/pythonpath.dsv
+[0.943s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/local/lib/python3.10/dist-packages/doosan_somacube_rl-1.0.0-py3.10.egg-info
+[0.943s] -- Installing: /home/jack/ros2_ws/install/doosan_somacube_rl/local/lib/python3.10/dist-packages/doosan_somacube_rl-1.0.0-py3.10.egg-info/SOURCES.txt
+[0.944s] -- Installing: /home/jack/ros2_ws/install/doosan_somacube_rl/local/lib/python3.10/dist-packages/doosan_somacube_rl-1.0.0-py3.10.egg-info/PKG-INFO
+[0.944s] -- Installing: /home/jack/ros2_ws/install/doosan_somacube_rl/local/lib/python3.10/dist-packages/doosan_somacube_rl-1.0.0-py3.10.egg-info/dependency_links.txt
+[0.944s] -- Installing: /home/jack/ros2_ws/install/doosan_somacube_rl/local/lib/python3.10/dist-packages/doosan_somacube_rl-1.0.0-py3.10.egg-info/top_level.txt
+[0.944s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/local/lib/python3.10/dist-packages/doosan_somacube_rl
+[0.944s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/local/lib/python3.10/dist-packages/doosan_somacube_rl/libdoosan_somacube_rl__rosidl_generator_py.so
+[0.944s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/local/lib/python3.10/dist-packages/doosan_somacube_rl/doosan_somacube_rl_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.945s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/local/lib/python3.10/dist-packages/doosan_somacube_rl/_doosan_somacube_rl_s.ep.rosidl_typesupport_c.c
+[0.945s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/local/lib/python3.10/dist-packages/doosan_somacube_rl/_doosan_somacube_rl_s.ep.rosidl_typesupport_fastrtps_c.c
+[0.945s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/local/lib/python3.10/dist-packages/doosan_somacube_rl/doosan_somacube_rl_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.947s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/local/lib/python3.10/dist-packages/doosan_somacube_rl/doosan_somacube_rl_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.948s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/local/lib/python3.10/dist-packages/doosan_somacube_rl/msg
+[0.948s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/local/lib/python3.10/dist-packages/doosan_somacube_rl/msg/_register_quality.py
+[0.948s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/local/lib/python3.10/dist-packages/doosan_somacube_rl/msg/_safety_event_s.c
+[0.948s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/local/lib/python3.10/dist-packages/doosan_somacube_rl/msg/_safety_event.py
+[0.948s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/local/lib/python3.10/dist-packages/doosan_somacube_rl/msg/_register_quality_s.c
+[0.948s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/local/lib/python3.10/dist-packages/doosan_somacube_rl/msg/__init__.py
+[0.948s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/local/lib/python3.10/dist-packages/doosan_somacube_rl/msg/_policy_cmd.py
+[0.948s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/local/lib/python3.10/dist-packages/doosan_somacube_rl/msg/_policy_cmd_s.c
+[0.948s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/local/lib/python3.10/dist-packages/doosan_somacube_rl/__init__.py
+[0.948s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/local/lib/python3.10/dist-packages/doosan_somacube_rl/_doosan_somacube_rl_s.ep.rosidl_typesupport_introspection_c.c
+[1.001s] Listing '/home/jack/ros2_ws/install/doosan_somacube_rl/local/lib/python3.10/dist-packages/doosan_somacube_rl'...
+[1.001s] Listing '/home/jack/ros2_ws/install/doosan_somacube_rl/local/lib/python3.10/dist-packages/doosan_somacube_rl/msg'...
+[1.009s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/local/lib/python3.10/dist-packages/doosan_somacube_rl/doosan_somacube_rl_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.009s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/local/lib/python3.10/dist-packages/doosan_somacube_rl/doosan_somacube_rl_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.009s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/local/lib/python3.10/dist-packages/doosan_somacube_rl/doosan_somacube_rl_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.013s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/lib/libdoosan_somacube_rl__rosidl_generator_py.so
+[1.016s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/share/doosan_somacube_rl/msg/RegisterQuality.idl
+[1.016s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/share/doosan_somacube_rl/msg/PolicyCmd.idl
+[1.016s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/share/doosan_somacube_rl/msg/SafetyEvent.idl
+[1.016s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/share/doosan_somacube_rl/msg/RegisterQuality.msg
+[1.016s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/share/doosan_somacube_rl/msg/PolicyCmd.msg
+[1.016s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/share/doosan_somacube_rl/msg/SafetyEvent.msg
+[1.018s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/lib/doosan_somacube_rl/pc_preprocess_node.py
+[1.018s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/lib/doosan_somacube_rl/pc_register_node.py
+[1.018s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/lib/doosan_somacube_rl/pose_tracker_node.py
+[1.018s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/lib/doosan_somacube_rl/imp_ctrl_node.py
+[1.018s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/lib/doosan_somacube_rl/safety_monitor_node.py
+[1.018s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/lib/doosan_somacube_rl/sequencer_node.py
+[1.018s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/lib/doosan_somacube_rl/layer1_manager_node.py
+[1.018s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/lib/doosan_somacube_rl/logger_node.py
+[1.019s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/lib/doosan_somacube_rl/policy_sac_low_node.py
+[1.019s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/share/doosan_somacube_rl/launch
+[1.019s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/share/doosan_somacube_rl/launch/bringup_real.launch.py
+[1.019s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/share/doosan_somacube_rl/config
+[1.020s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/share/doosan_somacube_rl/config/grid.yaml
+[1.020s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/share/doosan_somacube_rl/config/layer1_layout.yaml
+[1.020s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/share/doosan_somacube_rl/config/rl_somacube_params.yaml
+[1.020s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/share/doosan_somacube_rl/config/topics_interfaces.yaml
+[1.020s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/share/doosan_somacube_rl/scripts
+[1.020s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/share/doosan_somacube_rl/scripts/integration_test.sh
+[1.020s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/share/doosan_somacube_rl/scripts/rqt_quickpanels.sh
+[1.020s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/share/doosan_somacube_rl/scripts/validate_dod.py
+[1.020s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/share/doosan_somacube_rl/scripts/verify_topics.py
+[1.020s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/share/doosan_somacube_rl/scripts/simulate_data.py
+[1.020s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/share/doosan_somacube_rl/scripts/system_monitor.py
+[1.020s] -- Installing: /home/jack/ros2_ws/install/doosan_somacube_rl/share/doosan_somacube_rl/scripts/topic_verification_20250811_163032.json
+[1.020s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/share/doosan_somacube_rl/scripts/bag_record.sh
+[1.021s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/share/doosan_somacube_rl/test
+[1.021s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/share/doosan_somacube_rl/test/test_gating_math.py
+[1.021s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/share/ament_index/resource_index/package_run_dependencies/doosan_somacube_rl
+[1.022s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/share/ament_index/resource_index/parent_prefix_path/doosan_somacube_rl
+[1.023s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/share/doosan_somacube_rl/environment/ament_prefix_path.sh
+[1.023s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/share/doosan_somacube_rl/environment/ament_prefix_path.dsv
+[1.023s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/share/doosan_somacube_rl/environment/path.sh
+[1.023s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/share/doosan_somacube_rl/environment/path.dsv
+[1.023s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/share/doosan_somacube_rl/local_setup.bash
+[1.023s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/share/doosan_somacube_rl/local_setup.sh
+[1.023s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/share/doosan_somacube_rl/local_setup.zsh
+[1.023s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/share/doosan_somacube_rl/local_setup.dsv
+[1.023s] -- Installing: /home/jack/ros2_ws/install/doosan_somacube_rl/share/doosan_somacube_rl/package.dsv
+[1.023s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/share/ament_index/resource_index/packages/doosan_somacube_rl
+[1.025s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/share/doosan_somacube_rl/cmake/export_doosan_somacube_rl__rosidl_generator_cExport.cmake
+[1.025s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/share/doosan_somacube_rl/cmake/export_doosan_somacube_rl__rosidl_generator_cExport-noconfig.cmake
+[1.025s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/share/doosan_somacube_rl/cmake/export_doosan_somacube_rl__rosidl_typesupport_fastrtps_cExport.cmake
+[1.026s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/share/doosan_somacube_rl/cmake/export_doosan_somacube_rl__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[1.026s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/share/doosan_somacube_rl/cmake/export_doosan_somacube_rl__rosidl_generator_cppExport.cmake
+[1.028s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/share/doosan_somacube_rl/cmake/export_doosan_somacube_rl__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.028s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/share/doosan_somacube_rl/cmake/export_doosan_somacube_rl__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[1.029s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/share/doosan_somacube_rl/cmake/doosan_somacube_rl__rosidl_typesupport_introspection_cExport.cmake
+[1.029s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/share/doosan_somacube_rl/cmake/doosan_somacube_rl__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.029s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/share/doosan_somacube_rl/cmake/doosan_somacube_rl__rosidl_typesupport_cExport.cmake
+[1.029s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/share/doosan_somacube_rl/cmake/doosan_somacube_rl__rosidl_typesupport_cExport-noconfig.cmake
+[1.030s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/share/doosan_somacube_rl/cmake/doosan_somacube_rl__rosidl_typesupport_introspection_cppExport.cmake
+[1.030s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/share/doosan_somacube_rl/cmake/doosan_somacube_rl__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.031s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/share/doosan_somacube_rl/cmake/doosan_somacube_rl__rosidl_typesupport_cppExport.cmake
+[1.031s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/share/doosan_somacube_rl/cmake/doosan_somacube_rl__rosidl_typesupport_cppExport-noconfig.cmake
+[1.032s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/share/doosan_somacube_rl/cmake/export_doosan_somacube_rl__rosidl_generator_pyExport.cmake
+[1.032s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/share/doosan_somacube_rl/cmake/export_doosan_somacube_rl__rosidl_generator_pyExport-noconfig.cmake
+[1.032s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/share/doosan_somacube_rl/cmake/rosidl_cmake-extras.cmake
+[1.033s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/share/doosan_somacube_rl/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.033s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/share/doosan_somacube_rl/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.033s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/share/doosan_somacube_rl/cmake/ament_cmake_export_libraries-extras.cmake
+[1.033s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/share/doosan_somacube_rl/cmake/ament_cmake_export_targets-extras.cmake
+[1.033s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/share/doosan_somacube_rl/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.033s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/share/doosan_somacube_rl/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.033s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/share/doosan_somacube_rl/cmake/doosan_somacube_rlConfig.cmake
+[1.033s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/share/doosan_somacube_rl/cmake/doosan_somacube_rlConfig-version.cmake
+[1.033s] -- Up-to-date: /home/jack/ros2_ws/install/doosan_somacube_rl/share/doosan_somacube_rl/package.xml
+[1.035s] Invoked command in '/home/jack/ros2_ws/build/doosan_somacube_rl' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jack/ros2_ws/build/doosan_somacube_rl

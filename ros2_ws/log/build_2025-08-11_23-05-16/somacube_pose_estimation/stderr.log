@@ -1,0 +1,6 @@
+CMake Error at cmake_install.cmake:70 (file):
+  file INSTALL cannot find
+  "/home/jack/ros2_ws/src/somacube_pose_estimation/scripts/pose_validation_node.py":
+  No such file or directory.
+
+

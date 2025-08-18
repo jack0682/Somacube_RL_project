@@ -1,0 +1,6 @@
+{
+  "package_name": "od_msg",
+  "non_idl_tuples": [
+    "/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_rokey/od_msg:srv/SrvDepthPosition.srv"
+  ]
+}

@@ -1,0 +1,4 @@
+source;share/somacube_pose_estimation/local_setup.bash
+source;share/somacube_pose_estimation/local_setup.dsv
+source;share/somacube_pose_estimation/local_setup.sh
+source;share/somacube_pose_estimation/local_setup.zsh

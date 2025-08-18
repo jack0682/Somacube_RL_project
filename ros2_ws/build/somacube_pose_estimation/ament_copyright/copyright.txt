@@ -1,0 +1,28 @@
+-- run_test.py: invoking following command in '/home/jack/ros2_ws/src/somacube_pose_estimation':
+ - /opt/ros/humble/bin/ament_copyright --xunit-file /home/jack/ros2_ws/build/somacube_pose_estimation/test_results/somacube_pose_estimation/copyright.xunit.xml
+
+launch/complete_pose_estimation.launch.py: could not find copyright notice
+launch/doosan_m0609_soma_cube.launch.py: could not find copyright notice
+launch/global_mapping.launch.py: could not find copyright notice
+scripts/camera_pose_manager_node.py: could not find copyright notice
+scripts/capture_control_interface.py: could not find copyright notice
+scripts/doosan_pose_sequence.py: could not find copyright notice
+scripts/manhattan_aligner_node.py: could not find copyright notice
+scripts/multiview_fusion_node.py: could not find copyright notice
+scripts/pca_axis_estimator_node.py: could not find copyright notice
+scripts/pointcloud_processor_node.py: could not find copyright notice
+scripts/synchronized_capture_node.py: could not find copyright notice
+scripts/visualization_node.py: could not find copyright notice
+scripts/yolo_detector_node.py: could not find copyright notice
+somacube_pose_estimation/__init__.py: could not find copyright notice
+somacube_pose_estimation/mathematical_foundations.py: could not find copyright notice
+somacube_pose_estimation/multiview_fusion.py: could not find copyright notice
+somacube_pose_estimation/pointcloud_processing.py: could not find copyright notice
+somacube_pose_estimation/pose_estimation.py: could not find copyright notice
+tests/test_mathematical_foundations.py: could not find copyright notice
+tests/test_pose_pipeline.py: could not find copyright notice
+20 errors, checked 20 files
+
+
+-- run_test.py: return code 1
+-- run_test.py: verify result file '/home/jack/ros2_ws/build/somacube_pose_estimation/test_results/somacube_pose_estimation/copyright.xunit.xml'

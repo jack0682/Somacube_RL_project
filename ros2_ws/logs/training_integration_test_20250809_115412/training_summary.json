@@ -1,0 +1,28 @@
+{
+  "experiment_info": {
+    "name": "training_integration_test_20250809_115412",
+    "total_episodes": 20,
+    "successful_episodes": 10,
+    "success_rate": 0.5,
+    "total_training_time_seconds": 0.04253435134887695,
+    "total_training_time_hours": 1.1815097596910266e-05
+  },
+  "performance_metrics": {
+    "average_reward": 11.034148732259883,
+    "std_reward": 19.700687960497497,
+    "min_reward": -18.89210428449665,
+    "max_reward": 43.571977646851224,
+    "average_steps": 26.1,
+    "std_steps": 7.161703707917551,
+    "average_completion_rate": 0.4
+  },
+  "recent_performance": {
+    "recent_success_rate": 0.5,
+    "recent_average_reward": 11.034148732259883,
+    "recent_average_steps": 26.1
+  },
+  "training_efficiency": {
+    "episodes_per_hour": 1692749.453481463,
+    "successful_episodes_per_hour": 846374.7267407315
+  }
+}

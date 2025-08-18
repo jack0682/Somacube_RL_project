@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-1adea64023cf9aef606f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "somacube_pose_estimation",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_somacube_pose_estimation_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_somacube_pose_estimation_egg-d45f074e09811a1f79bb.json",
+					"name" : "ament_cmake_python_build_somacube_pose_estimation_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_somacube_pose_estimation::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_somacube_pose_estimation-56e0dc30065f78e38d74.json",
+					"name" : "ament_cmake_python_copy_somacube_pose_estimation",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "somacube_pose_estimation_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-somacube_pose_estimation_uninstall-1eaddf433af5817bad1f.json",
+					"name" : "somacube_pose_estimation_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-b22d3680c36ba4271164.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/jack/ros2_ws/build/somacube_pose_estimation",
+		"source" : "/home/jack/ros2_ws/src/somacube_pose_estimation"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

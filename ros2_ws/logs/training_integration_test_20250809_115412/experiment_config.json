@@ -1,0 +1,18 @@
+{
+  "max_episodes": 20,
+  "max_steps_per_episode": 50,
+  "eval_interval": 500,
+  "save_interval": 1000,
+  "log_interval": 100,
+  "robot_id": "dsr01",
+  "robot_model": "m0609",
+  "virtual_mode": true,
+  "target_success_rate": 0.85,
+  "target_steps_per_success": 20,
+  "patience": 2000,
+  "min_improvement": 0.02,
+  "device": "cuda",
+  "log_dir": "logs",
+  "model_dir": "models",
+  "use_tensorboard": false
+}

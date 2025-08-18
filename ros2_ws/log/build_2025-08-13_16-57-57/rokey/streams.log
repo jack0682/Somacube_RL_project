@@ -1,0 +1,78 @@
+[2.988s] Invoking command in '/home/jack/ros2_ws/build/rokey': PYTHONPATH=/home/jack/ros2_ws/build/rokey/prefix_override:/home/jack/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/jack/ros2_ws/install/rokey/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/jack/ros2_ws/build/rokey/build
+[62.997s] running develop
+[63.752s] Removing /home/jack/ros2_ws/install/rokey/lib/python3.10/site-packages/rokey.egg-link (link to .)
+[63.811s] Invoked command in '/home/jack/ros2_ws/build/rokey' returned '0': PYTHONPATH=/home/jack/ros2_ws/build/rokey/prefix_override:/home/jack/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/jack/ros2_ws/install/rokey/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/jack/ros2_ws/build/rokey/build
+[63.813s] Invoking command in '/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_rokey/rokey': PYTHONPATH=/home/jack/ros2_ws/build/rokey/prefix_override:/home/jack/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/jack/ros2_ws/install/rokey/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/rokey build --build-base /home/jack/ros2_ws/build/rokey/build install --record /home/jack/ros2_ws/build/rokey/install.log --single-version-externally-managed install_data --force
+[64.095s] running egg_info
+[64.096s] writing ../../../../build/rokey/rokey.egg-info/PKG-INFO
+[64.096s] writing dependency_links to ../../../../build/rokey/rokey.egg-info/dependency_links.txt
+[64.096s] writing entry points to ../../../../build/rokey/rokey.egg-info/entry_points.txt
+[64.097s] writing requirements to ../../../../build/rokey/rokey.egg-info/requires.txt
+[64.097s] writing top-level names to ../../../../build/rokey/rokey.egg-info/top_level.txt
+[64.099s] reading manifest file '../../../../build/rokey/rokey.egg-info/SOURCES.txt'
+[64.100s] writing manifest file '../../../../build/rokey/rokey.egg-info/SOURCES.txt'
+[64.100s] running build
+[64.100s] running build_py
+[64.102s] running install
+[64.102s] running install_lib
+[64.103s] creating /home/jack/ros2_ws/install/rokey/lib/python3.10/site-packages/rokey
+[64.104s] creating /home/jack/ros2_ws/install/rokey/lib/python3.10/site-packages/rokey/basic
+[64.104s] copying /home/jack/ros2_ws/build/rokey/build/lib/rokey/basic/move_periodic.py -> /home/jack/ros2_ws/install/rokey/lib/python3.10/site-packages/rokey/basic
+[64.104s] copying /home/jack/ros2_ws/build/rokey/build/lib/rokey/basic/getting_position.py -> /home/jack/ros2_ws/install/rokey/lib/python3.10/site-packages/rokey/basic
+[64.104s] copying /home/jack/ros2_ws/build/rokey/build/lib/rokey/basic/jog_complete.py -> /home/jack/ros2_ws/install/rokey/lib/python3.10/site-packages/rokey/basic
+[64.104s] copying /home/jack/ros2_ws/build/rokey/build/lib/rokey/basic/grip.py -> /home/jack/ros2_ws/install/rokey/lib/python3.10/site-packages/rokey/basic
+[64.105s] copying /home/jack/ros2_ws/build/rokey/build/lib/rokey/basic/__init__.py -> /home/jack/ros2_ws/install/rokey/lib/python3.10/site-packages/rokey/basic
+[64.105s] copying /home/jack/ros2_ws/build/rokey/build/lib/rokey/basic/move.py -> /home/jack/ros2_ws/install/rokey/lib/python3.10/site-packages/rokey/basic
+[64.105s] copying /home/jack/ros2_ws/build/rokey/build/lib/rokey/basic/amove_test.py -> /home/jack/ros2_ws/install/rokey/lib/python3.10/site-packages/rokey/basic
+[64.105s] copying /home/jack/ros2_ws/build/rokey/build/lib/rokey/basic/get_current_pos.py -> /home/jack/ros2_ws/install/rokey/lib/python3.10/site-packages/rokey/basic
+[64.105s] copying /home/jack/ros2_ws/build/rokey/build/lib/rokey/basic/data_recording.py -> /home/jack/ros2_ws/install/rokey/lib/python3.10/site-packages/rokey/basic
+[64.106s] copying /home/jack/ros2_ws/build/rokey/build/lib/rokey/basic/movesx_test.py -> /home/jack/ros2_ws/install/rokey/lib/python3.10/site-packages/rokey/basic
+[64.106s] copying /home/jack/ros2_ws/build/rokey/build/lib/rokey/basic/force_control.py -> /home/jack/ros2_ws/install/rokey/lib/python3.10/site-packages/rokey/basic
+[64.106s] copying /home/jack/ros2_ws/build/rokey/build/lib/rokey/speech_test_launcher.py -> /home/jack/ros2_ws/install/rokey/lib/python3.10/site-packages/rokey
+[64.106s] copying /home/jack/ros2_ws/build/rokey/build/lib/rokey/__init__.py -> /home/jack/ros2_ws/install/rokey/lib/python3.10/site-packages/rokey
+[64.106s] copying /home/jack/ros2_ws/build/rokey/build/lib/rokey/speech_to_text.py -> /home/jack/ros2_ws/install/rokey/lib/python3.10/site-packages/rokey
+[64.107s] copying /home/jack/ros2_ws/build/rokey/build/lib/rokey/start_signal_test.py -> /home/jack/ros2_ws/install/rokey/lib/python3.10/site-packages/rokey
+[64.107s] copying /home/jack/ros2_ws/build/rokey/build/lib/rokey/tts_feedback.py -> /home/jack/ros2_ws/install/rokey/lib/python3.10/site-packages/rokey
+[64.108s] byte-compiling /home/jack/ros2_ws/install/rokey/lib/python3.10/site-packages/rokey/basic/move_periodic.py to move_periodic.cpython-310.pyc
+[64.108s] byte-compiling /home/jack/ros2_ws/install/rokey/lib/python3.10/site-packages/rokey/basic/getting_position.py to getting_position.cpython-310.pyc
+[64.109s] byte-compiling /home/jack/ros2_ws/install/rokey/lib/python3.10/site-packages/rokey/basic/jog_complete.py to jog_complete.cpython-310.pyc
+[64.111s] byte-compiling /home/jack/ros2_ws/install/rokey/lib/python3.10/site-packages/rokey/basic/grip.py to grip.cpython-310.pyc
+[64.111s] byte-compiling /home/jack/ros2_ws/install/rokey/lib/python3.10/site-packages/rokey/basic/__init__.py to __init__.cpython-310.pyc
+[64.111s] byte-compiling /home/jack/ros2_ws/install/rokey/lib/python3.10/site-packages/rokey/basic/move.py to move.cpython-310.pyc
+[64.112s] byte-compiling /home/jack/ros2_ws/install/rokey/lib/python3.10/site-packages/rokey/basic/amove_test.py to amove_test.cpython-310.pyc
+[64.112s] byte-compiling /home/jack/ros2_ws/install/rokey/lib/python3.10/site-packages/rokey/basic/get_current_pos.py to get_current_pos.cpython-310.pyc
+[64.113s] byte-compiling /home/jack/ros2_ws/install/rokey/lib/python3.10/site-packages/rokey/basic/data_recording.py to data_recording.cpython-310.pyc
+[64.113s] byte-compiling /home/jack/ros2_ws/install/rokey/lib/python3.10/site-packages/rokey/basic/movesx_test.py to movesx_test.cpython-310.pyc
+[64.114s] byte-compiling /home/jack/ros2_ws/install/rokey/lib/python3.10/site-packages/rokey/basic/force_control.py to force_control.cpython-310.pyc
+[64.114s] byte-compiling /home/jack/ros2_ws/install/rokey/lib/python3.10/site-packages/rokey/speech_test_launcher.py to speech_test_launcher.cpython-310.pyc
+[64.115s] byte-compiling /home/jack/ros2_ws/install/rokey/lib/python3.10/site-packages/rokey/__init__.py to __init__.cpython-310.pyc
+[64.115s] byte-compiling /home/jack/ros2_ws/install/rokey/lib/python3.10/site-packages/rokey/speech_to_text.py to speech_to_text.cpython-310.pyc
+[64.119s] byte-compiling /home/jack/ros2_ws/install/rokey/lib/python3.10/site-packages/rokey/start_signal_test.py to start_signal_test.cpython-310.pyc
+[64.119s] byte-compiling /home/jack/ros2_ws/install/rokey/lib/python3.10/site-packages/rokey/tts_feedback.py to tts_feedback.cpython-310.pyc
+[64.121s] running install_data
+[64.122s] copying resource/rokey -> /home/jack/ros2_ws/install/rokey/share/ament_index/resource_index/packages
+[64.123s] copying package.xml -> /home/jack/ros2_ws/install/rokey/share/rokey
+[64.124s] copying .env -> /home/jack/ros2_ws/install/rokey/share/rokey
+[64.124s] copying requirements.txt -> /home/jack/ros2_ws/install/rokey/share/rokey
+[64.125s] copying SPEECH_TO_TEXT_README.md -> /home/jack/ros2_ws/install/rokey/share/rokey
+[64.125s] copying test_speech_to_text.sh -> /home/jack/ros2_ws/install/rokey/share/rokey
+[64.125s] running install_egg_info
+[64.127s] Copying ../../../../build/rokey/rokey.egg-info to /home/jack/ros2_ws/install/rokey/lib/python3.10/site-packages/rokey-1.0.0-py3.10.egg-info
+[64.128s] running install_scripts
+[64.146s] Installing data_recording script to /home/jack/ros2_ws/install/rokey/lib/rokey
+[64.146s] Installing force_control script to /home/jack/ros2_ws/install/rokey/lib/rokey
+[64.146s] Installing get_current_pos script to /home/jack/ros2_ws/install/rokey/lib/rokey
+[64.146s] Installing getting_position script to /home/jack/ros2_ws/install/rokey/lib/rokey
+[64.146s] Installing grip script to /home/jack/ros2_ws/install/rokey/lib/rokey
+[64.146s] Installing jog script to /home/jack/ros2_ws/install/rokey/lib/rokey
+[64.146s] Installing move_periodic script to /home/jack/ros2_ws/install/rokey/lib/rokey
+[64.147s] Installing rokey-speech script to /home/jack/ros2_ws/install/rokey/lib/rokey
+[64.147s] Installing rokey-speech-test script to /home/jack/ros2_ws/install/rokey/lib/rokey
+[64.147s] Installing rokey-test script to /home/jack/ros2_ws/install/rokey/lib/rokey
+[64.147s] Installing simple_amove script to /home/jack/ros2_ws/install/rokey/lib/rokey
+[64.147s] Installing simple_move script to /home/jack/ros2_ws/install/rokey/lib/rokey
+[64.147s] Installing simple_movesx script to /home/jack/ros2_ws/install/rokey/lib/rokey
+[64.147s] Installing speech_to_text script to /home/jack/ros2_ws/install/rokey/lib/rokey
+[64.148s] Installing start_signal_test script to /home/jack/ros2_ws/install/rokey/lib/rokey
+[64.148s] writing list of installed files to '/home/jack/ros2_ws/build/rokey/install.log'
+[64.174s] Invoked command in '/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_rokey/rokey' returned '0': PYTHONPATH=/home/jack/ros2_ws/build/rokey/prefix_override:/home/jack/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/jack/ros2_ws/install/rokey/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/rokey build --build-base /home/jack/ros2_ws/build/rokey/build install --record /home/jack/ros2_ws/build/rokey/install.log --single-version-externally-managed install_data --force

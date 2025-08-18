@@ -1,0 +1,21 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/doosan_somacube_rl__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/doosan_somacube_rl/msg/detail/policy_cmd__type_support_c.cpp.o"
+  "CMakeFiles/doosan_somacube_rl__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/doosan_somacube_rl/msg/detail/policy_cmd__type_support_c.cpp.o.d"
+  "CMakeFiles/doosan_somacube_rl__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/doosan_somacube_rl/msg/detail/register_quality__type_support_c.cpp.o"
+  "CMakeFiles/doosan_somacube_rl__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/doosan_somacube_rl/msg/detail/register_quality__type_support_c.cpp.o.d"
+  "CMakeFiles/doosan_somacube_rl__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/doosan_somacube_rl/msg/detail/safety_event__type_support_c.cpp.o"
+  "CMakeFiles/doosan_somacube_rl__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/doosan_somacube_rl/msg/detail/safety_event__type_support_c.cpp.o.d"
+  "libdoosan_somacube_rl__rosidl_typesupport_fastrtps_c.pdb"
+  "libdoosan_somacube_rl__rosidl_typesupport_fastrtps_c.so"
+  "rosidl_typesupport_fastrtps_c/doosan_somacube_rl/msg/detail/policy_cmd__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/doosan_somacube_rl/msg/detail/policy_cmd__type_support_c.cpp"
+  "rosidl_typesupport_fastrtps_c/doosan_somacube_rl/msg/detail/register_quality__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/doosan_somacube_rl/msg/detail/register_quality__type_support_c.cpp"
+  "rosidl_typesupport_fastrtps_c/doosan_somacube_rl/msg/detail/safety_event__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/doosan_somacube_rl/msg/detail/safety_event__type_support_c.cpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/doosan_somacube_rl__rosidl_typesupport_fastrtps_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

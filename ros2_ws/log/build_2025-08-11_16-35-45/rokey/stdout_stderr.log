@@ -1,0 +1,76 @@
+running egg_info
+creating ../../../../build/rokey/rokey.egg-info
+writing ../../../../build/rokey/rokey.egg-info/PKG-INFO
+writing dependency_links to ../../../../build/rokey/rokey.egg-info/dependency_links.txt
+writing entry points to ../../../../build/rokey/rokey.egg-info/entry_points.txt
+writing requirements to ../../../../build/rokey/rokey.egg-info/requires.txt
+writing top-level names to ../../../../build/rokey/rokey.egg-info/top_level.txt
+writing manifest file '../../../../build/rokey/rokey.egg-info/SOURCES.txt'
+reading manifest file '../../../../build/rokey/rokey.egg-info/SOURCES.txt'
+writing manifest file '../../../../build/rokey/rokey.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/jack/ros2_ws/build/rokey/build
+creating /home/jack/ros2_ws/build/rokey/build/lib
+creating /home/jack/ros2_ws/build/rokey/build/lib/rokey
+copying rokey/__init__.py -> /home/jack/ros2_ws/build/rokey/build/lib/rokey
+creating /home/jack/ros2_ws/build/rokey/build/lib/rokey/basic
+copying rokey/basic/move_periodic.py -> /home/jack/ros2_ws/build/rokey/build/lib/rokey/basic
+copying rokey/basic/getting_position.py -> /home/jack/ros2_ws/build/rokey/build/lib/rokey/basic
+copying rokey/basic/jog_complete.py -> /home/jack/ros2_ws/build/rokey/build/lib/rokey/basic
+copying rokey/basic/grip.py -> /home/jack/ros2_ws/build/rokey/build/lib/rokey/basic
+copying rokey/basic/__init__.py -> /home/jack/ros2_ws/build/rokey/build/lib/rokey/basic
+copying rokey/basic/move.py -> /home/jack/ros2_ws/build/rokey/build/lib/rokey/basic
+copying rokey/basic/amove_test.py -> /home/jack/ros2_ws/build/rokey/build/lib/rokey/basic
+copying rokey/basic/get_current_pos.py -> /home/jack/ros2_ws/build/rokey/build/lib/rokey/basic
+copying rokey/basic/data_recording.py -> /home/jack/ros2_ws/build/rokey/build/lib/rokey/basic
+copying rokey/basic/movesx_test.py -> /home/jack/ros2_ws/build/rokey/build/lib/rokey/basic
+copying rokey/basic/force_control.py -> /home/jack/ros2_ws/build/rokey/build/lib/rokey/basic
+running install
+running install_lib
+creating /home/jack/ros2_ws/install/rokey/lib/python3.10/site-packages/rokey
+creating /home/jack/ros2_ws/install/rokey/lib/python3.10/site-packages/rokey/basic
+copying /home/jack/ros2_ws/build/rokey/build/lib/rokey/basic/move_periodic.py -> /home/jack/ros2_ws/install/rokey/lib/python3.10/site-packages/rokey/basic
+copying /home/jack/ros2_ws/build/rokey/build/lib/rokey/basic/getting_position.py -> /home/jack/ros2_ws/install/rokey/lib/python3.10/site-packages/rokey/basic
+copying /home/jack/ros2_ws/build/rokey/build/lib/rokey/basic/jog_complete.py -> /home/jack/ros2_ws/install/rokey/lib/python3.10/site-packages/rokey/basic
+copying /home/jack/ros2_ws/build/rokey/build/lib/rokey/basic/grip.py -> /home/jack/ros2_ws/install/rokey/lib/python3.10/site-packages/rokey/basic
+copying /home/jack/ros2_ws/build/rokey/build/lib/rokey/basic/__init__.py -> /home/jack/ros2_ws/install/rokey/lib/python3.10/site-packages/rokey/basic
+copying /home/jack/ros2_ws/build/rokey/build/lib/rokey/basic/move.py -> /home/jack/ros2_ws/install/rokey/lib/python3.10/site-packages/rokey/basic
+copying /home/jack/ros2_ws/build/rokey/build/lib/rokey/basic/amove_test.py -> /home/jack/ros2_ws/install/rokey/lib/python3.10/site-packages/rokey/basic
+copying /home/jack/ros2_ws/build/rokey/build/lib/rokey/basic/get_current_pos.py -> /home/jack/ros2_ws/install/rokey/lib/python3.10/site-packages/rokey/basic
+copying /home/jack/ros2_ws/build/rokey/build/lib/rokey/basic/data_recording.py -> /home/jack/ros2_ws/install/rokey/lib/python3.10/site-packages/rokey/basic
+copying /home/jack/ros2_ws/build/rokey/build/lib/rokey/basic/movesx_test.py -> /home/jack/ros2_ws/install/rokey/lib/python3.10/site-packages/rokey/basic
+copying /home/jack/ros2_ws/build/rokey/build/lib/rokey/basic/force_control.py -> /home/jack/ros2_ws/install/rokey/lib/python3.10/site-packages/rokey/basic
+copying /home/jack/ros2_ws/build/rokey/build/lib/rokey/__init__.py -> /home/jack/ros2_ws/install/rokey/lib/python3.10/site-packages/rokey
+byte-compiling /home/jack/ros2_ws/install/rokey/lib/python3.10/site-packages/rokey/basic/move_periodic.py to move_periodic.cpython-310.pyc
+byte-compiling /home/jack/ros2_ws/install/rokey/lib/python3.10/site-packages/rokey/basic/getting_position.py to getting_position.cpython-310.pyc
+byte-compiling /home/jack/ros2_ws/install/rokey/lib/python3.10/site-packages/rokey/basic/jog_complete.py to jog_complete.cpython-310.pyc
+byte-compiling /home/jack/ros2_ws/install/rokey/lib/python3.10/site-packages/rokey/basic/grip.py to grip.cpython-310.pyc
+byte-compiling /home/jack/ros2_ws/install/rokey/lib/python3.10/site-packages/rokey/basic/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/jack/ros2_ws/install/rokey/lib/python3.10/site-packages/rokey/basic/move.py to move.cpython-310.pyc
+byte-compiling /home/jack/ros2_ws/install/rokey/lib/python3.10/site-packages/rokey/basic/amove_test.py to amove_test.cpython-310.pyc
+byte-compiling /home/jack/ros2_ws/install/rokey/lib/python3.10/site-packages/rokey/basic/get_current_pos.py to get_current_pos.cpython-310.pyc
+byte-compiling /home/jack/ros2_ws/install/rokey/lib/python3.10/site-packages/rokey/basic/data_recording.py to data_recording.cpython-310.pyc
+byte-compiling /home/jack/ros2_ws/install/rokey/lib/python3.10/site-packages/rokey/basic/movesx_test.py to movesx_test.cpython-310.pyc
+byte-compiling /home/jack/ros2_ws/install/rokey/lib/python3.10/site-packages/rokey/basic/force_control.py to force_control.cpython-310.pyc
+byte-compiling /home/jack/ros2_ws/install/rokey/lib/python3.10/site-packages/rokey/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/jack/ros2_ws/install/rokey/share/ament_index
+creating /home/jack/ros2_ws/install/rokey/share/ament_index/resource_index
+creating /home/jack/ros2_ws/install/rokey/share/ament_index/resource_index/packages
+copying resource/rokey -> /home/jack/ros2_ws/install/rokey/share/ament_index/resource_index/packages
+copying package.xml -> /home/jack/ros2_ws/install/rokey/share/rokey
+running install_egg_info
+Copying ../../../../build/rokey/rokey.egg-info to /home/jack/ros2_ws/install/rokey/lib/python3.10/site-packages/rokey-0.0.0-py3.10.egg-info
+running install_scripts
+Installing data_recording script to /home/jack/ros2_ws/install/rokey/lib/rokey
+Installing force_control script to /home/jack/ros2_ws/install/rokey/lib/rokey
+Installing get_current_pos script to /home/jack/ros2_ws/install/rokey/lib/rokey
+Installing getting_position script to /home/jack/ros2_ws/install/rokey/lib/rokey
+Installing grip script to /home/jack/ros2_ws/install/rokey/lib/rokey
+Installing jog script to /home/jack/ros2_ws/install/rokey/lib/rokey
+Installing move_periodic script to /home/jack/ros2_ws/install/rokey/lib/rokey
+Installing simple_amove script to /home/jack/ros2_ws/install/rokey/lib/rokey
+Installing simple_move script to /home/jack/ros2_ws/install/rokey/lib/rokey
+Installing simple_movesx script to /home/jack/ros2_ws/install/rokey/lib/rokey
+writing list of installed files to '/home/jack/ros2_ws/build/rokey/install.log'

@@ -1,0 +1,21 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/doosan_somacube_rl__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/doosan_somacube_rl/msg/detail/dds_fastrtps/policy_cmd__type_support.cpp.o"
+  "CMakeFiles/doosan_somacube_rl__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/doosan_somacube_rl/msg/detail/dds_fastrtps/policy_cmd__type_support.cpp.o.d"
+  "CMakeFiles/doosan_somacube_rl__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/doosan_somacube_rl/msg/detail/dds_fastrtps/register_quality__type_support.cpp.o"
+  "CMakeFiles/doosan_somacube_rl__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/doosan_somacube_rl/msg/detail/dds_fastrtps/register_quality__type_support.cpp.o.d"
+  "CMakeFiles/doosan_somacube_rl__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/doosan_somacube_rl/msg/detail/dds_fastrtps/safety_event__type_support.cpp.o"
+  "CMakeFiles/doosan_somacube_rl__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/doosan_somacube_rl/msg/detail/dds_fastrtps/safety_event__type_support.cpp.o.d"
+  "libdoosan_somacube_rl__rosidl_typesupport_fastrtps_cpp.pdb"
+  "libdoosan_somacube_rl__rosidl_typesupport_fastrtps_cpp.so"
+  "rosidl_typesupport_fastrtps_cpp/doosan_somacube_rl/msg/detail/dds_fastrtps/policy_cmd__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/doosan_somacube_rl/msg/detail/dds_fastrtps/register_quality__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/doosan_somacube_rl/msg/detail/dds_fastrtps/safety_event__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/doosan_somacube_rl/msg/detail/policy_cmd__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/doosan_somacube_rl/msg/detail/register_quality__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/doosan_somacube_rl/msg/detail/safety_event__rosidl_typesupport_fastrtps_cpp.hpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/doosan_somacube_rl__rosidl_typesupport_fastrtps_cpp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

@@ -1,0 +1,69 @@
+[0.008s] Invoking command in '/home/jack/ros2_ws/build/doosan_somacube_rl': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jack/ros2_ws/src/doosan_somacube_rl -DCMAKE_INSTALL_PREFIX=/home/jack/ros2_ws/install/doosan_somacube_rl
+[0.173s] -- The C compiler identification is GNU 11.4.0
+[0.276s] -- The CXX compiler identification is GNU 11.4.0
+[0.286s] -- Detecting C compiler ABI info
+[0.344s] -- Detecting C compiler ABI info - done
+[0.350s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.350s] -- Detecting C compile features
+[0.351s] -- Detecting C compile features - done
+[0.354s] -- Detecting CXX compiler ABI info
+[0.414s] -- Detecting CXX compiler ABI info - done
+[0.420s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.420s] -- Detecting CXX compile features
+[0.420s] -- Detecting CXX compile features - done
+[0.425s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.543s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.629s] -- Found rclpy: 3.3.16 (/opt/ros/humble/share/rclpy/cmake)
+[0.631s] -- Found std_msgs: 4.9.0 (/opt/ros/humble/share/std_msgs/cmake)
+[0.677s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.683s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.692s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.709s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.727s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.756s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.770s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.789s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.929s] CMake Error at /opt/ros/humble/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:59 (message):
+[0.929s]   execute_process(/usr/bin/python3 -m rosidl_adapter --package-name
+[0.929s]   doosan_somacube_rl --arguments-file
+[0.929s]   /home/jack/ros2_ws/build/doosan_somacube_rl/rosidl_adapter__arguments__doosan_somacube_rl.json
+[0.929s]   --output-dir
+[0.929s]   /home/jack/ros2_ws/build/doosan_somacube_rl/rosidl_adapter/doosan_somacube_rl
+[0.929s]   --output-file
+[0.929s]   /home/jack/ros2_ws/build/doosan_somacube_rl/rosidl_adapter/doosan_somacube_rl.idls)
+[0.929s]   returned error code 1:
+[0.929s] 
+[0.929s]   Error processing 'float32 dKp' of 'doosan_somacube_rl/PolicyCmd': ''dKp' is
+[0.929s]   an invalid field name.  It should have the pattern
+[0.929s]   '^(?!.*__)(?!.*_$)[a-z][a-z0-9_]*$''
+[0.929s] 
+[0.929s]   Traceback (most recent call last):
+[0.929s] 
+[0.929s]     File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+[0.929s]       return _run_code(code, main_globals, None,
+[0.929s]     File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+[0.929s]       exec(code, run_globals)
+[0.929s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[0.930s]       sys.exit(main())
+[0.930s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/main.py", line 53, in main
+[0.930s]       abs_idl_file = convert_to_idl(
+[0.930s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__init__.py", line 19, in convert_to_idl
+[0.930s]       return convert_msg_to_idl(
+[0.930s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/msg/__init__.py", line 28, in convert_msg_to_idl
+[0.930s]       msg = parse_message_string(package_name, input_file.stem, content)
+[0.930s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 519, in parse_message_string
+[0.930s]       fields.append(Field(
+[0.930s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 354, in __init__
+[0.930s]       raise NameError(
+[0.930s] 
+[0.930s]   NameError: 'dKp' is an invalid field name.  It should have the pattern
+[0.930s]   '^(?!.*__)(?!.*_$)[a-z][a-z0-9_]*$'
+[0.930s] 
+[0.930s] Call Stack (most recent call first):
+[0.930s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[0.930s]   CMakeLists.txt:18 (rosidl_generate_interfaces)
+[0.930s] 
+[0.930s] 
+[0.930s] -- Configuring incomplete, errors occurred!
+[0.930s] See also "/home/jack/ros2_ws/build/doosan_somacube_rl/CMakeFiles/CMakeOutput.log".
+[0.934s] Invoked command in '/home/jack/ros2_ws/build/doosan_somacube_rl' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jack/ros2_ws/src/doosan_somacube_rl -DCMAKE_INSTALL_PREFIX=/home/jack/ros2_ws/install/doosan_somacube_rl

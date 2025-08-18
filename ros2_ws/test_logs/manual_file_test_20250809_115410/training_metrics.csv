@@ -1,0 +1,6 @@
+episode,timestamp,success,total_reward,steps_taken,pieces_placed,completion_rate,policy_loss,value_loss,entropy,kl_divergence,grasp_success_rate,placement_accuracy,force_violations,planning_time,execution_time,total_episode_time,curriculum_stage,difficulty_level
+0,1754708050.615093,False,0.0,15,2,0.2857142857142857,,,,,,,0,,,,unknown,1.0
+1,1754708050.615408,False,8.0,17,3,0.42857142857142855,,,,,,,0,,,,unknown,1.0
+2,1754708050.6155274,True,16.0,19,4,0.5714285714285714,,,,,,,0,,,,unknown,1.0
+3,1754708050.61563,True,24.0,21,5,0.7142857142857143,,,,,,,0,,,,unknown,1.0
+4,1754708050.6157286,True,32.0,23,6,0.8571428571428571,,,,,,,0,,,,unknown,1.0

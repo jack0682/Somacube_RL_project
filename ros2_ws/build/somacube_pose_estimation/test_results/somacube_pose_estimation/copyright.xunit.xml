@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="somacube_pose_estimation.copyright"
+  tests="20"
+  errors="0"
+  failures="20"
+  time="0.003"
+>
+  <testcase
+    name="launch/complete_pose_estimation.launch.py"
+    classname="somacube_pose_estimation.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="launch/doosan_m0609_soma_cube.launch.py"
+    classname="somacube_pose_estimation.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="launch/global_mapping.launch.py"
+    classname="somacube_pose_estimation.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="scripts/camera_pose_manager_node.py"
+    classname="somacube_pose_estimation.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="scripts/capture_control_interface.py"
+    classname="somacube_pose_estimation.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="scripts/doosan_pose_sequence.py"
+    classname="somacube_pose_estimation.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="scripts/manhattan_aligner_node.py"
+    classname="somacube_pose_estimation.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="scripts/multiview_fusion_node.py"
+    classname="somacube_pose_estimation.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="scripts/pca_axis_estimator_node.py"
+    classname="somacube_pose_estimation.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="scripts/pointcloud_processor_node.py"
+    classname="somacube_pose_estimation.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="scripts/synchronized_capture_node.py"
+    classname="somacube_pose_estimation.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="scripts/visualization_node.py"
+    classname="somacube_pose_estimation.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="scripts/yolo_detector_node.py"
+    classname="somacube_pose_estimation.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="somacube_pose_estimation/__init__.py"
+    classname="somacube_pose_estimation.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="somacube_pose_estimation/mathematical_foundations.py"
+    classname="somacube_pose_estimation.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="somacube_pose_estimation/multiview_fusion.py"
+    classname="somacube_pose_estimation.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="somacube_pose_estimation/pointcloud_processing.py"
+    classname="somacube_pose_estimation.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="somacube_pose_estimation/pose_estimation.py"
+    classname="somacube_pose_estimation.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="tests/test_mathematical_foundations.py"
+    classname="somacube_pose_estimation.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="tests/test_pose_pipeline.py"
+    classname="somacube_pose_estimation.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <system-out>Checked files:
+* launch/complete_pose_estimation.launch.py
+* launch/doosan_m0609_soma_cube.launch.py
+* launch/global_mapping.launch.py
+* scripts/camera_pose_manager_node.py
+* scripts/capture_control_interface.py
+* scripts/doosan_pose_sequence.py
+* scripts/manhattan_aligner_node.py
+* scripts/multiview_fusion_node.py
+* scripts/pca_axis_estimator_node.py
+* scripts/pointcloud_processor_node.py
+* scripts/synchronized_capture_node.py
+* scripts/visualization_node.py
+* scripts/yolo_detector_node.py
+* somacube_pose_estimation/__init__.py
+* somacube_pose_estimation/mathematical_foundations.py
+* somacube_pose_estimation/multiview_fusion.py
+* somacube_pose_estimation/pointcloud_processing.py
+* somacube_pose_estimation/pose_estimation.py
+* tests/test_mathematical_foundations.py
+* tests/test_pose_pipeline.py</system-out>
+</testsuite>

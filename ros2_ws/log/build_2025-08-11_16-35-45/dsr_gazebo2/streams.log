@@ -1,0 +1,187 @@
+[1.750s] Invoking command in '/home/jack/ros2_ws/build/dsr_gazebo2': AMENT_PREFIX_PATH=/home/jack/ros2_ws/install/dsr_description2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jack/ros2_ws/install/dsr_description2:/opt/ros/humble /usr/bin/cmake /home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_gazebo2 -DCMAKE_INSTALL_PREFIX=/home/jack/ros2_ws/install/dsr_gazebo2
+[1.847s] -- The C compiler identification is GNU 11.4.0
+[1.977s] -- The CXX compiler identification is GNU 11.4.0
+[2.006s] -- Detecting C compiler ABI info
+[2.158s] -- Detecting C compiler ABI info - done
+[2.187s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.188s] -- Detecting C compile features
+[2.194s] -- Detecting C compile features - done
+[2.200s] -- Detecting CXX compiler ABI info
+[2.425s] -- Detecting CXX compiler ABI info - done
+[2.452s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.454s] -- Detecting CXX compile features
+[2.458s] -- Detecting CXX compile features - done
+[2.463s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.839s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.134s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[3.224s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.236s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.243s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.261s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.291s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.428s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[3.506s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[3.641s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.654s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.863s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.925s] -- Found FastRTPS: /opt/ros/humble/include  
+[4.054s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.088s] -- Looking for pthread.h
+[4.250s] -- Looking for pthread.h - found
+[4.250s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.374s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.374s] -- Found Threads: TRUE  
+[4.433s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[4.487s] -- Found tf2: 0.25.13 (/opt/ros/humble/share/tf2/cmake)
+[4.621s] -- Configuring done
+[4.624s] -- Generating done
+[4.628s] -- Build files have been written to: /home/jack/ros2_ws/build/dsr_gazebo2
+[4.645s] Invoked command in '/home/jack/ros2_ws/build/dsr_gazebo2' returned '0': AMENT_PREFIX_PATH=/home/jack/ros2_ws/install/dsr_description2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jack/ros2_ws/install/dsr_description2:/opt/ros/humble /usr/bin/cmake /home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_gazebo2 -DCMAKE_INSTALL_PREFIX=/home/jack/ros2_ws/install/dsr_gazebo2
+[4.646s] Invoking command in '/home/jack/ros2_ws/build/dsr_gazebo2': AMENT_PREFIX_PATH=/home/jack/ros2_ws/install/dsr_description2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jack/ros2_ws/install/dsr_description2:/opt/ros/humble /usr/bin/cmake --build /home/jack/ros2_ws/build/dsr_gazebo2 -- -j8 -l8
+[4.700s] Invoked command in '/home/jack/ros2_ws/build/dsr_gazebo2' returned '0': AMENT_PREFIX_PATH=/home/jack/ros2_ws/install/dsr_description2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jack/ros2_ws/install/dsr_description2:/opt/ros/humble /usr/bin/cmake --build /home/jack/ros2_ws/build/dsr_gazebo2 -- -j8 -l8
+[4.701s] Invoking command in '/home/jack/ros2_ws/build/dsr_gazebo2': AMENT_PREFIX_PATH=/home/jack/ros2_ws/install/dsr_description2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jack/ros2_ws/install/dsr_description2:/opt/ros/humble /usr/bin/cmake --install /home/jack/ros2_ws/build/dsr_gazebo2
+[4.714s] -- Install configuration: ""
+[4.717s] -- Installing: /home/jack/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/launch
+[4.717s] -- Installing: /home/jack/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/launch/dsr_spawn_on_gazebo.launch.py
+[4.717s] -- Installing: /home/jack/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/launch/dsr_gazebo.launch.py
+[4.717s] -- Installing: /home/jack/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model
+[4.717s] -- Installing: /home/jack/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/m0609
+[4.717s] -- Installing: /home/jack/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/m0609/meshes
+[4.718s] -- Installing: /home/jack/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/m0609/meshes/MF0609_5_0.dae
+[4.718s] -- Installing: /home/jack/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/m0609/meshes/MF0609_2_1.dae
+[4.725s] -- Installing: /home/jack/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/m0609/meshes/MF0609_3_0.dae
+[4.727s] -- Installing: /home/jack/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/m0609/meshes/MF0609_1_0.dae
+[4.730s] -- Installing: /home/jack/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/m0609/meshes/MF0609_4_0.dae
+[4.731s] -- Installing: /home/jack/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/m0609/meshes/MF0609_0_0.dae
+[4.735s] -- Installing: /home/jack/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/m0609/meshes/MF0609_6_0.dae
+[4.740s] -- Installing: /home/jack/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/m0609/meshes/MF0609_4_1.dae
+[4.744s] -- Installing: /home/jack/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/m0609/meshes/MF0609_2_2.dae
+[4.746s] -- Installing: /home/jack/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/m0609/meshes/MF0609_2_0.dae
+[4.747s] -- Installing: /home/jack/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/m0609/m0609.sdf
+[4.749s] -- Installing: /home/jack/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/m0609/model.config
+[4.749s] -- Installing: /home/jack/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/a0912
+[4.749s] -- Installing: /home/jack/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/a0912/meshes
+[4.749s] -- Installing: /home/jack/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/a0912/meshes/A0912_1_1.dae
+[4.759s] -- Installing: /home/jack/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/a0912/meshes/A0912_2_1.dae
+[4.765s] -- Installing: /home/jack/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/a0912/meshes/A0912_5_1.dae
+[4.770s] -- Installing: /home/jack/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/a0912/meshes/A0912_6_0.dae
+[4.775s] -- Installing: /home/jack/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/a0912/meshes/A0912_4_0.dae
+[4.790s] -- Installing: /home/jack/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/a0912/meshes/A0912_1_2.dae
+[4.812s] -- Installing: /home/jack/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/a0912/meshes/A0912_2_2.dae
+[4.826s] -- Installing: /home/jack/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/a0912/meshes/A0912_0_0.dae
+[4.835s] -- Installing: /home/jack/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/a0912/meshes/A0912_2_0.dae
+[4.850s] -- Installing: /home/jack/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/a0912/meshes/A0912_4_1.dae
+[4.862s] -- Installing: /home/jack/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/a0912/meshes/A0912_1_0.dae
+[4.874s] -- Installing: /home/jack/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/a0912/meshes/A0912_5_0.dae
+[4.880s] -- Installing: /home/jack/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/a0912/meshes/A0912_3_1.dae
+[4.894s] -- Installing: /home/jack/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/a0912/meshes/A0912_3_0.dae
+[4.896s] -- Installing: /home/jack/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/a0912/a0912.sdf
+[4.896s] -- Installing: /home/jack/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/a0912/model.config
+[4.901s] -- Installing: /home/jack/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/h2017
+[4.901s] -- Installing: /home/jack/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/h2017/meshes
+[4.901s] -- Installing: /home/jack/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/h2017/meshes/H2017_6_0.dae
+[4.905s] -- Installing: /home/jack/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/h2017/meshes/H2017_5_0.dae
+[4.915s] -- Installing: /home/jack/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/h2017/meshes/H2017_4_1.dae
+[4.922s] -- Installing: /home/jack/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/h2017/meshes/H2017_2_2.dae
+[4.933s] -- Installing: /home/jack/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/h2017/meshes/H2017_1_0.dae
+[4.943s] -- Installing: /home/jack/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/h2017/meshes/H2017_3_0.dae
+[4.953s] -- Installing: /home/jack/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/h2017/meshes/H2017_4_0.dae
+[4.962s] -- Installing: /home/jack/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/h2017/meshes/H2017_2_0.dae
+[4.970s] -- Installing: /home/jack/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/h2017/meshes/H2017_2_1.dae
+[4.984s] -- Installing: /home/jack/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/h2017/meshes/H2017_0_0.dae
+[4.987s] -- Installing: /home/jack/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/h2017/model.config
+[4.987s] -- Installing: /home/jack/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/h2017/h2017.sdf
+[4.987s] -- Installing: /home/jack/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/m1509
+[4.987s] -- Installing: /home/jack/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/m1509/meshes
+[4.987s] -- Installing: /home/jack/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/m1509/meshes/MF1509_2_2.dae
+[4.991s] -- Installing: /home/jack/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/m1509/meshes/MF1509_4_0.dae
+[4.992s] -- Installing: /home/jack/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/m1509/meshes/MF1509_2_1.dae
+[5.004s] -- Installing: /home/jack/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/m1509/meshes/MF1509_4_1.dae
+[5.006s] -- Installing: /home/jack/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/m1509/meshes/MF1509_3_0.dae
+[5.010s] -- Installing: /home/jack/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/m1509/meshes/MF1509_2_0.dae
+[5.014s] -- Installing: /home/jack/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/m1509/meshes/MF1509_5_0.dae
+[5.015s] -- Installing: /home/jack/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/m1509/meshes/MF1509_1_0.dae
+[5.022s] -- Installing: /home/jack/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/m1509/meshes/MF1509_6_0.dae
+[5.022s] -- Installing: /home/jack/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/m1509/meshes/MF1509_0_0.dae
+[5.025s] -- Installing: /home/jack/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/m1509/m1509.sdf
+[5.026s] -- Installing: /home/jack/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/m1509/model.config
+[5.027s] -- Installing: /home/jack/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/a0509
+[5.027s] -- Installing: /home/jack/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/a0509/a0509.sdf
+[5.027s] -- Installing: /home/jack/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/a0509/meshes
+[5.027s] -- Installing: /home/jack/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/a0509/meshes/A0509_3_1.dae
+[5.033s] -- Installing: /home/jack/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/a0509/meshes/A0509_1_2.dae
+[5.033s] -- Installing: /home/jack/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/a0509/meshes/A0509_0_0.dae
+[5.039s] -- Installing: /home/jack/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/a0509/meshes/A0509_5_1.dae
+[5.042s] -- Installing: /home/jack/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/a0509/meshes/A0509_1_1.dae
+[5.048s] -- Installing: /home/jack/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/a0509/meshes/A0509_5_0.dae
+[5.052s] -- Installing: /home/jack/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/a0509/meshes/A0509_3_0.dae
+[5.053s] -- Installing: /home/jack/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/a0509/meshes/A0509_4_0.dae
+[5.056s] -- Installing: /home/jack/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/a0509/meshes/A0509_4_1.dae
+[5.059s] -- Installing: /home/jack/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/a0509/meshes/A0509_6_0.dae
+[5.061s] -- Installing: /home/jack/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/a0509/meshes/A0509_1_0.dae
+[5.065s] -- Installing: /home/jack/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/a0509/meshes/A0509_2_2.dae
+[5.072s] -- Installing: /home/jack/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/a0509/meshes/A0509_2_1.dae
+[5.077s] -- Installing: /home/jack/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/a0509/meshes/A0509_2_0.dae
+[5.083s] -- Installing: /home/jack/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/a0509/model.config
+[5.083s] -- Installing: /home/jack/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/h2515
+[5.083s] -- Installing: /home/jack/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/h2515/meshes
+[5.083s] -- Installing: /home/jack/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/h2515/meshes/H2515_2_2.dae
+[5.093s] -- Installing: /home/jack/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/h2515/meshes/H2515_4_0.dae
+[5.093s] -- Installing: /home/jack/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/h2515/meshes/H2515_4_1.dae
+[5.096s] -- Installing: /home/jack/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/h2515/meshes/H2515_2_0.dae
+[5.104s] -- Installing: /home/jack/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/h2515/meshes/H2515_1_0.dae
+[5.104s] -- Installing: /home/jack/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/h2515/meshes/H2515_6_0.dae
+[5.107s] -- Installing: /home/jack/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/h2515/meshes/H2515_3_0.dae
+[5.113s] -- Installing: /home/jack/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/h2515/meshes/H2515_5_0.dae
+[5.118s] -- Installing: /home/jack/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/h2515/meshes/H2515_0_0.dae
+[5.129s] -- Installing: /home/jack/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/h2515/meshes/H2515_2_1.dae
+[5.132s] -- Installing: /home/jack/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/h2515/model.config
+[5.132s] -- Installing: /home/jack/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/h2515/h2515.sdf
+[5.132s] -- Installing: /home/jack/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/m0617
+[5.132s] -- Installing: /home/jack/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/m0617/meshes
+[5.133s] -- Installing: /home/jack/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/m0617/meshes/MF0617_4_1.dae
+[5.137s] -- Installing: /home/jack/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/m0617/meshes/MF0617_2_0.dae
+[5.139s] -- Installing: /home/jack/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/m0617/meshes/MF0617_2_1.dae
+[5.151s] -- Installing: /home/jack/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/m0617/meshes/MF0617_5_0.dae
+[5.151s] -- Installing: /home/jack/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/m0617/meshes/MF0617_4_0.dae
+[5.151s] -- Installing: /home/jack/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/m0617/meshes/MF0617_0_0.dae
+[5.156s] -- Installing: /home/jack/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/m0617/meshes/MF0617_6_0.dae
+[5.160s] -- Installing: /home/jack/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/m0617/meshes/MF0617_2_2.dae
+[5.161s] -- Installing: /home/jack/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/m0617/meshes/MF0617_1_0.dae
+[5.163s] -- Installing: /home/jack/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/m0617/meshes/MF0617_3_0.dae
+[5.168s] -- Installing: /home/jack/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/m0617/m0617.sdf
+[5.168s] -- Installing: /home/jack/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/m0617/model.config
+[5.170s] -- Installing: /home/jack/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/m1013
+[5.170s] -- Installing: /home/jack/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/m1013/meshes
+[5.170s] -- Installing: /home/jack/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/m1013/meshes/MF1013_6_0.dae
+[5.171s] -- Installing: /home/jack/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/m1013/meshes/MF1013_5_0.dae
+[5.174s] -- Installing: /home/jack/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/m1013/meshes/MF1013_3_0.dae
+[5.177s] -- Installing: /home/jack/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/m1013/meshes/MF1013_1_0.dae
+[5.181s] -- Installing: /home/jack/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/m1013/meshes/MF1013_0_0.dae
+[5.187s] -- Installing: /home/jack/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/m1013/meshes/MF1013_2_2.dae
+[5.194s] -- Installing: /home/jack/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/m1013/meshes/MF1013_2_1.dae
+[5.199s] -- Installing: /home/jack/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/m1013/meshes/MF1013_2_0.dae
+[5.206s] -- Installing: /home/jack/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/m1013/meshes/MF1013_4_0.dae
+[5.208s] -- Installing: /home/jack/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/m1013/meshes/MF1013_4_1.dae
+[5.213s] -- Installing: /home/jack/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/m1013/m1013.sdf
+[5.214s] -- Installing: /home/jack/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/model/m1013/model.config
+[5.214s] -- Installing: /home/jack/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/worlds
+[5.214s] -- Installing: /home/jack/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/worlds/empty_world.model
+[5.214s] -- Installing: /home/jack/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/worlds/empty_world.world
+[5.218s] -- Installing: /home/jack/ros2_ws/install/dsr_gazebo2/share/ament_index/resource_index/package_run_dependencies/dsr_gazebo2
+[5.219s] -- Installing: /home/jack/ros2_ws/install/dsr_gazebo2/share/ament_index/resource_index/parent_prefix_path/dsr_gazebo2
+[5.219s] -- Installing: /home/jack/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/environment/ament_prefix_path.sh
+[5.219s] -- Installing: /home/jack/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/environment/ament_prefix_path.dsv
+[5.219s] -- Installing: /home/jack/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/environment/path.sh
+[5.219s] -- Installing: /home/jack/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/environment/path.dsv
+[5.219s] -- Installing: /home/jack/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/local_setup.bash
+[5.219s] -- Installing: /home/jack/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/local_setup.sh
+[5.219s] -- Installing: /home/jack/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/local_setup.zsh
+[5.219s] -- Installing: /home/jack/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/local_setup.dsv
+[5.219s] -- Installing: /home/jack/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/package.dsv
+[5.219s] -- Installing: /home/jack/ros2_ws/install/dsr_gazebo2/share/ament_index/resource_index/packages/dsr_gazebo2
+[5.219s] -- Installing: /home/jack/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.219s] -- Installing: /home/jack/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/cmake/dsr_gazebo2Config.cmake
+[5.220s] -- Installing: /home/jack/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/cmake/dsr_gazebo2Config-version.cmake
+[5.220s] -- Installing: /home/jack/ros2_ws/install/dsr_gazebo2/share/dsr_gazebo2/package.xml
+[5.226s] Invoked command in '/home/jack/ros2_ws/build/dsr_gazebo2' returned '0': AMENT_PREFIX_PATH=/home/jack/ros2_ws/install/dsr_description2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jack/ros2_ws/install/dsr_description2:/opt/ros/humble /usr/bin/cmake --install /home/jack/ros2_ws/build/dsr_gazebo2

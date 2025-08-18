@@ -1,0 +1,30 @@
+running egg_info
+creating ../../../build/dsr_tests/dsr_tests.egg-info
+writing ../../../build/dsr_tests/dsr_tests.egg-info/PKG-INFO
+writing dependency_links to ../../../build/dsr_tests/dsr_tests.egg-info/dependency_links.txt
+writing entry points to ../../../build/dsr_tests/dsr_tests.egg-info/entry_points.txt
+writing requirements to ../../../build/dsr_tests/dsr_tests.egg-info/requires.txt
+writing top-level names to ../../../build/dsr_tests/dsr_tests.egg-info/top_level.txt
+writing manifest file '../../../build/dsr_tests/dsr_tests.egg-info/SOURCES.txt'
+reading manifest file '../../../build/dsr_tests/dsr_tests.egg-info/SOURCES.txt'
+writing manifest file '../../../build/dsr_tests/dsr_tests.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/jack/ros2_ws/build/dsr_tests/build
+creating /home/jack/ros2_ws/build/dsr_tests/build/lib
+creating /home/jack/ros2_ws/build/dsr_tests/build/lib/dsr_tests
+copying dsr_tests/__init__.py -> /home/jack/ros2_ws/build/dsr_tests/build/lib/dsr_tests
+running install
+running install_lib
+creating /home/jack/ros2_ws/install/dsr_tests/lib/python3.10/site-packages/dsr_tests
+copying /home/jack/ros2_ws/build/dsr_tests/build/lib/dsr_tests/__init__.py -> /home/jack/ros2_ws/install/dsr_tests/lib/python3.10/site-packages/dsr_tests
+byte-compiling /home/jack/ros2_ws/install/dsr_tests/lib/python3.10/site-packages/dsr_tests/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/jack/ros2_ws/install/dsr_tests/share/ament_index
+creating /home/jack/ros2_ws/install/dsr_tests/share/ament_index/resource_index
+creating /home/jack/ros2_ws/install/dsr_tests/share/ament_index/resource_index/packages
+copying resource/dsr_tests -> /home/jack/ros2_ws/install/dsr_tests/share/ament_index/resource_index/packages
+copying package.xml -> /home/jack/ros2_ws/install/dsr_tests/share/dsr_tests
+copying launch/dsr_bringup_without_spawner_test.launch.py -> /home/jack/ros2_ws/install/dsr_tests/share/dsr_tests
+copying launch/dsr_spawner_cli_test.launch.py -> /home/jack/ros2_ws/install/dsr_tests/share/dsr_tests
+creating /home/jack/ros2_ws/install/dsr_tests/share/dsr_tests/m0609_block_assembly_rl

@@ -1,0 +1,77 @@
+{
+  "metrics": {
+    "episode_rewards": [
+      2159.2270901141965,
+      2765.837976068696,
+      2730.625792517581,
+      2328.826299051256
+    ],
+    "episode_lengths": [
+      7,
+      7,
+      7,
+      7
+    ],
+    "assembly_times": [
+      1.2046947479248047,
+      0.7498269081115723,
+      0.7671370506286621,
+      0.7696583271026611
+    ],
+    "success_rates": [
+      0.0,
+      1.0,
+      1.0,
+      0.0
+    ],
+    "motion_efficiencies": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "policy_losses": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "value_losses": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "entropies": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "best_performance": {
+    "avg_time": 1.2046947479248047,
+    "success_rate": 0.0,
+    "episode": 0,
+    "model_path": "models/m0609_ppo_20250809_152628/best_model_ep_0.pth"
+  },
+  "config": {
+    "max_episodes": 10000,
+    "max_steps_per_episode": 7,
+    "save_interval": 1000,
+    "eval_interval": 500,
+    "log_interval": 100,
+    "robot_id": "dsr01",
+    "robot_model": "m0609",
+    "virtual_mode": true,
+    "target_assembly_time": 300,
+    "target_success_rate": 0.95,
+    "baseline_time": 600,
+    "patience": 5000,
+    "min_improvement": 0.01,
+    "device": "cuda",
+    "num_workers": 1,
+    "use_wandb": false,
+    "wandb_project": "m0609-block-assembly"
+  }
+}

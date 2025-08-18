@@ -1,0 +1,28 @@
+{
+  "experiment_info": {
+    "name": "manual_ros2_test_20250809_115410",
+    "total_episodes": 10,
+    "successful_episodes": 5,
+    "success_rate": 0.5,
+    "total_training_time_seconds": 2.028623580932617,
+    "total_training_time_hours": 0.0005635065502590603
+  },
+  "performance_metrics": {
+    "average_reward": 12.5,
+    "std_reward": 14.361406616345072,
+    "min_reward": -10.0,
+    "max_reward": 35.0,
+    "average_steps": 24.5,
+    "std_steps": 2.8722813232690143,
+    "average_completion_rate": 0.7
+  },
+  "recent_performance": {
+    "recent_success_rate": 0.5,
+    "recent_average_reward": 12.5,
+    "recent_average_steps": 24.5
+  },
+  "training_efficiency": {
+    "episodes_per_hour": 17746.02264233257,
+    "successful_episodes_per_hour": 8873.011321166285
+  }
+}
