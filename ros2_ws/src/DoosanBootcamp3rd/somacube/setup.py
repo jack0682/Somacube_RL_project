@@ -22,9 +22,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'robot_move = somacube.robot_move:main',
             'detection = somacube.detection:main',
-            'RL_with_robot2 = somacube.RL_with_robot2:main',
+            'ultra = somacube.ultra_RL:main',
         ],
     },
 )

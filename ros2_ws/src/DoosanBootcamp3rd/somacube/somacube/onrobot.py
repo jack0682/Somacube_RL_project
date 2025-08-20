@@ -162,8 +162,20 @@ class RG:
         print("Start opening gripper.")
         result = self.client.write_registers(address=0, values=params, unit=65)
 
+    def open_gripper_endding(self, width,force_val=400):
+        """Opens gripper."""
+        params = [force_val, width, 16]
+        print("Start opening gripper.")
+        result = self.client.write_registers(address=0, values=params, unit=65)
+
     def move_gripper(self, width_val, force_val=400):
         """Moves gripper to the specified width."""
         params = [force_val, width_val, 16]
         print("Start moving gripper.")
+        result = self.client.write_registers(address=0, values=params, unit=65)
+
+    def open_gripper_for_manual(self, force_val=400):
+        """Opens gripper."""
+        params = [force_val, 500, 16]
+        print("Start opening gripper.")
         result = self.client.write_registers(address=0, values=params, unit=65)

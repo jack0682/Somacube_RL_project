@@ -184,6 +184,7 @@ class SomaCubeVisualizer:
         self.placement_history = []
     
     def place_piece(self, piece_coords, position, piece_id):
+        """조각 배치 (position은 시각적 원점)"""
         for x, y, z in piece_coords:
             abs_x, abs_y, abs_z = position[0] + x, position[1] + y, position[2] + z
             if 0 <= abs_x < 3 and 0 <= abs_y < 3 and 0 <= abs_z < 3:
@@ -192,10 +193,51 @@ class SomaCubeVisualizer:
         self.placement_history.append({
             'piece_id': piece_id,
             'piece_name': PIECE_NAMES[piece_id],
-            'position': position,
+            'visual_position': position,  # 시각적 원점 저장
             'coords': piece_coords
         })
     
+    def draw_step_info(self):
+        ax = self.fig.add_subplot(223)
+        ax.clear()
+        ax.axis('off')
+        
+        info_text = "=== 배치 과정 (시각적 좌표) ===\n\n"
+        
+        for i, step in enumerate(self.placement_history):
+            piece_name = step['piece_name']
+            visual_position = step['visual_position']
+            coords = step['coords']
+            
+            # 실제 점유 위치 계산
+            actual_positions = []
+            for x, y, z in coords:
+                abs_x, abs_y, abs_z = visual_position[0] + x, visual_position[1] + y, visual_position[2] + z
+                if 0 <= abs_x < 3 and 0 <= abs_y < 3 and 0 <= abs_z < 3:
+                    actual_positions.append((abs_x, abs_y, abs_z))
+            
+            info_text += f"단계 {i + 1}: {piece_name} 조각\n"
+            info_text += f"  시각적 원점: {visual_position}\n"
+            info_text += f"  점유 위치: {actual_positions}\n"
+            
+            # 높이 정보 추가
+            if actual_positions:
+                min_z = min(pos[2] for pos in actual_positions)
+                max_z = max(pos[2] for pos in actual_positions)
+                if max_z - min_z > 0:
+                    info_text += f"  높이: {min_z}~{max_z}층 (세로배치)\n"
+                else:
+                    info_text += f"  높이: {min_z}층 (평면배치)\n"
+            
+            info_text += "\n"
+        
+        if not self.placement_history:
+            info_text += "아직 배치된 조각이 없습니다."
+        
+        ax.text(0.05, 0.95, info_text, transform=ax.transAxes, fontsize=9,
+                verticalalignment='top', fontfamily='monospace')
+    
+    # 나머지 메서드들은 기존과 동일...
     def draw_3d_view(self, title="Soma Cube 3D View", show_grid=True):
         ax = self.fig.add_subplot(221, projection='3d')
         ax.clear()
@@ -269,28 +311,6 @@ class SomaCubeVisualizer:
             ax.set_xticks([0, 1, 2])
             ax.set_yticks([0, 1, 2])
     
-    def draw_step_info(self):
-        ax = self.fig.add_subplot(223)
-        ax.clear()
-        ax.axis('off')
-        
-        info_text = "=== 배치 과정 ===\n\n"
-        
-        for i, step in enumerate(self.placement_history):
-            piece_name = step['piece_name']
-            position = step['position']
-            coords = step['coords']
-            
-            info_text += f"단계 {i + 1}: {piece_name} 조각\n"
-            info_text += f"  위치: {position}\n"
-            info_text += f"  좌표: {coords.tolist()}\n\n"
-        
-        if not self.placement_history:
-            info_text += "아직 배치된 조각이 없습니다."
-        
-        ax.text(0.05, 0.95, info_text, transform=ax.transAxes, fontsize=10,
-                verticalalignment='top', fontfamily='monospace')
-    
     def update_display(self, title="Soma Cube Visualization"):
         self.fig.clear()
         self.draw_3d_view(title)
@@ -299,6 +319,7 @@ class SomaCubeVisualizer:
         plt.tight_layout()
         plt.draw()
         plt.pause(0.1)
+
 
 # ===== 개선된 로봇 접근성 고려 환경 =====
 class RobotAccessibleSomaCubeEnv:
@@ -331,6 +352,49 @@ class RobotAccessibleSomaCubeEnv:
         
         return state
     
+
+    def _calculate_visual_origin(self, piece_coords, position):
+        """수정된 시각적 원점 계산"""
+        
+        print(f"🔍 시각적 원점 계산 디버그:")
+        print(f"  piece_coords: {piece_coords.tolist() if hasattr(piece_coords, 'tolist') else piece_coords}")
+        print(f"  position: {position}")
+        
+        # 모든 실제 점유 위치 계산
+        actual_positions = []
+        for i, (x, y, z) in enumerate(piece_coords):
+            abs_x, abs_y, abs_z = position[0] + x, position[1] + y, position[2] + z
+            if 0 <= abs_x < 3 and 0 <= abs_y < 3 and 0 <= abs_z < 3:
+                actual_positions.append((abs_x, abs_y, abs_z, i))  # 인덱스도 저장
+        
+        print(f"  실제 점유 위치들: {[(pos[0], pos[1], pos[2]) for pos in actual_positions]}")
+        
+        # 원점 블록 [0,0,0] 찾기
+        origin_block_actual = None
+        for i, (x, y, z) in enumerate(piece_coords):
+            if x == 0 and y == 0 and z == 0:
+                origin_actual = (position[0] + x, position[1] + y, position[2] + z)
+                if 0 <= origin_actual[0] < 3 and 0 <= origin_actual[1] < 3 and 0 <= origin_actual[2] < 3:
+                    origin_block_actual = origin_actual
+                    print(f"  원점 블록 [0,0,0] → 실제 위치: {origin_actual}")
+                break
+        
+        if origin_block_actual:
+            print(f"  ✅ 시각적 원점: {origin_block_actual}")
+            return origin_block_actual
+        else:
+            # fallback: 최소 좌표
+            if actual_positions:
+                min_x = min(pos[0] for pos in actual_positions)
+                min_y = min(pos[1] for pos in actual_positions) 
+                min_z = min(pos[2] for pos in actual_positions)
+                fallback_origin = (min_x, min_y, min_z)
+                print(f"  ⚠️ 원점 블록 없음, fallback 시각적 원점: {fallback_origin}")
+                return fallback_origin
+            else:
+                print(f"  ❌ fallback to position: {position}")
+                return position
+    
     def _has_clear_vertical_path(self, piece_coords, position):
         """로봇이 위에서 수직으로 내려와서 조각을 배치할 수 있는지 확인"""
         for x, y, z in piece_coords:
@@ -359,7 +423,7 @@ class RobotAccessibleSomaCubeEnv:
         return True
     
     def _is_supported_and_robot_accessible(self, piece_coords, position):
-        """조각이 물리적으로 지지되고 로봇이 접근 가능한지 확인 (개선된 버전)"""
+        """조각이 물리적으로 지지되고 로봇이 접근 가능한지 확인"""
         
         # 바닥층에 있으면 항상 지지됨
         min_z = min(position[2] + z for x, y, z in piece_coords)
@@ -388,8 +452,8 @@ class RobotAccessibleSomaCubeEnv:
         
         return supported_blocks >= non_ground_blocks
     
-    def _calculate_robot_friendly_reward(self, piece_coords, position):
-        """로봇 친화적 보상 계산 (바닥층 우선 배치 강화)"""
+    def _calculate_robot_friendly_reward(self, piece_coords, position, visual_origin):
+        """로봇 친화적 보상 계산 (시각적 원점 기준)"""
         reward = 10.0  # 기본 보상
         
         # 바닥층 강력한 보너스
@@ -397,7 +461,7 @@ class RobotAccessibleSomaCubeEnv:
         max_z = max(position[2] + z for x, y, z in piece_coords)
         
         if min_z == 0:
-            reward += 30.0  # 바닥층 보너스 대폭 증가
+            reward += 30.0  # 바닥층 보너스
             
             # 바닥층을 먼저 채우는 것에 대한 추가 보너스
             if self.ground_level_count < 3:  # 바닥층 3개 블록을 먼저 채우도록
@@ -449,10 +513,14 @@ class RobotAccessibleSomaCubeEnv:
         
         reward += adjacent_count * 2.0
         
+        # 좌표 일관성 보너스 (시각적 원점이 명확할 때)
+        if visual_origin == position:
+            reward += 5.0  # 좌표가 일치하면 보너스
+        
         return reward
     
     def get_possible_actions(self):
-        """가능한 행동 목록 (바닥층 우선 정렬)"""
+        """가능한 행동 목록 (바닥층 우선 정렬, 시각적 원점 기준)"""
         if self.current_piece_idx >= len(self.pieces_to_place):
             return []
         
@@ -469,12 +537,15 @@ class RobotAccessibleSomaCubeEnv:
                         if (self._is_valid_placement(piece_coords, position) and 
                             self._is_supported_and_robot_accessible(piece_coords, position) and
                             self._has_clear_vertical_path(piece_coords, position)):
-                            action = (piece_id, orient_idx, position)
+                            
+                            # 시각적 원점 계산
+                            visual_origin = self._calculate_visual_origin(piece_coords, position)
+                            action = (piece_id, orient_idx, position, visual_origin)
                             possible_actions.append(action)
         
-        # 바닥층 우선으로 정렬
+        # 바닥층 우선으로 정렬 (시각적 원점 기준)
         def sort_key(action):
-            piece_id, orient_idx, position = action
+            piece_id, orient_idx, position, visual_origin = action
             piece_coords = orientations[orient_idx]
             min_z = min(position[2] + z for x, y, z in piece_coords)
             avg_z = sum(position[2] + z for x, y, z in piece_coords) / len(piece_coords)
@@ -482,7 +553,7 @@ class RobotAccessibleSomaCubeEnv:
             # 바닥층 블록의 개수
             ground_blocks = sum(1 for x, y, z in piece_coords if position[2] + z == 0)
             
-            return (min_z, -ground_blocks, avg_z, position[2], position[0], position[1])
+            return (min_z, -ground_blocks, avg_z, visual_origin[2], visual_origin[0], visual_origin[1])
         
         possible_actions.sort(key=sort_key)
         return possible_actions
@@ -491,7 +562,16 @@ class RobotAccessibleSomaCubeEnv:
         if self.current_piece_idx >= len(self.pieces_to_place):
             return self._get_state(), -10.0, True, {"error": "No more pieces"}
         
-        piece_id, orient_idx, position = action
+        # action이 4개 요소를 가진 경우 (visual_origin 포함)
+        if len(action) == 4:
+            piece_id, orient_idx, position, visual_origin = action
+        else:
+            # 기존 3개 요소 action의 경우 visual_origin 계산
+            piece_id, orient_idx, position = action
+            piece_coords = ALL_PIECE_ORIENTATIONS[piece_id][orient_idx]
+            visual_origin = self._calculate_visual_origin(piece_coords, position)
+            action = (piece_id, orient_idx, position, visual_origin)
+        
         expected_piece = self.pieces_to_place[self.current_piece_idx]
         
         if piece_id != expected_piece:
@@ -505,16 +585,18 @@ class RobotAccessibleSomaCubeEnv:
                 self._has_clear_vertical_path(piece_coords, position)):
             return self._get_state(), -20.0, True, {"error": "Invalid placement or blocked path"}
         
-        # 조각 배치
+        # ===== 수정: 시각적 원점 기준으로 조각 배치 =====
         for x, y, z in piece_coords:
             abs_x, abs_y, abs_z = position[0] + x, position[1] + y, position[2] + z
-            self.grid[abs_x, abs_y, abs_z] = piece_id + 1
+            if 0 <= abs_x < 3 and 0 <= abs_y < 3 and 0 <= abs_z < 3:
+                self.grid[abs_x, abs_y, abs_z] = piece_id + 1
         
-        self.placed_pieces.append((piece_id, orient_idx, position))
+        # 기록할 때는 시각적 원점 사용
+        self.placed_pieces.append((piece_id, orient_idx, visual_origin))
         self.current_piece_idx += 1
         
-        # 보상 계산
-        reward = self._calculate_robot_friendly_reward(piece_coords, position)
+        # 보상 계산 (시각적 원점 전달)
+        reward = self._calculate_robot_friendly_reward(piece_coords, position, visual_origin)
         
         # 높이 정보 업데이트
         max_z = max(position[2] + z for x, y, z in piece_coords)
@@ -535,9 +617,9 @@ class RobotAccessibleSomaCubeEnv:
                 reward += 30.0
             
             self.done = True
-            return self._get_state(), reward, True, {"success": True}
+            return self._get_state(), reward, True, {"success": True, "visual_origin": visual_origin}
         
-        return self._get_state(), reward, False, {}
+        return self._get_state(), reward, False, {"visual_origin": visual_origin}
 
 # ===== DQN 모델 =====
 class HierarchicalDQN(nn.Module):
@@ -729,45 +811,41 @@ class RobotFriendlyTrainer:
     
     def select_action(self, state, level, piece_id, env, epsilon):
         if random.random() < epsilon:
-            valid_actions = self.action_mapper.get_valid_actions_for_piece(piece_id, env)
-            if not valid_actions:
+            possible_actions = env.get_possible_actions()
+            if not possible_actions:
                 return None
-            orient_idx, pos_idx = random.choice(valid_actions)
+            return random.choice(possible_actions)
         else:
             with torch.no_grad():
                 state_tensor = torch.FloatTensor(state).unsqueeze(0).to(self.device)
                 orientation_q, position_q = self.models[level](state_tensor)
                 
-                valid_actions = self.action_mapper.get_valid_actions_for_piece(piece_id, env)
-                if not valid_actions:
+                possible_actions = env.get_possible_actions()
+                if not possible_actions:
                     return None
                 
                 best_value = float('-inf')
                 best_action = None
                 
-                for orient_idx, pos_idx in valid_actions:
+                for action in possible_actions:
+                    piece_id, orient_idx, position, visual_origin = action
+                    pos_idx = position[0] * 9 + position[1] * 3 + position[2]
+                    
                     if orient_idx < orientation_q.shape[1] and pos_idx < position_q.shape[1]:
                         value = orientation_q[0][orient_idx].item() + position_q[0][pos_idx].item()
                         if value > best_value:
                             best_value = value
-                            best_action = (orient_idx, pos_idx)
+                            best_action = action
                 
-                if best_action is None:
-                    return None
-                orient_idx, pos_idx = best_action
-        
-        x = pos_idx // 9
-        y = (pos_idx % 9) // 3
-        z = pos_idx % 3
-        
-        return (piece_id, orient_idx, (x, y, z))
+                return best_action
     
     def train_level(self, level, num_episodes=1000):
-        print(f"\n=== 🤖 레벨 {level} 로봇 친화적 학습 시작 (조각 {level}개) ===")
+        print(f"\n=== 🤖 레벨 {level} 좌표 통일 로봇 친화적 학습 시작 (조각 {level}개) ===")
         
         if level not in self.models:
             self.initialize_level(level)
         
+        # FixedRobotAccessibleSomaCubeEnv 사용
         env = RobotAccessibleSomaCubeEnv(max_pieces=level)
         model = self.models[level]
         target_model = self.target_models[level]
@@ -778,6 +856,7 @@ class RobotFriendlyTrainer:
         success_count = 0
         robot_friendly_count = 0
         ground_priority_count = 0
+        coordinate_consistency_count = 0  # 새로운 메트릭
         
         for episode in range(num_episodes):
             state = env.reset()
@@ -785,6 +864,7 @@ class RobotFriendlyTrainer:
             steps = 0
             episode_robot_friendly = 0
             ground_level_actions = 0
+            coordinate_consistent_actions = 0
             
             while not env.done and steps < 100:
                 if env.current_piece_idx >= len(env.pieces_to_place):
@@ -799,10 +879,14 @@ class RobotFriendlyTrainer:
                     
                     # 바닥층 우선 행동 체크
                     for action in possible_actions[:3]:  # 상위 3개 행동 확인
-                        _, _, position = action
+                        _, _, position, visual_origin = action
                         if position[2] == 0:  # 바닥층
                             ground_level_actions += 1
                             break
+                        
+                        # 좌표 일관성 체크
+                        if position == visual_origin:
+                            coordinate_consistent_actions += 1
                 
                 action = self.select_action(state, level, piece_id, env, epsilon)
                 
@@ -828,6 +912,9 @@ class RobotFriendlyTrainer:
             
             if ground_level_actions > 0:
                 ground_priority_count += 1
+                
+            if coordinate_consistent_actions > 0:
+                coordinate_consistency_count += 1
             
             self.training_stats[level]['episode_rewards'].append(total_reward)
             self.training_stats[level]['episode_lengths'].append(steps)
@@ -844,21 +931,25 @@ class RobotFriendlyTrainer:
                 recent_success_rate = success_count / 100 if episode >= 100 else success_count / (episode + 1)
                 robot_friendly_rate = robot_friendly_count / 100 if episode >= 100 else robot_friendly_count / (episode + 1)
                 ground_priority_rate = ground_priority_count / 100 if episode >= 100 else ground_priority_count / (episode + 1)
+                coordinate_rate = coordinate_consistency_count / 100 if episode >= 100 else coordinate_consistency_count / (episode + 1)
+                
                 self.training_stats[level]['success_rate'].append(recent_success_rate)
                 
                 avg_reward = np.mean(self.training_stats[level]['episode_rewards'][-100:])
                 print(f"Episode {episode}, Avg Reward: {avg_reward:.2f}, "
                       f"Success Rate: {recent_success_rate:.2f}, "
-                      f"Robot Friendly Rate: {robot_friendly_rate:.2f}, "
-                      f"Ground Priority Rate: {ground_priority_rate:.2f}, "
+                      f"Robot Friendly: {robot_friendly_rate:.2f}, "
+                      f"Ground Priority: {ground_priority_rate:.2f}, "
+                      f"Coordinate Consistency: {coordinate_rate:.2f}, "
                       f"Epsilon: {epsilon:.3f}")
                 
                 if episode >= 100:
                     success_count = 0
                     robot_friendly_count = 0
                     ground_priority_count = 0
+                    coordinate_consistency_count = 0
         
-        print(f"🤖 레벨 {level} 로봇 친화적 학습 완료!")
+        print(f"🤖 레벨 {level} 좌표 통일 로봇 친화적 학습 완료!")
     
     def _train_step(self, level):
         if len(self.replay_buffers[level]) < self.batch_size:
@@ -942,14 +1033,10 @@ def test_model_with_visualization(trainer, level, num_tests=1, show_rotation_det
     model = trainer.models[level]
     model.eval()
     
-    visualizer = SomaCubeVisualizer()
-    
     for test in range(num_tests):
         print(f"\n🧩 테스트 {test + 1} 시작")
         
         state = env.reset()
-        visualizer.clear_grid()
-        visualizer.update_display(f"테스트 {test + 1} - 시작 상태")
         
         total_reward = 0
         steps = 0
@@ -958,7 +1045,6 @@ def test_model_with_visualization(trainer, level, num_tests=1, show_rotation_det
         ground_level_actions = []
         
         print(f"🎯 사용할 조각들: {[PIECE_NAMES[p] for p in env.pieces_to_place]}")
-        input("▶️ 시작하려면 엔터를 누르세요...")
         
         while not env.done and steps < 100:
             if env.current_piece_idx >= len(env.pieces_to_place):
@@ -971,7 +1057,7 @@ def test_model_with_visualization(trainer, level, num_tests=1, show_rotation_det
             robot_accessibility_log.append(len(possible_actions))
             
             # 바닥층 행동 확인
-            ground_actions = [a for a in possible_actions if a[2][2] == 0]
+            ground_actions = [a for a in possible_actions if len(a) >= 4 and a[2][2] == 0]
             ground_level_actions.append(len(ground_actions))
             
             action = trainer.select_action(state, level, piece_id, env, epsilon=0.0)
@@ -984,21 +1070,30 @@ def test_model_with_visualization(trainer, level, num_tests=1, show_rotation_det
             next_state, reward, done, info = env.step(action)
             actions_taken.append(action)
             
-            # 시각화 업데이트
-            piece_coords = ALL_PIECE_ORIENTATIONS[piece_id][action[1]]
-            visualizer.place_piece(piece_coords, action[2], piece_id)
+            # ===== 수정된 부분: visual_origin 사용 =====
+            if len(action) >= 4:
+                # 4개 요소 action: (piece_id, orient_idx, position, visual_origin)
+                piece_id, orient_idx, position, visual_origin = action
+            else:
+                # 3개 요소 action: (piece_id, orient_idx, position)
+                piece_id, orient_idx, position = action
+                piece_coords = ALL_PIECE_ORIENTATIONS[piece_id][orient_idx]
+                visual_origin = env._calculate_visual_origin(piece_coords, position)
             
+            piece_coords = ALL_PIECE_ORIENTATIONS[piece_id][orient_idx]
             piece_name = PIECE_NAMES[piece_id]
-            orient_idx = action[1]
-            position = action[2]
             
             # ZYZ 회전 정보 계산
             if show_rotation_details:
                 zyz_angles, rotation_desc = get_zyz_angles(piece_id, orient_idx)
                 zyz_str = f"ZYZ({zyz_angles[0]:.1f}°, {zyz_angles[1]:.1f}°, {zyz_angles[2]:.1f}°)"
             
-            title = f"단계 {steps + 1}: {piece_name} 조각 배치 (보상: {reward:.1f})"
-            visualizer.update_display(title)
+            # 실제 점유 위치 계산 (position 기준)
+            actual_occupied_positions = []
+            for x, y, z in piece_coords:
+                abs_x, abs_y, abs_z = position[0] + x, position[1] + y, position[2] + z
+                if 0 <= abs_x < 3 and 0 <= abs_y < 3 and 0 <= abs_z < 3:
+                    actual_occupied_positions.append((abs_x, abs_y, abs_z))
             
             # 수직 접근 경로 확인
             has_clear_path = env._has_clear_vertical_path(piece_coords, position)
@@ -1008,30 +1103,74 @@ def test_model_with_visualization(trainer, level, num_tests=1, show_rotation_det
             min_z = min(position[2] + z for x, y, z in piece_coords)
             ground_status = "🏠 바닥층 배치" if min_z == 0 else f"🏢 {min_z}층 배치"
             
-            print(f"  🤖 단계 {steps + 1}: {piece_name} 조각을 위치 {position}에 회전 {orient_idx}로 배치")
+            # 좌표 일관성 확인
+            coordinate_status = "✅ 좌표 일치" if position == visual_origin else "⚠️ 좌표 불일치"
+            
+            # ===== 개선된 출력 =====
+            print(f"  🤖 단계 {steps + 1}: {piece_name} 조각 배치")
+            print(f"      📍 알고리즘 기준점: {position}")
+            print(f"      👁️ 시각적 원점: {visual_origin}")
+            print(f"      🎯 실제 점유 위치: {actual_occupied_positions}")
             print(f"      💰 보상: {reward:.1f}")
             print(f"      🛣️ {path_status}")
             print(f"      {ground_status}")
+            print(f"      📐 {coordinate_status}")
             print(f"      📊 가능한 행동 수: {len(possible_actions)}개 (바닥층: {len(ground_actions)}개)")
+            
             if show_rotation_details:
                 print(f"      🔄 회전 정보: {rotation_desc} → {zyz_str}")
-                print(f"      🤖 로봇 명령: node.robot_control(input, {piece_id}, {zyz_angles}, {position})")
+                print(f"      🤖 로봇 명령: node.robot_control(input, {piece_id}, {zyz_angles}, {visual_origin})")
+            
+            # 좌표 불일치 상세 설명
+            if position != visual_origin:
+                print(f"      💡 설명: 알고리즘은 {position}을 기준으로 계산하지만")
+                print(f"              시각화에서는 {visual_origin}에서 조각이 시작됩니다")
             
             state = next_state
             total_reward += reward
             steps += 1
-            
-            # 다음 단계로 넘어가기 전 대기
-            if not done:
-                input("▶️ 다음 단계를 보려면 엔터를 누르세요...")
         
-        # 결과 표시
+        # ===== 성공한 경우에만 시각화 시작 =====
         if env.done and "success" in info:
-            print(f"  🎉 성공! 총 보상: {total_reward:.1f}")
-            visualizer.update_display(f"✅ 테스트 {test + 1} 성공! (보상: {total_reward:.1f})")
+            print(f"  🎉 성공! 시각화를 시작합니다...")
+            print(f"  총 보상: {total_reward:.1f}")
+            
+            # 시각화 초기화
+            visualizer = SomaCubeVisualizer()
+            visualizer.clear_grid()
+            visualizer.update_display(f"테스트 {test + 1} - 성공한 솔루션 재생")
+            
+            input("▶️ 시각화를 시작하려면 엔터를 누르세요...")
+            
+            # 성공한 액션들을 순서대로 시각화
+            for i, action in enumerate(actions_taken):
+                if len(action) >= 4:
+                    piece_id, orient_idx, position, visual_origin = action
+                else:
+                    piece_id, orient_idx, position = action
+                    piece_coords = ALL_PIECE_ORIENTATIONS[piece_id][orient_idx]
+                    visual_origin = env._calculate_visual_origin(piece_coords, position)
+                
+                piece_coords = ALL_PIECE_ORIENTATIONS[piece_id][orient_idx]
+                piece_name = PIECE_NAMES[piece_id]
+                
+                # 시각화에 조각 배치 (visual_origin 사용)
+                visualizer.place_piece(piece_coords, visual_origin, piece_id)
+                
+                title = f"단계 {i + 1}/{len(actions_taken)}: {piece_name} 조각 배치"
+                visualizer.update_display(title)
+                
+                print(f"  📺 시각화 단계 {i + 1}: {piece_name} 조각이 {visual_origin}에 배치됨")
+                
+                if i < len(actions_taken) - 1:  # 마지막이 아닌 경우
+                    input("▶️ 다음 단계를 보려면 엔터를 누르세요...")
+            
+            # 최종 성공 화면
+            visualizer.update_display(f"✅ 테스트 {test + 1} 완료! (보상: {total_reward:.1f})")
+            
         else:
             print(f"  ❌ 실패 (총 보상: {total_reward:.1f})")
-            visualizer.update_display(f"❌ 테스트 {test + 1} 실패 (보상: {total_reward:.1f})")
+            print(f"  💡 실패한 경우 시각화를 생략합니다.")
         
         # 로봇 접근성 통계
         avg_accessibility = np.mean(robot_accessibility_log) if robot_accessibility_log else 0
@@ -1039,38 +1178,62 @@ def test_model_with_visualization(trainer, level, num_tests=1, show_rotation_det
         print(f"  📊 평균 로봇 접근 가능 행동 수: {avg_accessibility:.1f}개")
         print(f"  🏠 평균 바닥층 행동 수: {avg_ground_actions:.1f}개")
         
-        # 바닥층 우선 배치 검증
+        # 바닥층 우선 배치 검증 (position 기준)
         ground_first_count = 0
+        coordinate_consistent_count = 0
         for action in actions_taken:
-            piece_coords = ALL_PIECE_ORIENTATIONS[action[0]][action[1]]
-            min_z = min(action[2][2] + z for x, y, z in piece_coords)
+            if len(action) >= 4:
+                piece_id, orient_idx, position, visual_origin = action
+                if position == visual_origin:
+                    coordinate_consistent_count += 1
+            else:
+                piece_id, orient_idx, position = action
+            
+            piece_coords = ALL_PIECE_ORIENTATIONS[piece_id][orient_idx]
+            min_z = min(position[2] + z for x, y, z in piece_coords)
             if min_z == 0:
                 ground_first_count += 1
         
         ground_priority_rate = ground_first_count / len(actions_taken) if actions_taken else 0
-        print(f"  🏠 바닥층 우선 배치율: {ground_priority_rate:.2%}")
+        coordinate_consistency_rate = coordinate_consistent_count / len(actions_taken) if actions_taken else 0
         
-        # 전체 로봇 제어 명령 요약
-        if show_rotation_details and actions_taken:
+        print(f"  🏠 바닥층 우선 배치율: {ground_priority_rate:.2%}")
+        print(f"  📐 좌표 일관성율: {coordinate_consistency_rate:.2%}")
+        
+        # 전체 로봇 제어 명령 요약 (성공한 경우에만)
+        if (env.done and "success" in info and show_rotation_details and actions_taken):
             print(f"\n🤖 로봇 제어 스크립트:")
             print("="*60)
             for i, action in enumerate(actions_taken):
-                piece_id, orient_idx, position = action
+                if len(action) >= 4:
+                    piece_id, orient_idx, position, visual_origin = action
+                else:
+                    piece_id, orient_idx, position = action
+                    piece_coords = ALL_PIECE_ORIENTATIONS[piece_id][orient_idx]
+                    visual_origin = env._calculate_visual_origin(piece_coords, position)
+                
                 piece_name = PIECE_NAMES[piece_id]
                 zyz_angles, rotation_desc = get_zyz_angles(piece_id, orient_idx)
                 piece_coords = ALL_PIECE_ORIENTATIONS[piece_id][orient_idx]
                 min_z = min(position[2] + z for x, y, z in piece_coords)
                 level_info = f"(바닥층)" if min_z == 0 else f"({min_z}층)"
-                print(f"# 단계 {i+1}: {piece_name} 조각 {level_info} ({rotation_desc})")
-                print(f"node.robot_control(user_input, {piece_id}, {zyz_angles}, {position})")
+                
+                coord_info = f"알고리즘:{position}" if position != visual_origin else f"좌표:{visual_origin}"
+                
+                print(f"# 단계 {i+1}: {piece_name} 조각 {level_info} ({rotation_desc}) - {coord_info}")
+                print(f"node.robot_control(user_input, {piece_id}, {zyz_angles}, {visual_origin})")
                 print()
             print("="*60)
         
         if test < num_tests - 1:
             input("▶️ 다음 테스트를 시작하려면 엔터를 누르세요...")
     
-    input("🏁 테스트 완료! 창을 닫으려면 엔터를 누르세요...")
-    plt.close()
+    # 성공한 테스트가 있었다면 창 닫기 대기
+    if any(env.done and "success" in info for test in range(num_tests)):
+        input("🏁 테스트 완료! 창을 닫으려면 엔터를 누르세요...")
+        plt.close()
+    
+    print("🏁 모든 테스트 완료!")
 
 # ===== 메인 함수 =====
 def main():
