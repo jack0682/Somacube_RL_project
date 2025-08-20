@@ -15,5 +15,6 @@
         "./src/DoosanBootcamp3rd/dsr_common2/imp",
         "./src/somacube_pose_estimation/scripts",
         "./build/od_msg/rosidl_generator_py"
-    ]
+    ],
+    "cmake.sourceDirectory": "/home/jack/ros2_ws/src/DoosanBootcamp3rd/dsr_hardware2"
 }

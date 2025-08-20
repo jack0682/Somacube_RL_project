@@ -11,63 +11,20 @@ std::mutex mtx;
 std::atomic_bool first_get(false);
 
 // </-------------------- constant variables --------------------> //
-Matrix6f J_m{
-    {0.0004956, 0, 0, 0, 0, 0},
-    {0, 0.0004956, 0, 0, 0, 0},
-    {0, 0, 0.0001839, 0, 0, 0},
-    {0, 0, 0, 0.00009901, 0, 0},
-    {0, 0, 0, 0, 0.00009901, 0},
-    {0, 0, 0, 0, 0, 0.00009901},
-};
-Matrix6f Gear_Ratio{
-    {100, 0, 0, 0, 0, 0},
-    {0, 100, 0, 0, 0, 0},
-    {0, 0, 100, 0, 0, 0},
-    {0, 0, 0, 80, 0, 0},
-    {0, 0, 0, 0, 80, 0},
-    {0, 0, 0, 0, 0, 80},
-};
+Matrix6f J_m;
+Matrix6f Gear_Ratio;
+Matrix6f M_d;
+Matrix6f D_d;
+Matrix6f K_d;
+Matrix6f K_o;
 
-Matrix6f M_d{
-    {2.5, 0, 0, 0, 0, 0},
-    {0, 2.5, 0, 0, 0, 0},
-    {0, 0, 2.5, 0, 0, 0},
-    {0, 0, 0, 2.5, 0, 0},
-    {0, 0, 0, 0, 2.5, 0},
-    {0, 0, 0, 0, 0, 2.5},
-};
-Matrix6f D_d{
-    {15, 0, 0, 0, 0, 0},
-    {0, 15, 0, 0, 0, 0},
-    {0, 0, 15, 0, 0, 0},
-    {0, 0, 0, 15, 0, 0},
-    {0, 0, 0, 0, 15, 0},
-    {0, 0, 0, 0, 0, 15},
-};
-Matrix6f K_d{
-    {100, 0, 0, 0, 0, 0},
-    {0, 100, 0, 0, 0, 0},
-    {0, 0, 100, 0, 0, 0},
-    {0, 0, 0, 100, 0, 0},
-    {0, 0, 0, 0, 100, 0},
-    {0, 0, 0, 0, 0, 100},
-};
-Matrix6f K_o{
-    {0.1, 0, 0, 0, 0, 0},
-    {0, 0.1, 0, 0, 0, 0},
-    {0, 0, 0.1, 0, 0, 0},
-    {0, 0, 0, 0.1, 0, 0},
-    {0, 0, 0, 0, 0.1, 0},
-    {0, 0, 0, 0, 0, 0.1},
-};
+Vector6f deg_q_d;
+Vector6f deg_q_dot_d;
+Vector6f deg_q_ddot_d;
 
-Vector6f deg_q_d{0,0,0,0,0,0};
-Vector6f deg_q_dot_d{0,0,0,0,0,0};
-Vector6f deg_q_ddot_d{0,0,0,0,0,0};
-
-Vector6f q_d{0,0,0,0,0,0};
-Vector6f q_dot_d{0,0,0,0,0,0};
-Vector6f q_ddot_d{0,0,0,0,0,0};
+Vector6f q_d;
+Vector6f q_dot_d;
+Vector6f q_ddot_d;
 // <-------------------- constant variables --------------------/> //
 
 // </-------------------- update variables --------------------> //
@@ -80,7 +37,7 @@ Vector6f trq_m;
 Vector6f trq_e;
 
 Vector6f trq_c;
-Vector6f trq_f_hat{0,0,0,0,0,0};
+Vector6f trq_f_hat;
 
 Vector6f trq;
 
@@ -89,12 +46,67 @@ Vector6f deg_q_dot;
 
 Vector6f q;
 Vector6f q_dot;
-Vector6f q_dot_prev{0,0,0,0,0,0};
+Vector6f q_dot_prev;
 Vector6f q_ddot;
 // <-------------------- update variables --------------------/> //
 
 using namespace DRAFramework;
 CDRFLEx Drfl;
+
+void initialize_matrices() {
+    J_m << 0.0004956, 0, 0, 0, 0, 0,
+        0, 0.0004956, 0, 0, 0, 0,
+        0, 0, 0.0001839, 0, 0, 0,
+        0, 0, 0, 0.00009901, 0, 0,
+        0, 0, 0, 0, 0.00009901, 0,
+        0, 0, 0, 0, 0, 0.00009901;
+
+    Gear_Ratio << 100, 0, 0, 0, 0, 0,
+        0, 100, 0, 0, 0, 0,
+        0, 0, 100, 0, 0, 0,
+        0, 0, 0, 80, 0, 0,
+        0, 0, 0, 0, 80, 0,
+        0, 0, 0, 0, 0, 80;
+
+    M_d << 2.5, 0, 0, 0, 0, 0,
+        0, 2.5, 0, 0, 0, 0,
+        0, 0, 2.5, 0, 0, 0,
+        0, 0, 0, 2.5, 0, 0,
+        0, 0, 0, 0, 2.5, 0,
+        0, 0, 0, 0, 0, 2.5;
+
+    D_d << 15, 0, 0, 0, 0, 0,
+        0, 15, 0, 0, 0, 0,
+        0, 0, 15, 0, 0, 0,
+        0, 0, 0, 15, 0, 0,
+        0, 0, 0, 0, 15, 0,
+        0, 0, 0, 0, 0, 15;
+
+    K_d << 100, 0, 0, 0, 0, 0,
+        0, 100, 0, 0, 0, 0,
+        0, 0, 100, 0, 0, 0,
+        0, 0, 0, 100, 0, 0,
+        0, 0, 0, 0, 100, 0,
+        0, 0, 0, 0, 0, 100;
+
+    K_o << 0.1, 0, 0, 0, 0, 0,
+        0, 0.1, 0, 0, 0, 0,
+        0, 0, 0.1, 0, 0, 0,
+        0, 0, 0, 0.1, 0, 0,
+        0, 0, 0, 0, 0.1, 0,
+        0, 0, 0, 0, 0, 0.1;
+
+    deg_q_d << 0,0,0,0,0,0;
+    deg_q_dot_d << 0,0,0,0,0,0;
+    deg_q_ddot_d << 0,0,0,0,0,0;
+
+    q_d << 0,0,0,0,0,0;
+    q_dot_d << 0,0,0,0,0,0;
+    q_ddot_d << 0,0,0,0,0,0;
+    
+    trq_f_hat << 0,0,0,0,0,0;
+    q_dot_prev << 0,0,0,0,0,0;
+}
 
 SetOnRtMonitoringDataNode::SetOnRtMonitoringDataNode() : Node("SetOnRtMonitoringData")
 {
@@ -279,7 +291,7 @@ void TorqueRtNode::TorqueRtAPI()
         trq_d[i] = trq(i);  
     }
     Drfl.torque_rt(trq_d,0);
-    RCLCPP_INFO(this->get_logger(), "trq_d[0]%f[1]%f[2]%f[3]%f[4]%f[5]%f",trq_d[0],trq_d[1],trq_d[2],trq_d[3],trq_d[4],trq_d[5]);
+    RCLCPP_INFO(this->get_logger(), "trq_d: %f, %f, %f, %f, %f, %f", trq_d[0], trq_d[1], trq_d[2], trq_d[3], trq_d[4], trq_d[5]);
 }
 Vector6f TorqueRtNode::GravityCompensation()
 {
@@ -302,6 +314,7 @@ Vector6f TorqueRtNode::ExternalForceResist()
 
 int main(int argc, char **argv)
 {
+    initialize_matrices();
     // --------------------cpu affinity set-------------------- //
 
     // Pin the main thread to CPU 3
