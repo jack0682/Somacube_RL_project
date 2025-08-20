@@ -1,7 +1,0 @@
-[console_scripts]
-rokey-speech = rokey.speech_to_text:main
-rokey-stt = rokey.speech_to_text:main
-rokey-test = rokey.speech_test_launcher:main
-rokey-trigger = rokey.start_signal_test:main
-speech_to_text = rokey.speech_to_text:main
-start_signal_test = rokey.start_signal_test:main
