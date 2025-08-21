@@ -744,7 +744,7 @@ class RobotController(Node):
         movel(end_point_2, acc=ACC, vel=VELOCITY)
         end_z = 12.4 + 25 + 25*pos[4]
         end_point_2[2] = end_z
-        movel(up_pos(end_point_2 , 2 , 12.5), acc=ACC, vel=VELOCITY)
+        movel(up_pos(end_point_2 , 2 , 25), acc=ACC, vel=VELOCITY)
         
     # 순응제어 및 힘제어 설정
         on()
